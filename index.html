@@ -34,6 +34,22 @@
             background-position: center;
             background-size: cover;
         }
+        .video-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
     </style>
 </head>
 
@@ -159,8 +175,8 @@
                     <div class="card mb-3 shadow border-0">
                         <img class="card-img-top" src="res/PSCab.png" alt="">
                         <div class="text-center">
-                            <a class="btn btn-danger rounded-pill shadow-none  h6 px-4" href="https://wa.me/9382399893">
-                                <i class="bi bi-currency-rupee"></i>
+                            <a class="btn btn-danger rounded-pill shadow-none  h6 px-4" href="https://wa.me/9382399893" target="_blank">
+                                <i class="bi bi-currency-rupee" ></i>
                                 <span class="">Book Now</span>
                                  </span>
                                 <i class="bi bi-person-check"></i>
@@ -239,14 +255,19 @@
             </div>
         </div>
     </section>
-    <section class="my-5 pt-5" id="gift-card">
+    <section class="" id="gift-card">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-12">
-                    <img class="img-fluid" src="res/Upcoming-group-trip-by-PST.png" alt="">
+                    <div class="video-container">
+                        <video controls>
+                            <source src="res/WhatsApp Video 2024-09-24 at 8.16.59 PM.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                 </div>
                 <div class="col-md-6 col-12">
-                   <div class="my-5">
+                   <div class="my-5 pt-5">
                     <p class="lead fs-5 ">
                         Upcoming Group Trip by PST
                         Unlocking your travel Experience Holiday Package - Group Tour
@@ -549,6 +570,9 @@
                          <li class="nav-item">
                               <a target="_blank" class="nav-link text-white fs-2" href="https://www.threads.net/@iqplusvlogs"><i class="fa-brands fa-twitter"></i></a>
                             </li>
+                            <li class="nav-item">
+                                <a target="_blank" class="nav-link text-white fs-2" href="https://wa.me/9382399893"><i class="fa-brands fa-whatsapp"></i></a>
+                              </li>
                     </ul>
 
                 </div>
