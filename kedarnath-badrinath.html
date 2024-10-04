@@ -4,294 +4,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Badrinath Kedarnath Tour</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kedarnath and Badrinath Pilgrimage Tour</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #0056b3;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-
-        main {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
 
         h1, h2, h3 {
-            color: #0056b3;
+            color: #2c3e50;
+            font-weight: 700;
         }
 
-        section {
-            margin-bottom: 20px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        ul li {
-            background-color: #f8f9fa;
-            margin: 5px 0;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-
-        footer {
-            background-color: #0056b3;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        table, th, td {
-            border: 1px solid #ddd;
-        }
-
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #0056b3;
+        .header {
+            background-color: #1abc9c;
             color: white;
+            padding: 20px 0;
+            text-align: center;
         }
 
-        .highlight {
-            color: red;
+        .section-title {
+            margin: 30px 0;
+        }
+
+        .quick-info, .itinerary-section, .booking-process, .cancellation-policy, .terms-conditions, .important-note {
+            margin-bottom: 50px;
+        }
+
+        .info-title {
+            background-color: #f8f9fa;
+            padding: 10px;
             font-weight: bold;
+        }
+
+        .section-title h3 {
+            border-bottom: 2px solid #1abc9c;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        .list-group-item {
+            border: none;
+            padding: 5px 0;
+        }
+
+        .table th, .table td {
+            vertical-align: middle;
+        }
+
+        .footer {
+            background-color: #1abc9c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .btn-custom {
+            background-color: #1abc9c;
+            color: white;
+            border: none;
+        }
+
+        .btn-custom:hover {
+            background-color: #16a085;
         }
     </style>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand text-white fw-bold" href="./" title="Nivesguru">
-                    <img src="res/Logo.png" width="40" height="40"
-                        class="d-inline-block align-text-top rounded-circle" alt="Nivesguru Logo"
-                        title="Nivesguru Logo">
-                    <p class="d-inline-block h4 text-dark">Pstourism</p>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="packages">Packages</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="service.html">Services</a>
-                        </li>
-                        <li class="nav-item"></li>
-                            <a class="nav-link" href="about-us">About-Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://wa.me/9382399893">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="terms-conditions">Terms & Conditions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://forms.gle/YBvXxtxBEgX4guQu9" target="_blank"> Franchise/ Buisness Associate Agent ( BAA) </a>
-                        </li>
+    <header class="header">
+        <h1>Kedarnath & Badrinath Pilgrimage Tour</h1>
+        <p>5 Nights & 6 Days Journey through the sacred Himalayas</p>
+        <div class="text-center my-5">
+            <a class="btn btn-danger rounded-pill shadow-none  h6 px-4" href="https://wa.me/9382399893">
+                <i class="bi bi-currency-rupee"></i>
+                <span class="">Book Now</span>
+                 </span>
+                <i class="bi bi-person-check"></i>
+            </a>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Overview Section -->
+        <section class="overview-section">
+            <h2 class="section-title">Overview</h2>
+            <p>Kedarnath and Badrinath, two iconic pilgrimage destinations nestled in the Himalayas of Uttarakhand, India, are revered by millions of Hindus worldwide for their profound spiritual significance and breathtaking natural beauty.</p>
+            <p>Kedarnath, perched at an altitude of 3,583 meters (11,755 feet) above sea level, is dedicated to Lord Shiva. Legend has it that the temple was initially built by the Pandavas, the heroes of the Indian epic Mahabharata. Surrounded by majestic snow-capped peaks and the gushing Mandakini River, Kedarnath offers a serene ambiance for devotees seeking divine blessings and spiritual solace.</p>
+            <p>Badrinath, situated at an elevation of 3,133 meters (10,279 feet), is dedicated to Lord Vishnu in his form as Badrinath. Adorned with vibrant colors and intricate carvings, the temple stands amidst the picturesque landscape of the Himalayas, with the Alaknanda River flowing nearby. Pilgrims believe that a visit to Badrinath purifies the soul and bestows divine grace.</p>
+        </section>
+
+        <!-- Quick Info Section -->
+        <section class="quick-info">
+            <h3 class="section-title">Quick Info</h3>
+            <ul class="list-group">
+                <li class="list-group-item"><strong>Route:</strong> Haridwar - Guptkashi - Gauri Kund - Kedarnath - Guptkashi – Tungnath - Pipalkoti - Badrinath - Rishikesh - Haridwar</li>
+                <li class="list-group-item"><strong>Duration:</strong> 5 Nights & 6 Days | Departure: From Haridwar | Endpoint: Haridwar</li>
+                <li class="list-group-item"><strong>Vehicle:</strong> As per group size or requested by customer</li>
+                <li class="list-group-item"><strong>Hotels:</strong> Double / Triple & Quad Sharing</li>
+                <li class="list-group-item"><strong>Meal Plan:</strong> MAP Breakfast & Dinner</li>
+            </ul>
+        </section>
+
+        <!-- Inclusions Section -->
+        <section class="inclusions-section">
+            <h3 class="section-title">Inclusions</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Pick up and drop as per your flight/Train timings.</li>
+                <li class="list-group-item">Comfortable and hygienic vehicle for sightseeing on all days as per the itinerary.</li>
+                <li class="list-group-item">Stay on a double and triple sharing basis in hygienic and sanitized hotels and camp.</li>
+                <li class="list-group-item">Breakfast and dinner as per the itinerary.</li>
+                <li class="list-group-item">Highly-Experienced driver cum guide.</li>
+                <li class="list-group-item">Sightseeing as per itinerary.</li>
+            </ul>
+        </section>
+
+        <!-- Exclusions Section -->
+        <section class="exclusions-section">
+            <h3 class="section-title">Exclusions</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Flight Fare & Helicopter Shuttle tickets to Kedarnath.</li>
+                <li class="list-group-item">Train fare / Airfare / Haridwar stay not included in the package (will be added on request).</li>
+                <li class="list-group-item">Lunch and personal expenses like beverages, laundry, etc.</li>
+                <li class="list-group-item">Travel insurance covering medical evacuation, hospitalization, and trip cancellation.</li>
+            </ul>
+        </section>
+
+        <!-- Day Wise Tour Itinerary -->
+        <section class="itinerary-section">
+            <h3 class="section-title">Day Wise Tour Itinerary</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Day 1: Haridwar to Guptkashi (220 kms)</h5>
+                    <p>Get picked up from Haridwar/Rishikesh and transfer to Guptkashi. Visit Ardh Narishwar Temple and retire for the day.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Day 2: Guptkashi - Kedarnath</h5>
+                    <p>Leave early around 5 AM for Kedarnath Temple. A 20 km hike or pony ride will take you to the serene Kedarnath Temple.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Day 3: Kedarnath to Guptkashi</h5>
+                    <p>Trek back to Guptkashi with a stop at Gauri Kund. Overnight stay at Guptkashi.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Day 4: Guptkashi to Pipalkoti</h5>
+                    <p>After breakfast, drive to Pipalkoti via Tungnath. Enjoy the scenic beauty and check-in for the night.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Day 5: Pipalkoti - Badrinath</h5>
+                    <p>Journey to Badrinath Temple with visits to Narsingh Temple and Mana Village. Return to Pipalkoti for the night.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Day 6: Pipalkoti - Haridwar</h5>
+                    <p>After breakfast, head to Haridwar via Rishikesh. Trip ends with happy memories!</p>
                 </div>
             </div>
-        </nav>
-    </header>
-    <div>
-        <h1>Badrinath Kedarnath Tour</h1>
-        <p>www.pstourism.in | Pather Sandhane Tourism</p>
+        </section>
+
+        <!-- Booking Process Section -->
+        <section class="booking-process">
+            <h3 class="section-title">Booking Process</h3>
+            <p>To confirm your tour, you need to pay INR 2100 per passenger as an initial deposit. The remaining payment can be made at various stages of the trip as mentioned in our booking policy.</p>
+        </section>
+
+        <!-- Cancellation Policy Section -->
+        <section class="cancellation-policy">
+            <h3 class="section-title">Cancellation Policy</h3>
+            <p>For cancellations made on or before 30 days prior to departure, the amount is fully refundable (handling charges apply). Cancellations made within 29-15 days will be subject to a 60% charge, and within 14 days, no refunds will be made.</p>
+        </section>
+
+        <!-- Terms & Conditions Section -->
+        <section class="terms-conditions">
+            <h3 class="section-title">Terms & Conditions</h3>
+            <p>Please ensure all participants carry a valid photo ID. Hotel accommodations are basic, and meal services may vary depending on availability. We recommend all travelers prepare for weather changes in the Himalayas. Travel insurance is recommended.</p>
+            <div class="text-center my-5">
+                <a class="btn btn-danger rounded-pill shadow-none  h6 px-4" href="https://wa.me/9382399893">
+                    <i class="bi bi-currency-rupee"></i>
+                    <span class="">Book Now</span>
+                     </span>
+                    <i class="bi bi-person-check"></i>
+                </a>
+            </div>
+        </section>
     </div>
 
-    <main>
-        <section>
-            <h2>Overview</h2>
-            <p>Kedarnath and Badrinath, two iconic pilgrimage destinations nestled in the Himalayas of Uttarakhand, India, are revered by millions of Hindus worldwide for their profound spiritual significance and breathtaking natural beauty.</p>
-            <p>Kedarnath, perched at an altitude of 3,583 meters (11,755 feet), is dedicated to Lord Shiva. Legend has it that the temple was built by the Pandavas, heroes of the Indian epic Mahabharata. Surrounded by majestic snow-capped peaks and the Mandakini River, Kedarnath offers a serene ambiance for spiritual seekers.</p>
-            <p>Badrinath, at an elevation of 3,133 meters (10,279 feet), is dedicated to Lord Vishnu. The temple stands amidst the picturesque landscape of the Himalayas, with the Alaknanda River nearby. Pilgrims believe a visit to Badrinath purifies the soul.</p>
-        </section>
-
-        <section>
-            <h2>Quick Info</h2>
-            <p><strong>Route:</strong> Haridwar - Guptkashi - Gauri Kund - Kedarnath - Guptkashi – Tungnath - Pipalkoti - Badrinath - Rishikesh - Haridwar</p>
-            <p><strong>Duration:</strong> 5 Nights & 6 Days</p>
-            <p><strong>Departure:</strong> From Haridwar</p>
-            <p><strong>Endpoint:</strong> Haridwar</p>
-            <p><strong>Vehicle:</strong> As per group size or requested by customer</p>
-            <p><strong>Hotels:</strong> Double/Triple/Quad Sharing</p>
-            <p><strong>Meal Plan:</strong> MAP (Breakfast & Dinner)</p>
-        </section>
-
-        <section>
-            <h2>Inclusions</h2>
-            <ul>
-                <li>Pick up and drop as per flight/train timings.</li>
-                <li>Comfortable vehicle for sightseeing as per itinerary.</li>
-                <li>Hygienic and sanitized hotels/camps on double/triple sharing basis.</li>
-                <li>Breakfast and dinner as per itinerary.</li>
-                <li>Experienced driver cum guide.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Exclusions</h2>
-            <ul>
-                <li>Flight Fare</li>
-                <li>Helicopter Shuttle tickets to Kedarnath</li>
-                <li>Lunch and personal expenses</li>
-                <li>Travel insurance and medical evacuation</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Day Wise Itinerary</h2>
-            <h3>Day 1: Haridwar to Guptkashi (220 kms) | Temple Visit</h3>
-            <p>Get picked up from Haridwar and transferred to Guptkashi. Visit Ardh Narishwar Temple and retire for the night at the hotel.</p>
-
-            <h3>Day 2: Guptkashi - Gauri Kund - Kedarnath</h3>
-            <p>Early morning trek from Gauri Kund to Kedarnath (20 km). Darshan at Kedarnath Temple. Overnight stay in Kedarnath.</p>
-
-            <h3>Day 3: Kedarnath to Guptkashi</h3>
-            <p>Trek back to Guptkashi and visit Gauri Kund Temple.</p>
-
-            <h3>Day 4: Guptkashi to Pipalkoti (210 Kms)</h3>
-            <p>Drive to Pipalkoti via Tungnath temple. Overnight stay in Pipalkoti.</p>
-
-            <h3>Day 5: Pipalkoti - Badrinath - Pipalkoti</h3>
-            <p>Visit Badrinath, Mana Village, and Narsingh Temple in Joshimath. Overnight stay in Pipalkoti.</p>
-
-            <h3>Day 6: Pipalkoti - Rishikesh - Haridwar</h3>
-            <p>Drive back to Haridwar via Rishikesh. End the tour with sweet memories.</p>
-        </section>
-
-        <section>
-            <h2>Booking Process</h2>
-            <p>For tour confirmation, you need to pay an initial deposit of INR 2100.00 per passenger. The balance 40% amount is payable at the pickup point and final payment is required at the Guptkashi hotel on Day 3.</p>
-        </section>
-
-        <section>
-            <h2>Cancellation Policy</h2>
-            <table>
-                <tr>
-                    <th>Cancellation Timing</th>
-                    <th>Charges</th>
-                </tr>
-                <tr>
-                    <td>Before 30 days</td>
-                    <td>Fully refundable (except handling charges)</td>
-                </tr>
-                <tr>
-                    <td>29-15 Days prior</td>
-                    <td>60% of total tour cost</td>
-                </tr>
-                <tr>
-                    <td>Less than 14 days</td>
-                    <td>100% of total tour cost</td>
-                </tr>
-            </table>
-        </section>
-
-        <section>
-            <h2>Terms & Conditions</h2>
-            <ul>
-                <li>The meals provided are on a fixed menu basis.</li>
-                <li>Hot water is available from 5 AM till 8 AM in most hotels.</li>
-                <li>Vehicles will not operate after 8 PM as per state laws.</li>
-                <li>Carry snacks, water, medicines, and winter clothing during the trip.</li>
-            </ul>
-        </section>
-    </main>
-
-    <footer class="bg-dark">
-        <div class="container">
-            <ul class="nav justify-content-center fs-5 mt-5 pt-5">
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="index">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="packages">Packages</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="other-tavel-servises">Services</a>
-                </li>
-                <li class="nav-item">
-                        <a class="nav-link text-white" href="about-us">About-Us</a>
-                </li>
-                <li>
-                    <a class="nav-link text-white" href="contact">Contact</a>
-                </li>
-                <li>
-                    <a class="nav-link text-white" href="terms-conditions">Terms & Conditions</a>
-                </li>
-            <a class="nav-link text-white" href="https://forms.gle/YBvXxtxBEgX4guQu9" target="_blank">Franchise/ Buisness Associate Agent ( BAA)</a>
-        </li>
-            </ul>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-12"></div>
-                <div class="col-md-4 col-12">
-                    <ul class="nav justify-content-center mt-5">
-                        <li class="nav-item">
-                            <a  target="_blank" class="nav-link text-white fs-2" href="https://www.facebook.com/profile.php?id=61561337690816&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a target="_blank" class="nav-link text-white fs-2" href="https://www.instagram.com/iqplusvlogs?igsh=MTEyaTA2bG5kZ281dA=="><i class="fa-brands fa-instagram"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a target="_blank" class="nav-link text-white fs-2" href="https://youtube.com/@iqplusvlogs?si=8MYlaqf192CUWpOy"><i class="fa-brands fa-youtube"></i></a>
-                        </li>
-                         <li class="nav-item">
-                              <a target="_blank" class="nav-link text-white fs-2" href="https://www.threads.net/@iqplusvlogs"><i class="fa-brands fa-twitter"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a target="_blank" class="nav-link text-white fs-2" href="https://wa.me/9382399893"><i class="fa-brands fa-whatsapp"></i></a>
-                              </li>
-                    </ul>
-
-                </div>
-                <div class="col-md-4 col-12 my-5"><img src="res/Logo.png" alt="" width="50" height="50"></div>
-            </div>
-            <div class="row">
-                <p class="text-center text-light">PSTourism © 2024 | Co-Sponserd -
-                    Designed &amp; Developed by : Team
-                    <a class="text-warning" href="https://anupammondal.in" target="_blank">Anupam Mondal</a>
-                </p>
-            </div>
-        </div>
-
+    <footer class="footer">
+        <p>&copy; 2024 Pather Sandhane Tourism | All Rights Reserved</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
