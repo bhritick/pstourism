@@ -1,0 +1,854 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PS Tourism - Premium Travel Experiences</title>
+    <meta name="description" content="ISO 9001:2015 certified travel agency. Premium Travel Services for All Occasions">
+    
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "PSTourism",
+      "alternateName": ["PSTourism", "PS Tourism"],
+      "url": "https://pstourism.in/"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "PSTourism - Official Tourism Website",
+      "url": "https://pstourism.in/",
+      "description": "ISO 9001:2015 certified travel agency. Premium Travel Services for All Occasions",
+      "mainEntityOfPage": {
+        "@type": "WebSite",
+        "name": "PSTourism",
+        "url": "https://pstourism.in/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Puducherry Tourism Department",
+          "url": "https://pstourism.in/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://pstourism.in/logo.png"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91 8240002684",
+            "contactType": "customer service",
+            "contactOption": "WhatsApp",
+            "areaServed": "IN",
+            "availableLanguage": ["English", "Bengali"]
+          }
+        }
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://pstourism.in/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "hasPart": [
+        {
+          "@type": "Service",
+          "name": "Bus Booking",
+          "description": "Convenient and affordable bus booking services for group and solo travelers."
+        },
+        {
+          "@type": "Service",
+          "name": "Bike Rental",
+          "description": "Flexible bike rental services to help you explore your destination at your own pace."
+        },
+        {
+          "@type": "Service",
+          "name": "Picnic Spot Reservations",
+          "description": "Book picturesque picnic spots in advance for hassle-free getaways."
+        },
+        {
+          "@type": "Service",
+          "name": "Pre-Wedding Shoot Packages",
+          "description": "Capture beautiful pre-wedding moments with our exclusive shoot packages."
+        },
+        {
+          "@type": "Service",
+          "name": "Honeymoon Packages",
+          "description": "Specially curated honeymoon packages for newlyweds, ensuring a memorable experience."
+        },
+        {
+          "@type": "Service",
+          "name": "Group Tours",
+          "description": "Enjoy tailored group tours that cater to all age groups and interests."
+        },
+        {
+          "@type": "Service",
+          "name": "Educational Trips",
+          "description": "Organized educational trips that combine learning with adventure."
+        },
+        {
+          "@type": "Service",
+          "name": "Business Trips",
+          "description": "Professional business trip packages to ensure smooth and efficient travel arrangements."
+        }
+      ],
+      "sameAs": [
+        "https://www.youtube.com/@iqplusvlogs",
+        "https://www.facebook.com/people/PSTourism/61561337690816/",
+        "https://www.threads.net/@iqplusvlogs"
+      ]
+    }
+    </script>
+    
+    <!-- Custom Styles -->
+    <style>
+        :root {
+            --primary: #e63946;
+            --primary-dark: #c1121f;
+            --secondary: #1d3557;
+            --accent: #457b9d;
+            --light: #f1faee;
+            --dark: #1a1a2e;
+            --gradient: linear-gradient(135deg, #e63946 0%, #1d3557 100%);
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.12);
+            --radius: 16px;
+            --transition: all 0.3s ease;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+        }
+        
+        /* Header & Navigation */
+        .navbar {
+            background: rgba(255, 255, 255, 0.95) !important;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            padding: 1rem 0;
+            transition: var(--transition);
+        }
+        
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            font-weight: 700;
+            font-size: 1.8rem;
+            color: var(--secondary) !important;
+        }
+        
+        .navbar-brand img {
+            margin-right: 10px;
+            border-radius: 50%;
+            box-shadow: var(--shadow);
+        }
+        
+        .nav-link {
+            color: var(--secondary) !important;
+            font-weight: 500;
+            padding: 0.5rem 1.2rem !important;
+            border-radius: 30px;
+            transition: var(--transition);
+            margin: 0 2px;
+        }
+        
+        .nav-link:hover, .nav-link.active {
+            background: var(--primary);
+            color: white !important;
+        }
+        
+        .navbar-toggler {
+            border: none;
+            padding: 0.5rem;
+            font-size: 1.5rem;
+        }
+        
+        .navbar-toggler:focus {
+            box-shadow: none;
+        }
+        
+        /* Hero Section */
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=1600');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            color: white;
+            padding: 3rem 0;
+        }
+        
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        .hero-title span {
+            color: var(--primary);
+        }
+        
+        .hero-subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 2.5rem;
+            opacity: 0.9;
+            max-width: 600px;
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            border: none;
+            padding: 0.9rem 2.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: var(--transition);
+            box-shadow: 0 8px 20px rgba(230, 57, 70, 0.3);
+        }
+        
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(230, 57, 70, 0.4);
+        }
+        
+        /* Services Section */
+        .section-title {
+            position: relative;
+            margin-bottom: 3rem;
+            text-align: center;
+            color: var(--secondary);
+        }
+        
+        .section-title:after {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 4px;
+            background: var(--primary);
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 2px;
+        }
+        
+        .service-card {
+            border: none;
+            border-radius: var(--radius);
+            overflow: hidden;
+            transition: var(--transition);
+            height: 100%;
+            box-shadow: var(--shadow);
+            background: white;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-15px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .service-card img {
+            height: 220px;
+            width: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+        
+        .service-card:hover img {
+            transform: scale(1.05);
+        }
+        
+        .service-card .card-body {
+            padding: 1.8rem;
+        }
+        
+        .service-card .card-title {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        /* Products Section */
+        .products-section {
+            background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);
+            padding: 5rem 0;
+        }
+        
+        .product-carousel {
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+        
+        .product-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: var(--radius);
+        }
+        
+        .product-price {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: var(--primary);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 1.2rem;
+            box-shadow: var(--shadow);
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--dark);
+            color: white;
+            padding-top: 4rem;
+        }
+        
+        .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 3rem;
+        }
+        
+        .footer-links a {
+            color: #ddd;
+            text-decoration: none;
+            margin: 0 1.2rem;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+        
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+        
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+        
+        .social-icons a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            margin: 0 10px;
+            color: white;
+            font-size: 1.3rem;
+            transition: var(--transition);
+        }
+        
+        .social-icons a:hover {
+            background: var(--primary);
+            transform: translateY(-5px);
+        }
+        
+        .footer-logo {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding: 1.5rem 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+        
+        .copyright a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        /* Responsive */
+        @media (max-width: 992px) {
+            .hero-title {
+                font-size: 2.8rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2.2rem;
+            }
+            
+            .nav-link {
+                padding: 0.8rem 1rem !important;
+                margin: 2px 0;
+            }
+            
+            .service-card {
+                margin-bottom: 2rem;
+            }
+        }
+        
+        /* Animation */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .fade-in {
+            animation: fadeInUp 0.8s ease forwards;
+        }
+        
+        .delay-1 {
+            animation-delay: 0.2s;
+        }
+        
+        .delay-2 {
+            animation-delay: 0.4s;
+        }
+        
+        .delay-3 {
+            animation-delay: 0.6s;
+        }
+        
+        /* Video Container */
+        .video-container {
+            max-width: 900px;
+            margin: 4rem auto;
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .video-container video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        /* Floating WhatsApp */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 70px;
+            height: 70px;
+            background: #25D366;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+            z-index: 1000;
+            transition: var(--transition);
+            text-decoration: none;
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            color: white;
+        }
+        
+        /* Stats Counter */
+        .stats-counter {
+            background: var(--gradient);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 10px;
+            font-weight: 600;
+            display: inline-block;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/8240002684" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="./" title="PSTourism">
+                <img src="res/Logo.png" width="50" height="50" alt="PSTourism Logo">
+                PSTourism
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="packages">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="other-tavel-servises">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="terms-conditions">Terms & Conditions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://forms.gle/YBvXxtxBEgX4guQu9" target="_blank">Franchise/BAA</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto text-center hero-content fade-in">
+                    <h1 class="hero-title"><span class="text-primary">Unlock</span> World of Travel Experiences with <span class="text-primary">PSTourism</span>!</h1>
+                    <p class="hero-subtitle">ISO 9001:2015 certified travel agency offering premium travel services for all occasions. Discover curated holiday packages, hotel stays, cab services, and exclusive travel products.</p>
+                    <a href="https://wa.me/8240002684" class="btn btn-primary btn-lg" target="_blank">
+                        <i class="fas fa-comment-dots me-2"></i> Get in Touch with Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section class="py-5 my-5" id="services">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Our Premium Services</h2>
+                    <p class="text-muted">Comprehensive travel solutions tailored to your needs</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <!-- PST Holidayz -->
+                <div class="col-lg-3 col-md-6 fade-in">
+                    <div class="service-card">
+                        <img src="res/Holiday.png" class="card-img-top" alt="Holiday Packages">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">PST Holidayz</h3>
+                            <p class="card-text text-muted mb-4">Specialized holiday packages by PST for memorable vacations.</p>
+                            <a href="packages" class="btn btn-primary w-100">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- PST Hotels & Homestays -->
+                <div class="col-lg-3 col-md-6 fade-in delay-1">
+                    <div class="service-card">
+                        <img src="res/hotel-homestay.png" class="card-img-top" alt="Hotels & Homestays">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">PST Hotels & Homestays</h3>
+                            <p class="card-text text-muted mb-4">Professional hotel and homestay booking services.</p>
+                            <a href="https://wa.me/8240002684" class="btn btn-primary w-100" target="_blank">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- PSCab -->
+                <div class="col-lg-3 col-md-6 fade-in delay-2">
+                    <div class="service-card">
+                        <img src="res/PSCab.png" class="card-img-top" alt="Cab Services">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">PSCab</h3>
+                            <p class="card-text text-muted mb-4">Reliable cab service with experienced drivers for safe travel.</p>
+                            <a href="https://wa.me/8240002684" class="btn btn-primary w-100" target="_blank">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Other Travel Options -->
+                <div class="col-lg-3 col-md-6 fade-in delay-3">
+                    <div class="service-card">
+                        <img src="res/other-service.png" class="card-img-top" alt="Other Travel Services">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Other Travel Options</h3>
+                            <p class="card-text text-muted mb-4">Comprehensive travel booking services by PST for all your needs.</p>
+                            <a href="other-travel-services" class="btn btn-primary w-100">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title text-danger">PST Exclusive Products</h2>
+                    <p class="text-muted">Customization options available starting from ₹349/-</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Product 1 -->
+                <div class="col-md-4">
+                    <div class="product-item">
+                        <div id="productCarousel1" class="carousel slide product-carousel" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="res/product1.jpeg" class="d-block w-100" alt="Product 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="res/product2.jpeg" class="d-block w-100" alt="Product 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="res/product3.jpeg" class="d-block w-100" alt="Product 3">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#productCarousel1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="text-center mt-4">
+                            <a href="https://wa.me/8240002684" class="btn btn-danger" target="_blank">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="col-md-4">
+                    <div class="product-item">
+                        <div id="productCarousel2" class="carousel slide product-carousel" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="res/product4.jpeg" class="d-block w-100" alt="Product 4">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="res/product5.jpeg" class="d-block w-100" alt="Product 5">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="res/product6.jpeg" class="d-block w-100" alt="Product 6">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#productCarousel2" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="text-center mt-4">
+                            <a href="https://wa.me/8240002684" class="btn btn-danger" target="_blank">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="col-md-4">
+                    <div class="product-item">
+                        <div id="productCarousel3" class="carousel slide product-carousel" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="res/product7.jpeg" class="d-block w-100" alt="Product 7">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="res/product8.jpeg" class="d-block w-100" alt="Product 8">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="res/product9.jpeg" class="d-block w-100" alt="Product 9">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel3" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#productCarousel3" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="text-center mt-4">
+                            <a href="https://wa.me/8240002684" class="btn btn-danger" target="_blank">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <a href="./home-page-2" class="btn btn-outline-primary btn-lg px-5">Explore More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Video Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="video-container">
+                <div class="ratio ratio-16x9">
+                    <video controls poster="https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=1600">
+                        <source src="res/travel-video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="index">Home</a>
+                <a href="packages">Packages</a>
+                <a href="other-tavel-servises">Services</a>
+                <a href="about-us">About Us</a>
+                <a href="contact-us">Contact</a>
+                <a href="terms-conditions">Terms & Conditions</a>
+                <a href="https://forms.gle/YBvXxtxBEgX4guQu9" target="_blank">Franchise/BAA</a>
+            </div>
+            
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center text-md-start">
+                    <div class="stats-counter">
+                        <i class="fas fa-eye me-2"></i> Visitor Count: 
+                        <img src="https://hitwebcounter.com/counter/counter.php?page=16649627&style=0001&nbdigits=5&type=page&initCount=0" alt="Counter" style="height: 20px; margin-left: 5px;">
+                    </div>
+                </div>
+                
+                <div class="col-md-4 text-center">
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61561337690816&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/iqplusvlogs?igsh=MTEyaTA2bG5kZ281dA==" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@iqplusvlogs?si=8MYlaqf192CUWpOy" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.threads.net/@iqplusvlogs" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/8240002684" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 text-center text-md-end">
+                    <div class="footer-logo">
+                        <img src="res/Logo.png" alt="PSTourism Logo" width="60" height="60" class="rounded-circle">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>PSTourism © 2024 | UDYAM-WB-02-0032042 | Co-Sponsored - Designed &amp; Developed by: Team <a href="https://anupammondal.in" target="_blank">Anupam Mondal</a></p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Simple animation on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const fadeElements = document.querySelectorAll('.fade-in');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animated');
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            fadeElements.forEach(el => observer.observe(el));
+            
+            // Add smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if(targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if(targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+        
+        // Google Analytics
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-3L1HG1EYFZ');
+    </script>
+    
+    <!-- Google Analytics Script -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3L1HG1EYFZ"></script>
+</body>
+</html>
