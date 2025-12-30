@@ -233,6 +233,7 @@
         
         .hero-subtitle {
             font-size: 1.2rem;
+            margin: 0 auto;
             margin-bottom: 2.5rem;
             opacity: 0.9;
             max-width: 600px;
@@ -344,76 +345,239 @@
         
         /* Footer */
         .footer {
-            background: var(--dark);
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
             color: white;
-            padding-top: 4rem;
+            padding: 4rem 0 0;
+            position: relative;
+            overflow: hidden;
         }
         
-        .footer-links {
+        .footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), #ff6b6b, var(--primary));
+            background-size: 200% 100%;
+            animation: gradientShift 3s ease infinite;
+        }
+        
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        .footer-column {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 2rem 1.5rem;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        
+        .footer-column:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(255, 107, 107, 0.2);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(255, 107, 107, 0.15);
+        }
+        
+        .footer-heading {
+            color: #fff;
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-bottom: 3rem;
+            align-items: center;
+            gap: 0.5rem;
         }
         
-        .footer-links a {
-            color: #ddd;
-            text-decoration: none;
-            margin: 0 1.2rem;
-            font-weight: 500;
-            transition: var(--transition);
-        }
-        
-        .footer-links a:hover {
+        .footer-heading i {
             color: var(--primary);
+            font-size: 1.2rem;
         }
+        
+        .footer-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .footer-list li {
+            margin-bottom: 0.75rem;
+            position: relative;
+            padding-left: 18px;
+        }
+        
+        .footer-list li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+        
+        .footer-list li:hover::before {
+            left: 3px;
+        }
+        
+        .footer-list a {
+            color: #e0e0e0;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            display: inline-block;
+            font-weight: 400;
+        }
+        
+        .footer-list a:hover {
+            color: var(--primary);
+            padding-left: 5px;
+            text-shadow: 0 0 10px rgba(255, 107, 107, 0.3);
+        }
+        
+        .contact-info-box {
+            background: rgba(255, 107, 107, 0.1);
+            border: 1px solid rgba(255, 107, 107, 0.2);
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-top: 1rem;
+        }
+        
+        .contact-info-box p {
+            color: #f0f0f0;
+            font-size: 0.95rem;
+            line-height: 2;
+            margin: 0;
+        }
+        
+        .contact-info-box i {
+            color: var(--primary);
+            width: 24px;
+            text-align: center;
+        }
+        
+        /* .social-section {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2.5rem 0;
+            margin-top: 3rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        } */
         
         .social-icons {
             display: flex;
             justify-content: center;
-            margin: 2rem 0;
+            gap: 1rem;
+            flex-wrap: wrap;
         }
         
         .social-icons a {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 50px;
-            height: 50px;
-            background: rgba(255, 255, 255, 0.1);
+            text-decoration: none;
+            width: 55px;
+            height: 55px;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
             border-radius: 50%;
-            margin: 0 10px;
             color: white;
-            font-size: 1.3rem;
-            transition: var(--transition);
+            font-size: 1.4rem;
+            transition: all 0.4s ease;
+            border: 2px solid transparent;
+            position: relative;
+            overflow: hidden;
         }
         
-        .social-icons a {
+        /* .social-icons a i {
             text-decoration: none;
+        } */
+        
+        .social-icons a::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: var(--primary);
+            transition: all 0.4s ease;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+        
+        .social-icons a:hover::before {
+            width: 100%;
+            height: 100%;
         }
         
         .social-icons a:hover {
-            background: var(--primary);
-            transform: translateY(-5px);
+            transform: translateY(-8px) scale(1.1);
+            border-color: var(--primary);
+            box-shadow: 0 10px 25px rgba(255, 107, 107, 0.4);
         }
+        
+        .stats-counter {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1rem 1.5rem;
+            border-radius: 50px;
+            color: #f0f0f0;
+            font-size: 0.95rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        /* .stats-counter i {
+            color: var(--primary);
+        } */
         
         .footer-logo {
             text-align: center;
-            margin: 2rem 0;
+        }
+        
+        .footer-logo img {
+            border: 3px solid var(--primary);
+            box-shadow: 0 5px 20px rgba(255, 107, 107, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .footer-logo img:hover {
+            transform: scale(1.1) rotate(5deg);
+            box-shadow: 0 8px 30px rgba(255, 107, 107, 0.5);
         }
         
         .copyright {
             text-align: center;
-            padding: 1.5rem 0;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            color: #aaa;
+            padding: 2rem 0;
+            background: rgba(0, 0, 0, 0.3);
+            color: #bbb;
             font-size: 0.9rem;
+            margin: 0;
         }
         
         .copyright a {
             color: var(--primary);
             text-decoration: none;
             font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .copyright a:hover {
+            color: #fff;
+            text-shadow: 0 0 10px rgba(255, 107, 107, 0.5);
         }
         
         /* Responsive */
@@ -426,6 +590,14 @@
         @media (max-width: 768px) {
             .hero-title {
                 font-size: 2.2rem;
+            }
+            
+            .footer-list a {
+                font-size: 0.9rem;
+            }
+            
+            .footer-heading {
+                font-size: 1rem;
             }
             
             .nav-link {
@@ -466,19 +638,75 @@
             animation-delay: 0.6s;
         }
         
-        /* Video Container */
-        .video-container {
-            max-width: 900px;
-            margin: 4rem auto;
-            border-radius: var(--radius);
-            overflow: hidden;
-            box-shadow: var(--shadow-lg);
+        /* Destination & Category Cards */
+        .destination-card,
+        .category-card {
+            display: block;
+            background: white;
+            padding: 2rem 1.5rem;
+            border-radius: 15px;
+            text-align: center;
+            text-decoration: none;
+            color: var(--dark);
+            transition: all 0.4s ease;
+            border: 2px solid transparent;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            height: 100%;
         }
         
-        .video-container video {
-            width: 100%;
-            height: auto;
-            display: block;
+        .destination-card:hover,
+        .category-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--primary);
+            box-shadow: 0 15px 35px rgba(255, 107, 107, 0.3);
+            color: var(--dark);
+        }
+        
+        .destination-icon,
+        .category-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1.5rem;
+            background: linear-gradient(135deg, var(--primary), #ff8787);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2rem;
+            transition: all 0.4s ease;
+        }
+        
+        .destination-card:hover .destination-icon,
+        .category-card:hover .category-icon {
+            transform: rotate(360deg) scale(1.1);
+            box-shadow: 0 10px 25px rgba(255, 107, 107, 0.4);
+        }
+        
+        .destination-card h5,
+        .category-card h5 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--dark);
+        }
+        
+        .destination-card p,
+        .category-card p {
+            font-size: 0.9rem;
+            color: #666;
+            margin: 0;
+        }
+        
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--dark);
+            margin-bottom: 1rem;
+        }
+        
+        .section-title i {
+            color: var(--primary);
         }
         
         /* Floating WhatsApp */
@@ -752,15 +980,231 @@
         </div>
     </section>
     
-    <!-- Video Section -->
+    <!-- Popular Destinations Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">
+                    <i class="fas fa-map-marked-alt me-2"></i>
+                    Popular Destinations
+                </h2>
+                <p class="text-muted">Explore our most sought-after travel destinations across India and beyond</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="sikkim" class="destination-card">
+                        <div class="destination-icon">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                        <h5>Sikkim Tour Packages</h5>
+                        <p>Experience the beauty of Himalayas</p>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="north-bengal" class="destination-card">
+                        <div class="destination-icon">
+                            <i class="fas fa-tree"></i>
+                        </div>
+                        <h5>North Bengal Packages</h5>
+                        <p>Tea gardens & hill stations</p>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="kashmir" class="destination-card">
+                        <div class="destination-icon">
+                            <i class="fas fa-snowflake"></i>
+                        </div>
+                        <h5>Kashmir Tour Packages</h5>
+                        <p>Paradise on Earth</p>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="ladakh" class="destination-card">
+                        <div class="destination-icon">
+                            <i class="fas fa-hiking"></i>
+                        </div>
+                        <h5>Ladakh Tour Packages</h5>
+                        <p>Land of high passes</p>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="himachal-package" class="destination-card">
+                        <div class="destination-icon">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                        <h5>Himachal Packages</h5>
+                        <p>Adventure & serenity</p>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="andaman" class="destination-card">
+                        <div class="destination-icon">
+                            <i class="fas fa-umbrella-beach"></i>
+                        </div>
+                        <h5>Andaman & Nicobar</h5>
+                        <p>Pristine beaches & islands</p>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="bhutan" class="destination-card">
+                        <div class="destination-icon">
+                            <i class="fas fa-torii-gate"></i>
+                        </div>
+                        <h5>Bhutan Tour Packages</h5>
+                        <p>Land of happiness</p>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="meghalaya" class="destination-card">
+                        <div class="destination-icon">
+                            <i class="fas fa-cloud-rain"></i>
+                        </div>
+                        <h5>Meghalaya Packages</h5>
+                        <p>Abode of clouds</p>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="sundarban" class="destination-card">
+                        <div class="destination-icon">
+                            <i class="fas fa-paw"></i>
+                        </div>
+                        <h5>Sundarban Tours</h5>
+                        <p>Mangrove forests & wildlife</p>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="lakshadweep" class="destination-card">
+                        <div class="destination-icon">
+                            <i class="fas fa-water"></i>
+                        </div>
+                        <h5>Lakshadweep Packages</h5>
+                        <p>Coral islands & lagoons</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Package Categories Section -->
     <section class="py-5">
         <div class="container">
-            <div class="video-container">
-                <div class="ratio ratio-16x9">
-                    <video controls poster="https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=1600">
-                        <source src="res/travel-video.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+            <div class="text-center mb-5">
+                <h2 class="section-title">
+                    <i class="fas fa-suitcase-rolling me-2"></i>
+                    Package Categories
+                </h2>
+                <p class="text-muted">Find the perfect travel package tailored to your needs</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="honeymoon-special" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h5>Honeymoon Packages</h5>
+                        <p>Romantic getaways for couples</p>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="group-tour" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h5>Group Tour Packages</h5>
+                        <p>Travel with friends & family</p>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="offbeat-sikkim" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-compass"></i>
+                        </div>
+                        <h5>Offbeat Destinations</h5>
+                        <p>Explore hidden gems</p>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="north-sikkim-tourist-places" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                        <h5>North Sikkim Tours</h5>
+                        <p>High altitude adventures</p>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="4n-5d-silk-route-package" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-route"></i>
+                        </div>
+                        <h5>Silk Route Packages</h5>
+                        <p>Historic trade route journey</p>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="sandakphu" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-hiking"></i>
+                        </div>
+                        <h5>Sandakphu Trekking</h5>
+                        <p>Highest peak of West Bengal</p>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="darjeeling-honeymoon" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-mug-hot"></i>
+                        </div>
+                        <h5>Darjeeling Honeymoon</h5>
+                        <p>Tea capital romance</p>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="kashmir-honeymoon" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-ring"></i>
+                        </div>
+                        <h5>Kashmir Honeymoon</h5>
+                        <p>Paradise for newlyweds</p>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="manali-honeymoon" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-snowboarding"></i>
+                        </div>
+                        <h5>Manali Honeymoon</h5>
+                        <p>Snow-capped romance</p>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="best-leh-ladakh-tour-packages" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <h5>Best Ladakh Tours</h5>
+                        <p>Premium Ladakh experiences</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -769,31 +1213,82 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-links">
-                <a href="index">Home</a>
-                <a href="packages">Packages</a>
-                <a href="other-tavel-servises">Services</a>
-                <a href="about-us">About Us</a>
-                <a href="contact-us">Contact</a>
-                <a href="terms-conditions">Terms & Conditions</a>
-                <a href="https://forms.gle/YBvXxtxBEgX4guQu9" target="_blank">Franchise/BAA</a>
+            <!-- Footer Links Section -->
+            <div class="row g-4 mb-4">
+                <!-- Popular Destinations -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-column">
+                        <h5 class="footer-heading"><i class="fas fa-map-marked-alt"></i> Popular Destinations</h5>
+                    <ul class="footer-list">
+                        <li><a href="sikkim">Sikkim Tour Packages</a></li>
+                        <li><a href="north-bengal">North Bengal Packages</a></li>
+                        <li><a href="kashmir">Kashmir Tour Packages</a></li>
+                        <li><a href="ladakh">Ladakh Tour Packages</a></li>
+                        <li><a href="himachal-package">Himachal Packages</a></li>
+                        <li><a href="andaman">Andaman & Nicobar</a></li>
+                        <li><a href="bhutan">Bhutan Tour Packages</a></li>
+                        <li><a href="meghalaya">Meghalaya Packages</a></li>
+                        <li><a href="sundarban">Sundarban Tours</a></li>
+                        <li><a href="lakshadweep">Lakshadweep Packages</a></li>
+                    </ul>
+                    </div>
+                </div>
+                
+                <!-- Package Categories -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-column">
+                        <h5 class="footer-heading"><i class="fas fa-suitcase-rolling"></i> Package Categories</h5>
+                    <ul class="footer-list">
+                        <li><a href="honeymoon-special">Honeymoon Packages</a></li>
+                        <li><a href="group-tour">Group Tour Packages</a></li>
+                        <li><a href="offbeat-sikkim">Offbeat Destinations</a></li>
+                        <li><a href="north-sikkim-tourist-places">North Sikkim Tours</a></li>
+                        <li><a href="4n-5d-silk-route-package">Silk Route Packages</a></li>
+                        <li><a href="sandakphu">Sandakphu Trekking</a></li>
+                        <li><a href="darjeeling-honeymoon">Darjeeling Honeymoon</a></li>
+                        <li><a href="kashmir-honeymoon">Kashmir Honeymoon</a></li>
+                        <li><a href="manali-honeymoon">Manali Honeymoon</a></li>
+                        <li><a href="best-leh-ladakh-tour-packages">Best Ladakh Tours</a></li>
+                    </ul>
+                    </div>
+                </div>
+                
+                <!-- Quick Links & Company Info -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-column">
+                        <h5 class="footer-heading"><i class="fas fa-link"></i> Quick Links</h5>
+                    <ul class="footer-list">
+                        <li><a href="index">Home</a></li>
+                        <li><a href="packages">All Packages</a></li>
+                        <li><a href="about-us">About Us</a></li>
+                        <li><a href="contact-us">Contact Us</a></li>
+                        <li><a href="other-travel-services">Our Services</a></li>
+                        <li><a href="trip-gallery">Photo Gallery</a></li>
+                        <li><a href="client-gallery-pic">Client Gallery</a></li>
+                        <li><a href="terms-conditions">Terms & Conditions</a></li>
+                        <li><a href="https://forms.gle/YBvXxtxBEgX4guQu9" target="_blank">Franchise/Business Associate</a></li>
+                    </ul>
+                    </div>
+                </div>
             </div>
             
-            <div class="row align-items-center">
-                <div class="col-md-4 text-center text-md-start">
+            <!-- Social & Copyright Section -->
+            <div class="footer-column">
+                <div class="row align-items-center">
+                    <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
                     <div class="stats-counter">
                         <i class="fas fa-eye me-2"></i> Visitor Count: 
                         <img src="https://hitwebcounter.com/counter/counter.php?page=16649627&style=0001&nbdigits=5&type=page&initCount=0" alt="Counter" style="height: 20px; margin-left: 5px;">
                     </div>
                 </div>
                 
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center mb-3 mb-md-0">
                     <div class="social-icons">
-                        <a href="https://www.facebook.com/profile.php?id=61561337690816&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/iqplusvlogs?igsh=MTEyaTA2bG5kZ281dA==" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://youtube.com/@iqplusvlogs?si=8MYlaqf192CUWpOy" target="_blank"><i class="fab fa-youtube"></i></a>
-                        <a href="https://www.threads.net/@iqplusvlogs" target="_blank"><i class="fab fa-twitter"></i></a>
-                        <a href="https://wa.me/8240002684" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61561337690816&mibextid=ZbWKwL" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/iqplusvlogs?igsh=MTEyaTA2bG5kZ281dA==" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@iqplusvlogs?si=8MYlaqf192CUWpOy" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.threads.net/@iqplusvlogs" target="_blank" aria-label="Threads"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/8240002684" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
                 
@@ -802,11 +1297,13 @@
                         <img src="res/Logo.png" alt="PSTourism Logo" width="60" height="60" class="rounded-circle">
                     </div>
                 </div>
+                </div>
             </div>
-            
-            <div class="copyright">
-                <p>PSTourism © <span id="currentYear"></span> | UDYAM-WB-02-0032042 | Developed by: Team <a href="https://anupammondal.in" target="_blank">Anupam Mondal</a></p>
-            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>PSTourism © <span id="currentYear"></span> | ISO 9001 : 2015 | UDYAM-WB-02-0032042 </p>
+        </div>
         </div>
     </footer>
     
