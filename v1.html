@@ -388,6 +388,10 @@
             transition: var(--transition);
         }
         
+        .social-icons a {
+            text-decoration: none;
+        }
+        
         .social-icons a:hover {
             background: var(--primary);
             transform: translateY(-5px);
@@ -801,7 +805,7 @@
             </div>
             
             <div class="copyright">
-                <p>PSTourism © 2024 | UDYAM-WB-02-0032042 | Co-Sponsored - Designed &amp; Developed by: Team <a href="https://anupammondal.in" target="_blank">Anupam Mondal</a></p>
+                <p>PSTourism © <span id="currentYear"></span> | UDYAM-WB-02-0032042 | Developed by: Team <a href="https://anupammondal.in" target="_blank">Anupam Mondal</a></p>
             </div>
         </div>
     </footer>
@@ -809,6 +813,9 @@
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
+        // Auto-update copyright year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+        
         // Simple animation on scroll
         document.addEventListener('DOMContentLoaded', function() {
             const fadeElements = document.querySelectorAll('.fade-in');
