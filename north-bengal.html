@@ -15,7 +15,7 @@
     <meta property="og:url" content="https://pstourism.in/north-bengal">
     <meta property="og:title" content="North Bengal Tour Packages | PSTourism - Darjeeling Kalimpong Dooars Tours">
     <meta property="og:description" content="Explore best North Bengal tour packages. Book Darjeeling, Kalimpong, Dooars, Mirik tours. Customized tea garden & mountain view packages.">
-    <meta property="og:image" content="https://pstourism.in/res/North-Bengal.png">
+    <meta property="og:image" content="https://pstourism.in/res/Logo.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="PSTourism">
@@ -26,7 +26,7 @@
     <meta name="twitter:url" content="https://pstourism.in/north-bengal">
     <meta name="twitter:title" content="North Bengal Tour Packages | PSTourism">
     <meta name="twitter:description" content="Explore best North Bengal tour packages. Book Darjeeling, Kalimpong, Dooars, Mirik tours.">
-    <meta name="twitter:image" content="https://pstourism.in/res/North-Bengal.png">
+    <meta name="twitter:image" content="https://pstourism.in/res/Logo.png">
     
     <!-- Additional SEO Meta Tags -->
     <meta name="geo.region" content="IN-WB">
@@ -57,50 +57,33 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Schema -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "CollectionPage",
-      "name": "North Bengal Tour Packages - PSTourism",
-      "url": "https://pstourism.in/north-bengal",
-      "description": "Comprehensive collection of North Bengal tour packages including Darjeeling, Kalimpong, Dooars, Mirik, Sittong and offbeat destinations.",
-      "publisher": {
-        "@type": "Organization",
-        "name": "PSTourism",
-        "url": "https://pstourism.in/",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://pstourism.in/res/Logo.png"
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "TouristTrip",
+            "name": "North Bengal Tour Packages",
+            "description": "Explore curated North Bengal tour packages by PSTourism covering Darjeeling, Kalimpong, Dooars, Mirik, Sittong, Rishop and other offbeat destinations.",
+            "provider": {
+                "@type": "TravelAgency",
+                "name": "PSTourism",
+                "url": "https://pstourism.in",
+                "telephone": "+91-8240002684"
+            },
+            "itinerary": {
+                "@type": "ItemList",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "item": {"@type": "Place", "name": "Darjeeling"}},
+                    {"@type": "ListItem", "position": 2, "item": {"@type": "Place", "name": "Kalimpong"}},
+                    {"@type": "ListItem", "position": 3, "item": {"@type": "Place", "name": "Dooars"}},
+                    {"@type": "ListItem", "position": 4, "item": {"@type": "Place", "name": "Mirik"}},
+                    {"@type": "ListItem", "position": 5, "item": {"@type": "Place", "name": "Sittong"}},
+                    {"@type": "ListItem", "position": 6, "item": {"@type": "Place", "name": "Rishop"}}
+                ]
+            },
+            "touristType": ["Couples", "Families", "Groups"],
+            "url": "https://pstourism.in/north-bengal"
         }
-      }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://pstourism.in/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Packages",
-          "item": "https://pstourism.in/packages"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "North Bengal Packages",
-          "item": "https://pstourism.in/north-bengal"
-        }
-      ]
-    }
-    </script>
+        </script>
     
     <!-- Custom Styles -->
     <style>
@@ -618,7 +601,7 @@
                         <a class="nav-link active" href="packages">Packages</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="other-travel-services">Services</a>
+                        <a class="nav-link" href="other-tavel-servises">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about-us">About Us</a>
@@ -963,7 +946,7 @@
                         <li><a href="packages">All Packages</a></li>
                         <li><a href="about-us">About Us</a></li>
                         <li><a href="contact-us">Contact Us</a></li>
-                        <li><a href="other-travel-services">Our Services</a></li>
+                        <li><a href="other-tavel-servises">Our Services</a></li>
                         <li><a href="trip-gallery">Photo Gallery</a></li>
                         <li><a href="client-gallery-pic">Client Gallery</a></li>
                         <li><a href="terms-conditions">Terms & Conditions</a></li>
@@ -1037,5 +1020,7 @@
     
     <!-- Google Analytics Script -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3L1HG1EYFZ"></script>
-</body>
+    <script src="res/pst-wa.js" defer></script>
+
 </html>
+
