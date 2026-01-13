@@ -1,5 +1,7 @@
+﻿
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -269,11 +271,6 @@
             font-size: 40px;
             color: white;
             cursor: pointer;
-            transition: var(--transition);
-        }
-        
-        .lightbox-close:hover {
-            transform: scale(1.2);
         }
         
         .explore-more-btn {
@@ -286,8 +283,6 @@
             border-radius: 50px;
             transition: var(--transition);
             box-shadow: var(--shadow);
-            text-decoration: none;
-            display: inline-block;
         }
         
         .explore-more-btn:hover {
@@ -325,25 +320,44 @@
     
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="index">
-                <img src="res/Logo.png" width="50" height="50" alt="PSTourism Logo">
-                PSTourism
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="packages">Packages</a></li>
-                    <li class="nav-item"><a class="nav-link" href="trip-gallery">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about-us">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact-us">Contact</a></li>
-                </ul>
+            <div class="container-fluid">
+                <a class="navbar-brand text-white fw-bold" href="./" title="Nivesguru">
+                    <img src="res/Logo.png" width="40" height="40"
+                        class="d-inline-block align-text-top rounded-circle" alt="Nivesguru Logo"
+                        title="Nivesguru Logo">
+                    <p class="d-inline-block h4 text-dark">Pstourism</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="packages">Packages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="other-tavel-servises">Services</a>
+                        </li>
+                        <li class="nav-item"></li>
+                            <a class="nav-link" href="about-us">About-Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="terms-conditions">Terms & Conditions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://forms.gle/YBvXxtxBEgX4guQu9" target="_blank"> Franchise/ Buisness Associate Agent ( BAA) </a>
+                        </li>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     
     <!-- Hero Section -->
     <section class="hero-section">
@@ -372,241 +386,213 @@
     <section class="gallery-section">
         <div class="container">
             <h2 class="section-title">Sundarban Wildlife & Adventure</h2>
-            
             <div class="row">
-                <div class="col-md-4 col-sm-6 mb-4">
+                <div class="col-md-4 col-12">
                     <div class="card gallery-card">
                         <div class="card-body">
                             <img class="card-img-top" onclick="openLightbox(this.src)"
                                 src="sundarban-picture/sundarban-1.jpeg"
-                                alt="Sundarban Wilderness">
+                                alt="Sundarban Adventure">
                             <div class="image-overlay">
                                 <h5 class="image-title">Sundarban Wilderness</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-md-4 col-sm-6 mb-4">
+                <div class="col-md-4 col-12">
                     <div class="card gallery-card">
                         <div class="card-body">
                             <img class="card-img-top" onclick="openLightbox(this.src)"
-                                src="sundarban-picture/sundarban-10.jpeg"
-                                alt="Boat Safari">
-                            <div class="image-overlay">
-                                <h5 class="image-title">Boat Safari Experience</h5>
-                            </div>
-                        </div>
+                            src="sundarban-picture/sundarban-10.jpeg"
+                            alt="">
+                       
                     </div>
                 </div>
-                
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="card gallery-card">
-                        <div class="card-body">
-                            <img class="card-img-top" onclick="openLightbox(this.src)"
-                                src="sundarban-picture/sundarban-11.jpeg"
-                                alt="Mangrove Forest">
-                            <div class="image-overlay">
-                                <h5 class="image-title">Mangrove Forest</h5>
-                            </div>
-                        </div>
+                <div class="col-md-4 col-12">
+                    <div class="card mb-3 border-0">
+                        <img class="card-img-top"
+                            src="sundarban-picture/sundarban-11.jpeg"
+                            alt="">
+                       
                     </div>
                 </div>
-                
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="card gallery-card">
-                        <div class="card-body">
-                            <img class="card-img-top" onclick="openLightbox(this.src)"
-                                src="sundarban-picture/sundarban-12.jpeg"
-                                alt="Wildlife Spotting">
-                            <div class="image-overlay">
-                                <h5 class="image-title">Wildlife Spotting</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="card gallery-card">
-                        <div class="card-body">
-                            <img class="card-img-top" onclick="openLightbox(this.src)"
-                                src="sundarban-picture/sundarban-13.jpeg"
-                                alt="River Adventure">
-                            <div class="image-overlay">
-                                <h5 class="image-title">River Adventure</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="card gallery-card">
-                        <div class="card-body">
-                            <img class="card-img-top" onclick="openLightbox(this.src)"
-                                src="sundarban-picture/sundarban-14.jpeg"
-                                alt="Natural Beauty">
-                            <div class="image-overlay">
-                                <h5 class="image-title">Natural Beauty</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="card gallery-card">
-                        <div class="card-body">
-                            <img class="card-img-top" onclick="openLightbox(this.src)"
-                                src="sundarban-picture/sundarban-16.jpeg"
-                                alt="Jungle Safari">
-                            <div class="image-overlay">
-                                <h5 class="image-title">Jungle Safari</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="card gallery-card">
-                        <div class="card-body">
-                            <img class="card-img-top" onclick="openLightbox(this.src)"
-                                src="sundarban-picture/sundarban-17.jpeg"
-                                alt="Tiger Territory">
-                            <div class="image-overlay">
-                                <h5 class="image-title">Tiger Territory</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="card gallery-card">
-                        <div class="card-body">
-                            <img class="card-img-top" onclick="openLightbox(this.src)"
-                                src="sundarban-picture/sundarban-19.jpeg"
-                                alt="Scenic Views">
-                            <div class="image-overlay">
-                                <h5 class="image-title">Scenic Views</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="text-center mt-5">
-                <a href="sundarban-trip-gallery-2" class="explore-more-btn">
-                    Explore More Photos <i class="fas fa-arrow-right ms-2"></i>
-                </a>
             </div>
         </div>
     </section>
-    
-    <!-- Lightbox Overlay -->
-    <div id="lightbox" class="lightbox-overlay" onclick="closeLightbox()">
-        <span class="lightbox-close">&times;</span>
-        <img id="lightbox-img" src="" alt="Full size image">
-    </div>
-    
-    <!-- Footer -->
+    <section id="seasonal-highlight">
+        <div class="container">
+            <div class="row">
+                <!-- <h2 class="text-success fw-bold h2 my-5">Seasonal Highlights</h2> -->
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <div class="card mb-3 border-0">
+                        <img class="card-img-top"
+                            src="sundarban-picture/sundarban-12.jpeg"
+                            alt="">
+                      
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="card mb-3 border-0">
+                        <img class="card-img-top"
+                            src="sundarban-picture/sundarban-13.jpeg"
+                            alt="">
+                       
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="card mb-3 border-0">
+                        <img class="card-img-top"
+                            src="sundarban-picture/sundarban-14.jpeg"
+                            alt="">
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="seasonal-highlight">
+        <div class="container">
+            <div class="row">
+                <!-- <h2 class="text-success fw-bold h2 my-5">Seasonal Highlights</h2> -->
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <div class="card mb-3 border-0">
+                        <img class="card-img-top"
+                            src="sundarban-picture/sundarban-16.jpeg"
+                            alt="">                      
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="card mb-3 border-0">
+                        <img class="card-img-top"
+                            src="sundarban-picture/sundarban-17.jpeg"
+                            alt="">                       
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="card mb-3 border-0">
+                        <img class="card-img-top"
+                            src="sundarban-picture/sundarban-19.jpeg"
+                            alt="">                       
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="my-5">
+                        <a class="btn btn-outline-success active fs-5 m-2 px-4" href="./sundarban-trip-gallery-2">Explore more
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="footer">
         <div class="container">
+            <!-- Footer Links Section -->
             <div class="row g-4 mb-4">
+                <!-- Popular Destinations -->
                 <div class="col-lg-4 col-md-6">
                     <div class="footer-column">
                         <h5 class="footer-heading"><i class="fas fa-map-marked-alt"></i> Popular Destinations</h5>
-                        <ul class="footer-list">
-                            <li><a href="sikkim">Sikkim Tour Packages</a></li>
-                            <li><a href="north-bengal">North Bengal Packages</a></li>
-                            <li><a href="kashmir">Kashmir Tour Packages</a></li>
-                            <li><a href="ladakh">Ladakh Tour Packages</a></li>
-                            <li><a href="himachal-package">Himachal Packages</a></li>
-                            <li><a href="andaman">Andaman & Nicobar</a></li>
-                            <li><a href="bhutan">Bhutan Tour Packages</a></li>
-                            <li><a href="sundarban">Sundarban Tours</a></li>
-                        </ul>
+                    <ul class="footer-list">
+                        <li><a href="sikkim">Sikkim Tour Packages</a></li>
+                        <li><a href="north-bengal">North Bengal Packages</a></li>
+                        <li><a href="kashmir">Kashmir Tour Packages</a></li>
+                        <li><a href="ladakh">Ladakh Tour Packages</a></li>
+                        <li><a href="himachal-package">Himachal Packages</a></li>
+                        <li><a href="andaman">Andaman & Nicobar</a></li>
+                        <li><a href="bhutan">Bhutan Tour Packages</a></li>
+                        <li><a href="meghalaya">Meghalaya Packages</a></li>
+                        <li><a href="sundarban">Sundarban Tours</a></li>
+                        <li><a href="lakshadweep">Lakshadweep Packages</a></li>
+                    </ul>
                     </div>
                 </div>
                 
+                <!-- Package Categories -->
                 <div class="col-lg-4 col-md-6">
                     <div class="footer-column">
                         <h5 class="footer-heading"><i class="fas fa-suitcase-rolling"></i> Package Categories</h5>
-                        <ul class="footer-list">
-                            <li><a href="honeymoon-special">Honeymoon Packages</a></li>
-                            <li><a href="group-tour">Group Tour Packages</a></li>
-                            <li><a href="offbeat-sikkim">Offbeat Destinations</a></li>
-                            <li><a href="4n-5d-silk-route-package">Silk Route Packages</a></li>
-                        </ul>
+                    <ul class="footer-list">
+                        <li><a href="honeymoon-special">Honeymoon Packages</a></li>
+                        <li><a href="group-tour">Group Tour Packages</a></li>
+                        <li><a href="offbeat-sikkim">Offbeat Destinations</a></li>
+                        <li><a href="north-sikkim-tourist-places">North Sikkim Tours</a></li>
+                        <li><a href="4n-5d-silk-route-package">Silk Route Packages</a></li>
+                        <li><a href="sandakphu">Sandakphu Trekking</a></li>
+                        <li><a href="darjeeling-honeymoon">Darjeeling Honeymoon</a></li>
+                        <li><a href="kashmir-honeymoon">Kashmir Honeymoon</a></li>
+                        <li><a href="manali-honeymoon">Manali Honeymoon</a></li>
+                        <li><a href="best-leh-ladakh-tour-packages">Best Ladakh Tours</a></li>
+                    </ul>
                     </div>
                 </div>
                 
+                <!-- Quick Links & Company Info -->
                 <div class="col-lg-4 col-md-6">
                     <div class="footer-column">
                         <h5 class="footer-heading"><i class="fas fa-link"></i> Quick Links</h5>
-                        <ul class="footer-list">
-                            <li><a href="index">Home</a></li>
-                            <li><a href="packages">All Packages</a></li>
-                            <li><a href="about-us">About Us</a></li>
-                            <li><a href="contact-us">Contact Us</a></li>
-                            <li><a href="trip-gallery">Photo Gallery</a></li>
-                            <li><a href="terms-conditions">Terms & Conditions</a></li>
-                        </ul>
+                    <ul class="footer-list">
+                        <li><a href="index">Home</a></li>
+                        <li><a href="packages">All Packages</a></li>
+                        <li><a href="about-us">About Us</a></li>
+                        <li><a href="contact-us">Contact Us</a></li>
+                        <li><a href="other-travel-services">Our Services</a></li>
+                        <li><a href="trip-gallery">Photo Gallery</a></li>
+                        <li><a href="client-gallery-pic">Client Gallery</a></li>
+                        <li><a href="terms-conditions">Terms & Conditions</a></li>
+                        <li><a href="https://forms.gle/YBvXxtxBEgX4guQu9" target="_blank">Franchise/Business Associate</a></li>
+                    </ul>
                     </div>
                 </div>
             </div>
             
+            <!-- Social & Copyright Section -->
             <div class="footer-column">
                 <div class="row align-items-center">
-                    <div class="col-md-4 text-center mb-3 mb-md-0">
-                        <div class="social-icons">
-                            <a href="https://www.facebook.com/profile.php?id=61561337690816&mibextid=ZbWKwL" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.instagram.com/iqplusvlogs?igsh=MTEyaTA2bG5kZ281dA==" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                            <a href="https://youtube.com/@iqplusvlogs?si=8MYlaqf192CUWpOy" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                            <a href="https://wa.me/8240002684" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                        </div>
+                    <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+                    <div class="stats-counter">
+                        <i class="fas fa-eye me-2"></i> Visitor Count: 
+                        <img src="https://hitwebcounter.com/counter/counter.php?page=16649627&style=0001&nbdigits=5&type=page&initCount=0" alt="Website visitor counter" style="height: 20px; margin-left: 5px;">
                     </div>
-                    
-                    <div class="col-md-4 text-center mb-3 mb-md-0">
-                        <div class="footer-logo">
-                            <img src="res/Logo.png" alt="PSTourism Logo" width="60" height="60" class="rounded-circle">
-                        </div>
+                </div>
+                
+                <div class="col-md-4 text-center mb-3 mb-md-0">
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61561337690816&mibextid=ZbWKwL" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/iqplusvlogs?igsh=MTEyaTA2bG5kZ281dA==" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@iqplusvlogs?si=8MYlaqf192CUWpOy" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.threads.net/@iqplusvlogs" target="_blank" aria-label="Threads"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/8240002684" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
                     </div>
-                    
-                    <div class="col-md-4 text-center text-md-end">
-                        <div class="stats-counter">
-                            <i class="fas fa-eye me-2"></i> Visitor Count: 
-                            <img src="https://hitwebcounter.com/counter/counter.php?page=16649627&style=0001&nbdigits=5&type=page&initCount=0" alt="Website visitor counter" style="height: 20px; margin-left: 5px;">
-                        </div>
+                </div>
+                
+                <div class="col-md-4 text-center text-md-end">
+                    <div class="footer-logo">
+                        <img src="res/Logo.png" alt="PSTourism Logo" width="60" height="60" class="rounded-circle">
                     </div>
+                </div>
                 </div>
             </div>
         </div>
         
         <div class="copyright mt-5">
-            <p>PSTourism © <span id="currentYear"></span> | ISO 9001 : 2015 | UDYAM-WB-02-0032042</p>
+            <p>PSTourism © <span id="currentYear"></span> | ISO 9001 : 2015 | UDYAM-WB-02-0032042 </p>
         </div>
     </footer>
-    
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // Auto-update copyright year
-        document.getElementById('currentYear').textContent = new Date().getFullYear();
-        
-        // Lightbox functionality
-        function openLightbox(imageSrc) {
-            document.getElementById('lightbox').style.display = 'flex';
-            document.getElementById('lightbox-img').src = imageSrc;
-        }
-        
-        function closeLightbox() {
-            document.getElementById('lightbox').style.display = 'none';
-        }
-        
-        // Close lightbox on Escape key
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape') {
-                closeLightbox();
-            }
-        });
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+  <script>
+  (function () {
+    var el = document.getElementById('currentYear');
+    if (el) el.textContent = new Date().getFullYear();
+  })();
+</script>
 </body>
+
 </html>
