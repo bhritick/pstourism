@@ -27,13 +27,13 @@
     <!-- Bootstrap 5.3 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Google tag (gtag.js) -->
-    <script async src=""https://www.googletagmanager.com/gtag/js?id=G-3L1HG1EYFZ""></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3L1HG1EYFZ"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'G-3L1HG1EYFZ');
+        gtag('config', 'G-3L1HG1EYFZ');
     </script>
     
     <!-- Custom Styles -->
@@ -73,6 +73,7 @@
         
         /* Header & Navigation */
         .navbar {
+            display: none;
             background: rgba(255, 255, 255, 0.95) !important;
             backdrop-filter: blur(10px);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
@@ -120,29 +121,55 @@
         
         /* 404 Section */
         .error-section {
-            min-height: 80vh;
+            min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 5rem 0;
+            padding: 2rem 0;
             width: 100%;
         }
         
         .error-container {
             text-align: center;
             width: 100%;
-            padding: 2rem 1rem;
+            padding: 0 1rem;
+        }
+        
+        .error-brand {
+            margin-bottom: 2rem;
+        }
+        
+        .error-brand img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            box-shadow: 0 4px 15px rgba(230, 57, 70, 0.2);
+            margin-bottom: 0.75rem;
+        }
+        
+        .error-brand-name {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 0.25rem;
+        }
+        
+        .error-brand-slogan {
+            font-size: 0.9rem;
+            color: var(--accent);
+            font-style: italic;
+            letter-spacing: 0.5px;
         }
         
         .error-code {
-            font-size: 12rem;
+            font-size: 8rem;
             font-weight: 900;
             background: var(--gradient);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
             line-height: 1;
-            margin-bottom: 1rem;
+            margin-bottom: 0.5rem;
             animation: float 3s ease-in-out infinite;
         }
         
@@ -156,6 +183,7 @@
         }
         
         .error-icon {
+            display: none;
             font-size: 8rem;
             color: var(--primary);
             margin-bottom: 2rem;
@@ -172,16 +200,16 @@
         }
         
         .error-title {
-            font-size: 2.5rem;
+            font-size: 2rem;
             color: var(--secondary);
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
         }
         
         .error-message {
-            font-size: 1.2rem;
+            font-size: 1rem;
             color: #666;
-            margin-bottom: 3rem;
-            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
         }
         
         .btn-primary {
@@ -222,6 +250,7 @@
         
         /* Quick Links Grid */
         .quick-links {
+            display: none;
             margin-top: 4rem;
             width: 100%;
         }
@@ -281,6 +310,7 @@
         
         /* Footer */
         .footer {
+            display: none;
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
             color: white;
             padding: 4rem 0 0;
@@ -478,6 +508,7 @@
         
         /* Floating WhatsApp */
         .whatsapp-float {
+            display: none;
             position: fixed;
             bottom: 30px;
             right: 30px;
@@ -486,7 +517,6 @@
             background: #25D366;
             color: white;
             border-radius: 50%;
-            display: flex;
             align-items: center;
             justify-content: center;
             font-size: 2rem;
@@ -627,7 +657,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index">Home</a>
+                        <a class="nav-link" href="./">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="packages">Packages</a>
@@ -653,6 +683,12 @@
     <section class="error-section">
         <div class="container-fluid px-3 px-md-4 px-lg-5">
             <div class="error-container">
+                <div class="error-brand">
+                    <img src="res/Logo.png" alt="PSTourism Logo">
+                    <div class="error-brand-name">PSTourism</div>
+                    <div class="error-brand-slogan">Travel Your Way, Explore Every Day</div>
+                </div>
+                
                 <div class="error-icon">
                     <i class="fas fa-map-marked-alt"></i>
                 </div>
@@ -664,7 +700,7 @@
                 </p>
                 
                 <div class="mt-4">
-                    <a href="index" class="btn btn-primary">
+                    <a href="./" class="btn btn-primary">
                         <i class="fas fa-home me-2"></i> Back to Home
                     </a>
                     <a href="packages" class="btn btn-outline-primary">
@@ -811,7 +847,7 @@
                     <div class="footer-column">
                         <h5 class="footer-heading"><i class="fas fa-link"></i> Quick Links</h5>
                     <ul class="footer-list">
-                        <li><a href="index">Home</a></li>
+                        <li><a href="./">Home</a></li>
                         <li><a href="packages">All Packages</a></li>
                         <li><a href="about-us">About Us</a></li>
                         <li><a href="contact-us">Contact Us</a></li>
@@ -864,15 +900,6 @@
     <script>
         // Auto-update copyright year
         document.getElementById('currentYear').textContent = new Date().getFullYear();
-    </script>
-    
-    <!-- Google Analytics Script -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3L1HG1EYFZ"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-3L1HG1EYFZ');
     </script>
 </body>
 </html>
