@@ -162,6 +162,12 @@
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3L1HG1EYFZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-3L1HG1EYFZ');
+    </script>
 </head>
 <body>
     <a href="https://wa.me/8240002684" class="whatsapp-float" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
@@ -430,9 +436,6 @@
             const observer = new IntersectionObserver((entries)=>{ entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('animated'); } }); }, {threshold:0.1});
             fadeEls.forEach(el=>observer.observe(el));
         });
-
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-3L1HG1EYFZ');
     </script>
 </body>
 </html>
