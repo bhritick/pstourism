@@ -309,15 +309,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://pstourism.in/index.html</link>
-     <title>PSTourism | Sikkim Darjeeling Kashmir Tour Packages</title>
-     <description>ISO certified Travel Company offering customized tour packages for Sikkim, Darjeeling, Kashmir, Ladakh, Himachal &amp; more. Book honeymoon, group tours now!</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/packages.html</link>
+     <link>https://pstourism.in/packages</link>
      <title>Tour Packages | PSTourism - Sikkim Darjeeling Kashmir Ladakh Himachal Packages</title>
      <description>Explore our wide range of tour packages including Sikkim, Darjeeling, Kashmir, Ladakh, Himachal, Andaman, Bhutan &amp; more. ISO certified travel company with customized packages.</description>
      <ror:updatePeriod></ror:updatePeriod>
@@ -325,7 +317,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://pstourism.in/other-tavel-servises.html</link>
+     <link>https://pstourism.in/other-tavel-servises</link>
      <title>Premium Travel Services | Bus Booking, Bike Rental, Honeymoon &amp; Group Tours - PSTourism</title>
      <description>ISO 9001:2015 certified PSTourism offers premium travel services: bus bookings, bike rentals, picnic spot reservations, pre-wedding shoots, honeymoon packages, group tours, educational trips &amp; business travel solutions across Sikkim, Kashmir, Himachal, Ladakh &amp; more.</description>
      <ror:updatePeriod></ror:updatePeriod>
@@ -333,7 +325,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://pstourism.in/about-us.html</link>
+     <link>https://pstourism.in/about-us</link>
      <title>About PSTourism | ISO Certified Travel Company</title>
      <description>Learn about PSTourism (Pather Sandhane Tourism), an ISO 9001:2015 certified Travel Company founded by Sayan Chatterjee, offering quality and affordable travel packages across India.</description>
      <ror:updatePeriod></ror:updatePeriod>
@@ -341,7 +333,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://pstourism.in/contact-us.html</link>
+     <link>https://pstourism.in/contact-us</link>
      <title>Contact PSTourism Kolkata | Travel Company Near Gitanjali Metro Naktala | 24x7 Support ☎ 82400 02684</title>
      <description>Contact PSTourism - ISO certified Travel Company in Naktala, Kolkata near Gitanjali Metro. Book Sikkim, Darjeeling, Kashmir, Ladakh tours. Visit our office or call 82400 02684. Open Tue-Sun 10:30 AM-8 PM. Get instant quotes &amp; customized packages from Kolkata's trusted travel experts.</description>
      <ror:updatePeriod></ror:updatePeriod>

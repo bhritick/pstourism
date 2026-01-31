@@ -3,7 +3,6 @@ https://pstourism.in/packages
 https://pstourism.in/other-tavel-servises
 https://pstourism.in/about-us
 https://pstourism.in/contact-us
-https://pstourism.in/home-page-2
 https://pstourism.in/sikkim
 https://pstourism.in/north-bengal
 https://pstourism.in/kashmir
@@ -36,11 +35,10 @@ https://pstourism.in/ooty-mysore-package
 https://pstourism.in/jharkhand
 https://pstourism.in/thailand
 https://pstourism.in/srilanka
-https://pstourism.in/index.html
-https://pstourism.in/packages.html
-https://pstourism.in/other-tavel-servises.html
-https://pstourism.in/about-us.html
-https://pstourism.in/contact-us.html
+https://pstourism.in/packages
+https://pstourism.in/other-tavel-servises
+https://pstourism.in/about-us
+https://pstourism.in/contact-us
 https://pstourism.in/travelcard.pdf
 https://pstourism.in/sundarban-trip-gallery
 https://pstourism.in/sikkim-gallery-2
