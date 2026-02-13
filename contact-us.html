@@ -1378,8 +1378,8 @@
           "dateModified": "2026-01-05"
         }
         </script>
-    <link rel="stylesheet" href="res/pst-template.css">
-</head>
+        <link rel="stylesheet" href="res/pst-template.css">
+    </head>
 
 <body>
     <!-- Floating WhatsApp -->
@@ -1429,9 +1429,18 @@
         <div class="container">
             <div class="hero-content text-center">
                 <nav aria-label="breadcrumb" class="mb-4">
-                    <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><a href="./">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                    <ol class="breadcrumb justify-content-center" itemscope itemtype="https://schema.org/BreadcrumbList">
+                        <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                            <a itemprop="item" href="./">
+                                <span itemprop="name">Home</span>
+                            </a>
+                            <meta itemprop="position" content="1">
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                            <span itemprop="name">Contact Us</span>
+                            <meta itemprop="item" content="https://pstourism.in/contact-us">
+                            <meta itemprop="position" content="2">
+                        </li>
                     </ol>
                 </nav>
                 <h1 class="hero-title fade-in">Contact <span class="hero-brand-highlight">PSTourism </span> 
@@ -1730,7 +1739,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center mb-5">
-                    <h2 class="section-title">Why Choose PSTourism Kolkata - Mission, Vision & Values</h2>
+                    <h2 class="section-title">Why Choose PSTourism Kolkata - 
+                        <span class="d-block">Mission, Vision & Values</span>
+                    </h2>
                 </div>
             </div>
 
@@ -1741,7 +1752,9 @@
                             <div class="icon-box">
                                 <i class="fas fa-bullseye"></i>
                             </div>
-                            <h3 class="h4 mb-3 text-center">Our Mission - Excellence in Travel Services</h3>
+                            <h3 class="h4 mb-3 text-center">Our Mission  
+                                <span class="d-block py-3">Excellence in Travel Services</span>
+                            </h3>
                             <p>At PSTourism Kolkata, our mission is to inspire and empower travelers from Kolkata and across India by creating unforgettable journeys to Sikkim, Kashmir, Ladakh, and Himalayan destinations. We are committed to delivering exceptional travel experiences through personalized service, sustainable tourism practices, and deep respect for local cultures and environments.</p>
                             <p>By fostering meaningful connections between travelers and the destinations they visit, we aim to enrich lives, create lasting memories, and promote cultural understanding through responsible tourism.</p>
                         </div>
@@ -1754,9 +1767,106 @@
                             <div class="icon-box">
                                 <i class="fas fa-eye"></i>
                             </div>
-                            <h3 class="h4 mb-3 text-center">Our Vision - Leading Travel Company in Kolkata</h3>
+                            <h3 class="h4 mb-3 text-center">Our Vision - 
+                                <span class="d-block py-3">Leading Travel Company in Kolkata</span>
+                            </h3>
                             <p>Our vision is to become Kolkata's most trusted and innovative Travel Company, recognized for excellence in Sikkim tours, Kashmir honeymoons, and Himalayan adventure packages. We aspire to redefine the travel industry by offering unique, immersive experiences that leave a positive impact on both travelers and the communities they explore.</p>
                             <p>Through ISO-certified quality service and 24x7 customer support, we envision a world where travel is a force for good, fostering cultural appreciation, environmental stewardship, and creating lifelong memories for every traveler from Kolkata.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <p class="section-lead-text">Quick answers to common questions about contacting PSTourism and planning tours from Kolkata.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    <div class="accordion" id="contactFaq">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="faqHeadingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+                                    Where is PSTourism office located in Kolkata?
+                                </button>
+                            </h3>
+                            <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne" data-bs-parent="#contactFaq">
+                                <div class="accordion-body">
+                                    PSTourism office is located at 167/A, Bidhanpally Rd, near Gitanjali Metro Station Road, Naktala, Garia, Kolkata, West Bengal - 700084. We are easily accessible from Gitanjali Metro Station.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="faqHeadingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                                    What are the office hours of PSTourism Kolkata?
+                                </button>
+                            </h3>
+                            <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#contactFaq">
+                                <div class="accordion-body">
+                                    PSTourism office is open Tuesday to Sunday from 10:30 AM to 8:00 PM. We are closed on Mondays. However, our phone and WhatsApp support (82400 02684) is available 24x7 for emergencies and urgent queries.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="faqHeadingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
+                                    How can I contact PSTourism for tour bookings from Kolkata?
+                                </button>
+                            </h3>
+                            <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#contactFaq">
+                                <div class="accordion-body">
+                                    You can contact PSTourism by calling or WhatsApp at 82400 02684, email us at pathersandhanetourism@gmail.com, or visit our office at Naktala near Gitanjali Metro Station. We offer instant quotes for Sikkim, Kashmir, Ladakh, and North Bengal tour packages from Kolkata.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="faqHeadingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFour" aria-expanded="false" aria-controls="faqCollapseFour">
+                                    Does PSTourism offer customized tour packages from Kolkata?
+                                </button>
+                            </h3>
+                            <div id="faqCollapseFour" class="accordion-collapse collapse" aria-labelledby="faqHeadingFour" data-bs-parent="#contactFaq">
+                                <div class="accordion-body">
+                                    Yes, PSTourism specializes in customized tour packages from Kolkata to Sikkim, Darjeeling, Kashmir, Ladakh, Himachal, North Bengal, and other destinations. We are an ISO 9001:2015 certified Travel Company with 4.2 star Google rating.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="faqHeadingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFive" aria-expanded="false" aria-controls="faqCollapseFive">
+                                    Is PSTourism available for emergency travel support?
+                                </button>
+                            </h3>
+                            <div id="faqCollapseFive" class="accordion-collapse collapse" aria-labelledby="faqHeadingFive" data-bs-parent="#contactFaq">
+                                <div class="accordion-body">
+                                    Yes, PSTourism provides 24x7 emergency travel support via phone and WhatsApp at 82400 02684. Our customer service team is always ready to assist you during your journey.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="faqHeadingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseSix" aria-expanded="false" aria-controls="faqCollapseSix">
+                                    What tour packages does PSTourism offer from Kolkata?
+                                </button>
+                            </h3>
+                            <div id="faqCollapseSix" class="accordion-collapse collapse" aria-labelledby="faqHeadingSix" data-bs-parent="#contactFaq">
+                                <div class="accordion-body">
+                                    PSTourism offers comprehensive tour packages from Kolkata including Sikkim tours (North, East, South, West), Darjeeling packages, Kashmir honeymoon tours, Ladakh bike trips, North Bengal tours, Himachal packages, Andaman tours, Bhutan tours, and Meghalaya packages. We also specialize in honeymoon and group tour packages.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
