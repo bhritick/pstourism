@@ -213,11 +213,6 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://pstourism.in/travelcard.pdf</loc>
-  <lastmod>2026-01-31T23:41:41+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://pstourism.in/sundarban-trip-gallery</loc>
   <lastmod>2026-01-31T23:41:41+00:00</lastmod>
   <priority>0.64</priority>
@@ -242,11 +237,7 @@
   <lastmod>2026-01-31T23:41:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>https://pstourism.in/3N-4D-4N-5D-east-west-sikkim-gangtok-pelling-packagetrip-new</loc>
-  <lastmod>2026-01-31T23:41:39+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+
 <url>
   <loc>https://pstourism.in/5-nights-6-days-north-sikkim-package-trip-new</loc>
   <lastmod>2026-01-31T23:41:39+00:00</lastmod>
@@ -452,21 +443,13 @@
   <lastmod>2026-01-31T23:41:41+00:00</lastmod>
   <priority>0.51</priority>
 </url>
-<url>
-  <loc>https://pstourism.in/sikkim-gallery-3</loc>
-  <lastmod>2026-01-31T23:41:40+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
+
 <url>
   <loc>https://pstourism.in/sundarban-trip-gallery-3</loc>
   <lastmod>2026-01-31T23:41:41+00:00</lastmod>
   <priority>0.41</priority>
 </url>
-<url>
-  <loc>https://pstourism.in/sikkim-gallery-4</loc>
-  <lastmod>2026-01-31T23:41:40+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
+
 
 
 </urlset>
