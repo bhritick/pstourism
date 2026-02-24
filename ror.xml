@@ -1,746 +1,1000 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/">
 <channel>
   <title>ROR Sitemap for https://pstourism.in/</title>
   <link>https://pstourism.in/</link>
-
-<item>
-     <link>https://pstourism.in/</link>
-     <title>PSTourism | Sikkim Darjeeling Kashmir Tour Packages</title>
-     <description>ISO certified Travel Company offering customized tour packages for Sikkim, Darjeeling, Kashmir, Ladakh, Himachal &amp; more. Book honeymoon, group tours now!</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>0</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/packages</link>
-     <title>Tour Packages | PSTourism - Sikkim Darjeeling Kashmir Ladakh Himachal Packages</title>
-     <description>Explore our wide range of tour packages including Sikkim, Darjeeling, Kashmir, Ladakh, Himachal, Andaman, Bhutan &amp; more. ISO certified travel company with customized packages.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/other-tavel-servises</link>
-     <title>Premium Travel Services | Bus Booking, Bike Rental, Honeymoon &amp; Group Tours - PSTourism</title>
-     <description>ISO 9001:2015 certified PSTourism offers premium travel services: bus bookings, bike rentals, picnic spot reservations, pre-wedding shoots, honeymoon packages, group tours, educational trips &amp; business travel solutions across Sikkim, Kashmir, Himachal, Ladakh &amp; more.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/about-us</link>
-     <title>About PSTourism | ISO Certified Travel Company</title>
-     <description>Learn about PSTourism (Pather Sandhane Tourism), an ISO 9001:2015 certified Travel Company founded by Sayan Chatterjee, offering quality and affordable travel packages across India.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/contact-us</link>
-     <title>Contact PSTourism Kolkata | Travel Company Near Gitanjali Metro Naktala | 24x7 Support ☎ 82400 02684</title>
-     <description>Contact PSTourism - ISO certified Travel Company in Naktala, Kolkata near Gitanjali Metro. Book Sikkim, Darjeeling, Kashmir, Ladakh tours. Visit our office or call 82400 02684. Open Tue-Sun 10:30 AM-8 PM. Get instant quotes &amp; customized packages from Kolkata's trusted travel experts.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/home-page-2</link>
-     <title>PS Tourism</title>
-     <description>PS Tourism</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/sikkim</link>
-     <title>Sikkim Tour Packages | PSTourism - Best Sikkim Travel Packages from Gangtok to North Sikkim</title>
-     <description>Explore best Sikkim tour packages with PSTourism. Book Gangtok, Lachung, Pelling, Ravangla, North Sikkim, East-West Sikkim, Silk Route &amp; offbeat Sikkim tours. Customized honeymoon &amp; group packages available. ISO certified travel company.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/north-bengal</link>
-     <title>North Bengal Tour Packages | PSTourism - Darjeeling Kalimpong Dooars Mirik Package Tours</title>
-     <description>Explore best North Bengal tour packages with PSTourism. Book Darjeeling, Kalimpong, Dooars, Mirik, Sittong, Rishop &amp; offbeat North Bengal tours. Customized tea garden, mountain view &amp; nature packages. ISO certified travel company.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/kashmir</link>
-     <title>Kashmir Tour Packages | PSTourism - Paradise on Earth Kashmir Honeymoon &amp; Family Tours</title>
-     <description>Explore best Kashmir tour packages with PSTourism. Book Srinagar, Gulmarg, Pahalgam, Sonamarg packages. Honeymoon specials, houseboat stays, Dal Lake tours. Experience paradise on earth with ISO certified travel company.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/ladakh</link>
-     <title>Ladakh Tour Packages | PSTourism - Leh Ladakh Adventure &amp; Bike Trip Packages</title>
-     <description>Explore best Ladakh tour packages with PSTourism. Book Leh Ladakh adventure tours, bike trips, Nubra Valley, Pangong Lake packages. Experience the land of high passes with ISO certified travel company.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/himachal-package</link>
-     <title>Himachal Pradesh Tour Packages | PSTourism - Shimla Manali Dharamshala Packages</title>
-     <description>Explore best Himachal Pradesh tour packages with PSTourism. Book Shimla, Manali, Dharamshala, Dalhousie tour packages. Experience the beauty of mountains, valleys, and hill stations with ISO certified travel company.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/andaman</link>
-     <title>Andaman &amp; Nicobar Islands Tour Packages | PSTourism - Tropical Paradise Packages</title>
-     <description>Explore best Andaman &amp; Nicobar Islands tour packages with PSTourism. Book Port Blair, Havelock Island, Neil Island packages. Experience pristine beaches, crystal-clear waters, and marine life with ISO certified travel company.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/bhutan</link>
-     <title>Bhutan Tour Packages | PSTourism - Land of Thunder Dragon Packages</title>
-     <description>Explore best Bhutan tour packages with PSTourism. Book Thimphu, Paro, Punakha, Tiger's Nest packages. Experience majestic monasteries, stunning Himalayan landscapes, and vibrant Buddhist culture with ISO certified travel company.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/meghalaya</link>
-     <title>Meghalaya Tour Packages | PSTourism - Scotland of the East Packages</title>
-     <description>Explore best Meghalaya tour packages with PSTourism. Book Shillong, Cherrapunji, Mawlynnong packages. Experience living root bridges, stunning waterfalls, pristine caves, and lush green landscapes with ISO certified travel company.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/sundarban</link>
-     <title>Sundarban Tour Packages | PSTourism - UNESCO World Heritage Mangrove Forest</title>
-     <description>Explore best Sundarban tour packages with PSTourism. Book Royal Bengal Tiger safari, mangrove forest tours, river cruises. Experience wildlife sanctuary, bird watching, and unique ecosystem with ISO certified travel company.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/lakshadweep</link>
-     <title>Lakshadweep Tour Packages | PSTourism - Coral Paradise Islands</title>
-     <description>Explore best Lakshadweep tour packages with PSTourism. Book Agatti, Bangaram, Kavaratti island tours. Experience pristine beaches, coral reefs, scuba diving, lagoons, and turquoise waters with ISO certified travel company.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/honeymoon-special</link>
-     <title>Honeymoon Tour Packages | PSTourism - Romantic Getaway Specialists</title>
-     <description>Explore best honeymoon tour packages with PSTourism. Book romantic Kashmir, Manali, Darjeeling, Sikkim, Himachal, Andaman, Meghalaya honeymoon packages. Create unforgettable memories with ISO certified travel company.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/group-tour</link>
-     <title>Group Tour Packages | PSTourism - Best Group Travel Deals</title>
-     <description>Explore best group tour packages with PSTourism. Book group trips to Sikkim, North Bengal, Kashmir, Ladakh, Himachal, Andaman, Meghalaya. Special group discounts, ISO certified travel company.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/offbeat-sikkim</link>
-     <title>Offbeat Sikkim Tour Packages | PSTourism - Hidden Gems of Sikkim</title>
-     <description>Explore offbeat Sikkim tour packages with PSTourism. Discover hidden gems like Zuluk, Aritar, Ravangla, Namchi, Dzongu, Rinchenpong, Yuksom, Pelling offbeat destinations. ISO certified travel company.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/north-sikkim-tourist-places</link>
-     <title>Best North Sikkim Tourist Places | Top Attractions &amp; Travel Guide | PSTourism</title>
-     <description>Explore the best North Sikkim tourist places, including Gurudongmar Lake, Yumthang Valley, Lachen, Lachung, and more. Plan your perfect Sikkim trip today! Book your North Sikkim package with PSTourism for an unforgettable experience.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/4n-5d-silk-route-package</link>
-     <title>4N 5D Silk Route Package Trip | Old Silk Route Tour | PSTourism</title>
-     <description>Discover the enchanting 4N 5D Silk Route package with PSTourism. Experience Sillerygaon, Zuluk, Nathang Valley, Nathula Pass, and more. ISO 9001:2015 certified travel organization.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/sandakphu</link>
-     <title>Best Sandakphu Trek Packages 2026 | Trekking, Costs &amp; Itinerary | PSTourism</title>
-     <description>Book customizable Sandakphu trek packages for 2026. Includes permits, guides, meals &amp; accommodation. Witness Everest, Kanchenjunga &amp; more. ISO 9001:2015 certified travel company.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/darjeeling-honeymoon</link>
-     <title>3N/4D Darjeeling Offbeat Honeymoon Package | Romantic Getaway | PSTourism</title>
-     <description>Experience a magical 3N/4D Darjeeling honeymoon with offbeat charm. Visit Tiger Hill, Mirik Lake, Sittong. Candlelight dinners, luxury stays. Book now with PSTourism!</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/kashmir-honeymoon</link>
-     <title>6N/7D Kashmir Honeymoon Package | Srinagar, Gulmarg, Pahalgam, Sonamarg | PSTourism</title>
-     <description>Book a premium 6N/7D Kashmir Honeymoon Package covering Srinagar, Gulmarg, Pahalgam, Sonamarg, Doodhpathri &amp; Dal Lake houseboat stay. Shikara ride, Gondola, private car, candlelight dinner—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/manali-honeymoon</link>
-     <title>4N/5D Manali Honeymoon Package | Solang, Atal Tunnel, Sissu | PSTourism</title>
-     <description>Book a romantic 4N/5D Manali Honeymoon Package covering Solang Valley, Atal Tunnel, Sissu Waterfall, Hidimba Temple &amp; Mall Road. Private car, cozy stays, candlelight dinner—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/best-leh-ladakh-tour-packages</link>
-     <title>Best Leh Ladakh Tour Packages | Pangong, Nubra, Khardung La | PSTourism</title>
-     <description>Explore the best Leh Ladakh tour packages covering Pangong Lake, Nubra Valley, Khardung La, Magnetic Hill &amp; monasteries. Private SUV, cozy stays, permits included—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/trip-gallery</link>
-     <title>Travel Photo Gallery | PSTourism Trip Pictures &amp; Destination Images</title>
-     <description>Explore our travel photo gallery showcasing stunning pictures from Sikkim, Darjeeling, Kashmir, Ladakh &amp; Himachal tours. View real trip photos, destination highlights &amp; customer travel memories with PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/client-gallery-pic</link>
-     <title>Client Photo Gallery | PSTourism Customer Travel Memories &amp; Reviews</title>
-     <description>Browse our client photo gallery featuring real customer travel experiences, testimonials &amp; memories from Sikkim, Darjeeling, Kashmir, Ladakh &amp; Himachal tours. See authentic reviews &amp; photos shared by our happy travelers with PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/terms-conditions</link>
-     <title>Terms &amp; Conditions - PSTourism | Travel Booking Policies</title>
-     <description>Read PSTourism's comprehensive terms and conditions for tour bookings. Understand our payment, cancellation, refund policies and travel guidelines for Sikkim, Kashmir, Ladakh tours.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/rajathan</link>
-     <title>4N/5D Rajasthan Tour Package | Jaipur, Jodhpur, Jaisalmer, Mount Abu | PSTourism</title>
-     <description>Book a premium 4N/5D Rajasthan trip covering Jaipur sightseeing, Jodhpur forts, Jaisalmer desert camp, and Mount Abu. Curated by ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/purulia</link>
-     <title>Purulia Tour Packages | Bengal's Hidden Gem | PSTourism</title>
-     <description>Explore Purulia—Ajodhya Hills, forests, tribal culture, lakes and offbeat nature. Choose from curated Purulia tour packages by ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/puri</link>
-     <title>2N/3D Puri Tour Package | Jagannath Temple, Konark, Chilika | PSTourism</title>
-     <description>Book a premium 2 Nights 3 Days Puri tour package with PSTourism (ISO certified). Visit Jagannath Temple, Konark Sun Temple, Puri Beach &amp; Chilika Lake with private transfers and curated sightseeing.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/kedarnath-badrinath</link>
-     <title>Kedarnath &amp;amp; Badrinath Tour Package (5N/6D) from Haridwar | PSTourism</title>
-     <description>Book a 5 Nights / 6 Days Kedarnath &amp;amp; Badrinath pilgrimage tour from Haridwar covering Guptkashi, Gaurikund, Kedarnath, Tungnath, Pipalkoti, Badrinath and Mana Village with MAP (breakfast &amp;amp; dinner).</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/deoghar-package</link>
-     <title>3N/4D Deoghar, Gaya, Bodh Gaya, Nalanda &amp; Rajgir Tour | PSTourism</title>
-     <description>Book a premium 3 Nights 4 Days spiritual &amp; heritage tour covering Deoghar (Baba Baidyanath Dham), Rajgir, Nalanda, Bodh Gaya and Gaya. Temple visits, monasteries and key attractions with smooth transfers—PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/ooty-mysore-package</link>
-     <title>5N/6D Nilgiri Jungle, Ooty &amp; Mysore Tour Package | Wildlife Safari + Hill Station | PSTourism</title>
-     <description>Book 5N/6D Nilgiri Jungle, Ooty &amp; Mysore tour package with Mysore sightseeing, Mudumalai &amp; Bandipur safari, Doddabetta Peak, Pykara Dam and Ooty attractions. Private car and assistance—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/jharkhand</link>
-     <title>Jharkhand Tour Packages | Jharkhand Tourism | PSTourism</title>
-     <description>Explore Jharkhand tour packages with PSTourism. Discover waterfalls, temples, forests and tribal culture. Book our 2N/3D Ranchi package with curated sightseeing and comfortable stays.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/thailand</link>
-     <title>4N/5D Thailand Tour Package | Bangkok &amp; Pattaya | PSTourism</title>
-     <description>Explore Bangkok and Pattaya with a premium 4N/5D Thailand tour by PSTourism. Safari World &amp; Marine Park, Coral Island by speedboat, curated transfers and comfortable stays.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/srilanka</link>
-     <title>6N/7D Sri Lanka Tour Package | Sigiriya, Kandy, Nuwara Eliya, Mirissa, Bentota, Colombo | PSTourism</title>
-     <description>Discover the best of Sri Lanka in 6N/7D: Sigiriya, Kandy, Nuwara Eliya, Ella, Mirissa whale watching, Bentota beaches and Colombo city tour—curated by ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/packages</link>
-     <title>Tour Packages | PSTourism - Sikkim Darjeeling Kashmir Ladakh Himachal Packages</title>
-     <description>Explore our wide range of tour packages including Sikkim, Darjeeling, Kashmir, Ladakh, Himachal, Andaman, Bhutan &amp; more. ISO certified travel company with customized packages.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/other-tavel-servises</link>
-     <title>Premium Travel Services | Bus Booking, Bike Rental, Honeymoon &amp; Group Tours - PSTourism</title>
-     <description>ISO 9001:2015 certified PSTourism offers premium travel services: bus bookings, bike rentals, picnic spot reservations, pre-wedding shoots, honeymoon packages, group tours, educational trips &amp; business travel solutions across Sikkim, Kashmir, Himachal, Ladakh &amp; more.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/about-us</link>
-     <title>About PSTourism | ISO Certified Travel Company</title>
-     <description>Learn about PSTourism (Pather Sandhane Tourism), an ISO 9001:2015 certified Travel Company founded by Sayan Chatterjee, offering quality and affordable travel packages across India.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/contact-us</link>
-     <title>Contact PSTourism Kolkata | Travel Company Near Gitanjali Metro Naktala | 24x7 Support ☎ 82400 02684</title>
-     <description>Contact PSTourism - ISO certified Travel Company in Naktala, Kolkata near Gitanjali Metro. Book Sikkim, Darjeeling, Kashmir, Ladakh tours. Visit our office or call 82400 02684. Open Tue-Sun 10:30 AM-8 PM. Get instant quotes &amp; customized packages from Kolkata's trusted travel experts.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/sundarban-trip-gallery</link>
-     <title>Sundarban Trip Gallery | PSTourism Wildlife Photos &amp; Tour Memories</title>
-     <description>Explore stunning photos from PSTourism's Sundarban trips. View wildlife encounters, Royal Bengal Tigers, boat safaris &amp; mangrove forest adventures. Real customer trip photos from Sundarbans tours.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/sikkim-gallery-2</link>
-     <title>Sikkim Photo Gallery Page 2 | PSTourism Sikkim Trip Pictures</title>
-     <description>Explore our Sikkim travel photo gallery showcasing stunning pictures from Gangtok, Lachung, Pelling, Ravangla tours. View real Sikkim trip photos, destination highlights &amp; customer travel memories with PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/north-sikkim-4-nights-5-days-trip</link>
-     <title>4N/5D North Sikkim Tour Package | Gangtok, Lachen, Lachung, Gurudongmar, Yumthang | PSTourism</title>
-     <description>Book a premium 4N/5D North Sikkim tour package covering Gangtok, Lachen, Lachung, Gurudongmar Lake and Yumthang Valley. Stays, meals, permits and private cab—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/3-nights-4-days-east-south-sikkim-new-package</link>
-     <title>3N/4D East &amp; South Sikkim Tour Package | Tsomgo Lake, Nathula, Ravangla | PSTourism</title>
-     <description>Book 3 Nights 4 Days East &amp; South Sikkim package covering Gangtok, Tsomgo Lake, Baba Mandir, Nathula Pass (optional), Ravangla Buddha Park &amp; Temi Tea Garden. ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/5-nights-6-days-east-south-west-sikkim-new-package</link>
-     <title>5N/6D East South West Sikkim Tour Package | Gangtok, Ravangla, Pelling | PSTourism</title>
-     <description>Book a premium 5 Nights 6 Days East–South–West Sikkim tour covering Gangtok, Ravangla (Buddha Park) and Pelling (Skywalk). Meals, stays, private cab, and curated sightseeing—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/3N-4D-4N-5D-east-west-sikkim-gangtok-pelling-packagetrip-new</link>
-     <title>3N/4D &amp; 4N/5D East-West Sikkim Tour | Gangtok &amp; Pelling Package | PSTourism</title>
-     <description>Book 3N/4D or 4N/5D East-West Sikkim package covering Gangtok, Tsomgo Lake, Baba Mandir, Nathula Pass (optional), Pelling Skywalk &amp; Khecheopalri Lake. ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/5-nights-6-days-north-sikkim-package-trip-new</link>
-     <title>5N/6D North Sikkim Tour Package | Gangtok, Lachen, Lachung, Gurudongmar, Yumthang | PSTourism</title>
-     <description>Book a premium 5 Nights 6 Days North Sikkim tour covering Gangtok, Lachen, Lachung, Gurudongmar Lake and Yumthang Valley. Stays, meals (AP plan), private cab, and curated sightseeing—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/4-nights-5-days-south-west-sikkim-package-trip-new</link>
-     <title>4N/5D South &amp; West Sikkim Package | Pelling, Ravangla, Namchi | PSTourism</title>
-     <description>Book a scenic 4N/5D South &amp; West Sikkim package covering Pelling, Ravangla and Namchi: Glass Skywalk, monasteries, waterfalls, Khecheopalri Lake, Buddha Park, Bhaleydunga Ropeway &amp; Temi Tea Garden—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/4-night-5-day-special-west-sikkim-offbeat-tour-package-new</link>
-     <title>4N/5D Special West Sikkim Offbeat Tour | Pelling, Yuksom, Kaluk | PSTourism</title>
-     <description>Book 4N/5D Special West Sikkim Offbeat Tour covering Pelling, Yuksom, Kaluk, Khecheopalri Lake, Glass Skywalk &amp; Kanchenjunga views. ISO certified PSTourism offers hidden gems exploration.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/8n-9d-special-north-sikkim-tour-package-new</link>
-     <title>8N/9D Special North Sikkim Tour Package | Gangtok • Dzongu • Lachen • Lachung</title>
-     <description>Book 8 nights / 9 days Special North Sikkim tour: Gangtok, Dzongu (Lepcha culture), Gurudongmar Lake, Yumthang Valley, Zero Point, Mt. Katao &amp; Songlaphu Lake. Transfers, stays and meals as per itinerary.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/4n-5d-silk-route-package-trip-1</link>
-     <title>4N 5D Silk Route Package Trip</title>
-     <description>An ISO 9001:2015 Certified Travel Company
-        Discover Sikkim - A Land of Pristine Lakes, Majestic Peaks, and Rich Culture!</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/4n-5d-5n-6d-north-east-sikkim</link>
-     <title>4N/5D &amp; 5N/6D North East Sikkim Package | Gangtok, Lachen, Lachung | PSTourism</title>
-     <description>Book 4N/5D or 5N/6D North East Sikkim package from NJP/Bagdogra: Gangtok, Lachen &amp; Lachung with Gurudongmar Lake, Yumthang Valley, optional Zero Point and an extra day for Tsomgo Lake/Baba Mandir/Nathula—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/4night-5-days-pelling-yuksam-kaluk</link>
-     <title>4N/5D Pelling, Yuksam &amp; Kaluk Tour Package (West Sikkim) | PSTourism</title>
-     <description>Book a premium 4 Nights 5 Days West Sikkim offbeat tour covering Pelling, Yuksam &amp; Kaluk. Skywalk, monasteries, lakes, waterfalls, village life—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/3-night-4-days-ravangla-gangtok</link>
-     <title>Ravangla &amp; Gangtok 3 Nights 4 Days Tour Package | PSTourism</title>
-     <description>Experience Ravangla and Gangtok in 3 Nights 4 Days with inclusive meals, stays, transfers, and curated sightseeing like Buddha Park, Temi Tea Garden, Samdruptse, and Tashi View Point. Book with PSTourism for a safe, budget-friendly trip.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/8-night-9-days-full-sikkim</link>
-     <title>10 Days 11 Nights Full Sikkim Tour | Pelling, Ravangla, Gangtok, Lachung, Zuluk, Lava | PSTourism</title>
-     <description>Explore Sikkim end-to-end with PSTourism on a premium 10 Days / 11 Nights itinerary covering Pelling, Ravangla, Gangtok, North Sikkim (Lachung, Yumthang Valley &amp; Zero Point), East Sikkim (Changu Lake, Baba Mandir, Nathula), Zuluk and Lava. ISO certified support, permits &amp; cab assistance.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/7-day-8-nights-darjeeling-sikkim</link>
-     <title>7 Day 8 Nights Darjeeling &amp; Sikkim Package | Mirik, Darjeeling, Gangtok, North Sikkim | PSTourism</title>
-     <description>Book a premium Darjeeling &amp; Sikkim holiday package covering Mirik, Darjeeling, Gangtok, North Sikkim (Lachen/Lachung), Yumthang Valley &amp; East Sikkim (Tsomgo Lake, Baba Mandir, Nathula). ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/5N-6D-north-bengal</link>
-     <title>5N/6D North Bengal Tour Package | Sittong, Kurseong, Tukdah, Darjeeling | PSTourism</title>
-     <description>Book a premium 5 Nights 6 Days North Bengal tour covering Sittong, Kurseong, Tukdah &amp; Darjeeling with private cab, quality stays and AP meal plan. Includes key spots like Tiger Hill, Lamahata Eco Park and Mirik Lake—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/4night-5days-offbeat-north-bengal</link>
-     <title>4N/5D Offbeat North Bengal Tour Package | Sittong, Kurseong, Tukdah | PSTourism</title>
-     <description>Book a premium 4 Nights 5 Days Offbeat North Bengal tour covering Sittong, Kurseong &amp; Tukdah. Homestays, meals, private cab, and curated sightseeing—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/4night-5-days-north-bengal-sittong-tukdah-darjeeling-mirik</link>
-     <title>4N/5D Offbeat North Bengal Package | Sittong, Tukdah, Kurseong | PSTourism</title>
-     <description>Book 4 Nights 5 Days offbeat North Bengal tour package covering Sittong, Tukdah &amp; Kurseong with authentic homestays, meals, private transport and sightseeing—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/7-night-8-days-north-bengal</link>
-     <title>7 Night 8 Days North Bengal + Sikkim Tour | Mirik, Darjeeling, Gangtok, North Sikkim | PSTourism</title>
-     <description>Book a premium 7N/8D (extendable to 8N/9D or 9N/10D) North Bengal + Sikkim tour covering Mirik, Darjeeling, Gangtok, Lachen, Lachung, Gurudongmar Lake, Yumthang Valley &amp; East Sikkim (Tsomgo Lake, Baba Mandir, Nathula Pass). ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/honeymoon-package-noth-bengal</link>
-     <title>5N/6D North Bengal Honeymoon Package | Darjeeling &amp; Mirik | PSTourism</title>
-     <description>Book a romantic 5N/6D North Bengal Honeymoon Package covering Darjeeling &amp; Mirik. Tiger Hill sunrise, tea gardens, monasteries, Mirik Lake &amp; cozy stays—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/kashmir-5n-6d-special</link>
-     <title>Kashmir 5 Nights 6 Days Special Tour Package | Srinagar Sonmarg Gulmarg Pahalgam | PSTourism</title>
-     <description>Book the Kashmir 5 Nights 6 Days Special Tour Package covering Srinagar, Sonmarg, Gulmarg and Pahalgam. Includes hotel + deluxe houseboat stay, MAP meals, sightseeing transfers and a Shikara ride on Dal Lake.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/kashmir-7n-8d-special</link>
-     <title>Jammu Vaishno Devi + Kashmir 7 Nights 8 Days Special Tour Package | Srinagar Gulmarg Sonmarg Pahalgam | PSTourism</title>
-     <description>Book the Jammu Vaishno Devi + Kashmir 7 Nights 8 Days Special Tour Package covering Katra (Mata Vaishno Devi), Pahalgam, Srinagar, Sonmarg, Gulmarg and Doodhpathri. Includes hotel stays, deluxe houseboat night and a Shikara ride on Dal Lake.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/kashmir-honeymoon-special</link>
-     <title>Jannat-e-Kashmir Honeymoon Special Package (6N/7D) | Srinagar Gulmarg Sonmarg Pahalgam | PSTourism</title>
-     <description>Book the Jannat-e-Kashmir Honeymoon Special Package (6 Nights / 7 Days) covering Jammu/Srinagar, Pahalgam, Srinagar, Sonmarg, Gulmarg and Doodhpathri. Includes honeymoon cake, candlelight dinner, bed decoration and Dal Lake Shikara ride. Starting from ₹23,999 per head (subject to season).</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/kashmir-5n-6d</link>
-     <title>Kashmir 5 Nights 6 Days Tour Package | Srinagar Sonmarg Gulmarg Pahalgam | PSTourism</title>
-     <description>Book a premium 5 Nights / 6 Days Kashmir tour package covering Srinagar, Sonmarg, Gulmarg and Pahalgam. Includes hotel + deluxe houseboat stay, MAP meals, sightseeing transfers and a Dal Lake Shikara ride.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/ladakh-7n-8d-tour-packge</link>
-     <title>Best Leh Ladakh Tour Package (7N/8D) | Srinagar, Kargil, Leh, Nubra, Pangong | PSTourism</title>
-     <description>Book a premium 7N/8D Leh Ladakh tour package covering Srinagar, Kargil, Leh local sightseeing, Nubra Valley via Khardungla, Pangong Tso and Changla Pass. Private cab, MAP meals, best hotel options—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/ladakh-6n-7d-tour-packge</link>
-     <title>Best Leh Ladakh Tour Package (6N/7D) | Leh, Nubra, Pangong, Tso Moriri | PSTourism</title>
-     <description>Book a premium 6N/7D Leh Ladakh tour package covering Leh local sightseeing, Nubra Valley via Khardungla, Pangong Tso and Tso Moriri. Private cab, MAP meals, and best hotel options—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/ladakh-6d-7n</link>
-     <title>Incredible Ladakh Tour Package (6N/7D) | Leh, Nubra, Turtuk, Pangong | PSTourism</title>
-     <description>Book a premium 6N/7D Ladakh tour package covering Leh, Nubra Valley (Hunder/Deskit), Turtuk, Pangong Tso &amp; Changla Pass. Private cab, MAP meals, local sightseeing—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/ladakh-7d-8n</link>
-     <title>Unforgettable Ladakh Tour Package (7N/8D) | Srinagar, Kargil, Leh, Nubra, Pangong | PSTourism</title>
-     <description>Book the Unforgettable Ladakh 7 Nights 8 Days tour covering Srinagar, Kargil, Leh local sightseeing, Nubra Valley via Khardungla and Pangong Tso via Changla. Private cab, MAP meals and curated experiences—PSTourism (ISO certified).</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/ladakh-7d-8n-1</link>
-     <title>Unforgettable Ladakh Tour Package (7N/8D) | Srinagar, Kargil, Leh, Nubra, Pangong | PSTourism</title>
-     <description>Premium 7 Nights 8 Days Ladakh tour: Srinagar to Kargil, Leh sightseeing, Nubra Valley via Khardungla and Pangong Tso via Changla. ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/ladakh-9d-10n</link>
-     <title>Ladakh Tour Package (9N/10D) | Srinagar, Kargil, Leh, Nubra, Pangong, Srinagar | PSTourism</title>
-     <description>Premium Ladakh tour package (9 Nights / 10 Days): Jammu/Srinagar, Kargil, Leh sightseeing, Nubra Valley via Khardungla, Pangong Tso via Changla, return via Kargil &amp; Srinagar. Book with PSTourism (ISO certified).</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/himachal-6n-7d</link>
-     <title>6N/7D Himachal Tour Package | Shimla, Kasol/Manikaran, Manali, Solang | PSTourism</title>
-     <description>Book a premium 6 Nights 7 Days Himachal tour covering Shimla (Mall Road, Kufri), Manikaran/Kasol, Manali sightseeing, and Solang Valley with optional Atal Tunnel/Rohtang (as accessible). Start/end Chandigarh—PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/himachal-5n-6d</link>
-     <title>5N/6D Himachal Tour Package | Shimla, Kufri, Manali, Solang Valley | PSTourism</title>
-     <description>Book a premium 5 Nights 6 Days Himachal tour covering Shimla, Kufri, Manali, Solang Valley and key en‑route stops like Kullu &amp; Manikaran. Smooth transfers from Chandigarh with stays (2N Shimla + 3N Manali)—PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/himachal-pradesh-4n-5d</link>
-     <title>Best Himachal Tour Package – Shimla &amp; Manali 4N/5D | PSTourism™️</title>
-     <description>Book 4N/5D Shimla-Manali tour package covering Kufri, Solang Valley, Rohtang Pass &amp; more. Includes stays, meals, sightseeing &amp; private cab.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/himachal-honeymoon-packge</link>
-     <title>Best Himachal Honeymoon Package 7N/8D | Starting ₹23280 per head | PSTourism</title>
-     <description>Book the best Himachal honeymoon package (7 Nights / 8 Days) covering Shimla, Kufri, Kasol/Manikaran, Manali, Solang Valley and optional Atal Tunnel/Rohtang (as accessible). Includes honeymoon décor + candlelight dinner. Starting ₹23280 per head (low season) — PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/andaman-5n-6d</link>
-     <title>5N/6D Andaman Tour Package | Port Blair, Havelock, Neil Island | PSTourism</title>
-     <description>Book a premium 5 Nights 6 Days Andaman tour covering Port Blair, Ross Island, North Bay, Havelock Island and Neil Island. Cruise transfers, private cab, sightseeing assistance—PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/andaman-5d-6n</link>
-     <title>5N/6D Andaman Tour Package | Port Blair, Havelock, Neil Island | PSTourism</title>
-     <description>Book a premium 5 Nights 6 Days Andaman tour covering Port Blair, Ross Island, North Bay, Havelock Island and Neil Island. Private transfers, cruise assistance and curated sightseeing—PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/andaman-4n-5d</link>
-     <title>4N/5D Andaman Tour Package | Port Blair • Havelock • Neil Island | PSTourism</title>
-     <description>Explore Andaman in 4 nights / 5 days with PSTourism: Port Blair (Cellular Jail, Corbyn's Cove), Havelock (Radhanagar Beach), Neil Island (Bharatpur, Laxmanpur, Natural Bridge). Ferry transfers &amp; sightseeing as per itinerary.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/bhutan-4n-5d</link>
-     <title>4N/5D Bhutan Tour Package | Thimphu, Punakha, Paro | PSTourism</title>
-     <description>Book a premium 4 Nights 5 Days Bhutan tour covering Thimphu, Punakha and Paro with Dochu-La Pass, Punakha Dzong and Tiger’s Nest trek. Hotels, meals, permits and guide support—PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/bhutan-4n-5d-2</link>
-     <title>Bhutan (4N 5D) Tour Package</title>
-     <description>Bhutan (4N 5D) Tour Package</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/meghalaya-honeymoon</link>
-     <title>5N/6D Meghalaya Honeymoon Package | Shillong, Cherrapunji, Dawki | PSTourism</title>
-     <description>Embark on a romantic 5N/6D Meghalaya honeymoon covering Shillong, Cherrapunji, Mawlynnong and Dawki with scenic lakes, waterfalls and living root bridges.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/2-D-3-N-sundarban</link>
-     <title>Sundarban Tour Packages (2–3 Days) | Boat Safari, Watch Towers | PSTourism</title>
-     <description>Experience Sundarban with boat safaris, Sajnekhali &amp; Sudhanyakhali watch towers, Dobanki canopy walk and village life. Private transfers, cozy stays, meals &amp; permits included.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/purulia1-3d</link>
-     <title>3D/2N Purulia Trail Tour Package | Ayodhya Hills, Baranti, Garhpanchakot | PSTourism</title>
-     <description>Explore Purulia in 3D/2N with Ayodhya Hills stay, Pakhi Pahar, dams, waterfalls, Baranti Lake &amp; Garhpanchakot. Private car and support—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>3</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/purulia-3-days</link>
-     <title>3D/2N Purulia Tour Package | Ayodhya Hills, Baranti, Garhpanchakot | PSTourism</title>
-     <description>Book a 3D/2N Purulia tour package covering Ayodhya Hills, Baranti Lake, Garhpanchakot, Joychandi Pahar, dams &amp; waterfalls. Private car, local support—ISO certified PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>3</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/jharkhand-ranchi</link>
-     <title>2N/3D Ranchi Tour Package | Jharkhand Tourism | PSTourism</title>
-     <description>Book a premium 2 Nights / 3 Days Ranchi tour package covering Dasham Falls, Hundru Falls, Patratu Valley, Jagannath Temple, Rajrappa Temple, Jonha Waterfall and more. Includes hotel stay, MAP meals and sightseeing transfers.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>3</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/sundarban-trip-gallery-2</link>
-     <title>Sundarban Trip Gallery Page 2 | PSTourism Wildlife Adventures</title>
-     <description>Continue exploring PSTourism's Sundarban trip gallery. More stunning wildlife photos, boat safari moments &amp; mangrove forest landscapes from our Sundarbans tours.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>3</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/sikkim-photos</link>
-     <title>Sikkim Travel Photo Gallery | PSTourism Sikkim Trip Pictures &amp; Images</title>
-     <description>Explore our Sikkim travel photo gallery showcasing stunning pictures from Gangtok, Lachung, Pelling, Ravangla tours. View real Sikkim trip photos, destination highlights &amp; customer travel memories with PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>3</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/sikkim-gallery-3</link>
-     <title>Sikkim Photo Gallery Page 3 | PSTourism Sikkim Trip Pictures</title>
-     <description>Explore our Sikkim travel photo gallery showcasing stunning pictures from Gangtok, Lachung, Pelling, Ravangla tours. View real Sikkim trip photos, destination highlights &amp; customer travel memories with PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>3</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/sundarban-trip-gallery-3</link>
-     <title>Sundarban Trip Gallery Page 3 | PSTourism Complete Collection</title>
-     <description>Final collection of PSTourism's Sundarban trip photos. Explore the complete wildlife adventure gallery featuring Royal Bengal Tigers, boat safaris &amp; mangrove forests.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>4</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://pstourism.in/sikkim-gallery-4</link>
-     <title>Sikkim Photo Gallery Page 4 | PSTourism Sikkim Trip Pictures</title>
-     <description>Explore our Sikkim travel photo gallery showcasing stunning pictures from Gangtok, Lachung, Pelling, Ravangla tours. View real Sikkim trip photos, destination highlights &amp; customer travel memories with PSTourism.</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>4</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
+  <item>
+    <link>https://pstourism.in/</link>
+    <title>PSTourism | Sikkim Darjeeling Kashmir Tour Packages</title>
+    <description>ISO certified Travel Company offering customized tour packages for Sikkim, Darjeeling, Kashmir, Ladakh, Himachal &amp; more. Book honeymoon, group tours now!</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/packages</link>
+    <title>Tour Packages | PSTourism - Sikkim Darjeeling Kashmir Ladakh Himachal Packages</title>
+    <description>Explore our wide range of tour packages including Sikkim, Darjeeling, Kashmir, Ladakh, Himachal, Andaman, Bhutan &amp; more. ISO certified travel company with customized packages.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/other-tavel-servises</link>
+    <title>Travel Services | Bus, Bike, Tours - PSTourism</title>
+    <description>ISO 9001:2015 certified PSTourism offers bus bookings, bike rentals, honeymoon packages, group tours, educational trips &amp; business travel across India.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/about-us</link>
+    <title>About PSTourism | ISO Certified Travel Company</title>
+    <description>Learn about PSTourism (Pather Sandhane Tourism), an ISO 9001:2015 certified Travel Company founded by Sayan Chatterjee, offering quality and affordable travel packages across India.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/contact-us</link>
+    <title>Contact PSTourism Kolkata | Travel Company Near Gitanjali Metro Naktala | 24x7 Support ☎ 82400 02684</title>
+    <description>Contact PSTourism - ISO certified Travel Company in Naktala, Kolkata near Gitanjali Metro. Book Sikkim, Darjeeling, Kashmir, Ladakh tours. Visit our office or call 82400 02684. Open Tue-Sun 10:30 AM-8 PM. Get instant quotes &amp; customized packages from Kolkata&apos;s trusted travel experts.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/sikkim</link>
+    <title>Sikkim Tour Packages | PSTourism - Best Sikkim Travel Packages from Gangtok to North Sikkim</title>
+    <description>Explore best Sikkim tour packages with PSTourism. Book Gangtok, Lachung, Pelling, Ravangla, North Sikkim, East-West Sikkim, Silk Route &amp; offbeat Sikkim tours. Customized honeymoon &amp; group packages available. ISO certified travel company.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-bengal</link>
+    <title>North Bengal Tour Packages: Darjeeling &amp; Dooars | PSTourism</title>
+    <description>Explore North Bengal tour packages for Darjeeling, Kalimpong, Dooars, Mirik and Sittong with private cab, local support and custom itineraries by PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/kashmir</link>
+    <title>Kashmir Tour Packages | Srinagar, Gulmarg &amp; Pahalgam Deals</title>
+    <description>Discover Kashmir tour packages covering Srinagar, Gulmarg, Pahalgam and Sonamarg with houseboat stays, Dal Lake Shikara rides, honeymoon and family plans.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/ladakh</link>
+    <title>Ladakh Tour Packages in India | PSTourism Official</title>
+    <description>Explore Ladakh tour packages with Leh, Nubra Valley and Pangong Lake. Book trusted itineraries with private cab, quality stays and local support from PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/himachal-package</link>
+    <title>Himachal Tour Packages | Shimla, Manali &amp; Dharamshala Deals</title>
+    <description>Discover Himachal tour packages for Shimla, Manali, Dharamshala and Dalhousie with honeymoon, family and group plans, scenic stays and guided travel support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/andaman</link>
+    <title>Andaman Tour Packages | Port Blair Havelock by PSTourism</title>
+    <description>Explore Andaman tour packages for Port Blair, Havelock and Neil Island with pristine beaches, island cruises, marine activities and curated stays by PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/bhutan</link>
+    <title>Bhutan Tour Packages | Thimphu Paro Trips by PSTourism</title>
+    <description>Explore Bhutan tour packages for Thimphu, Paro and Punakha with monastery visits, Himalayan landscapes and cultural experiences, planned by travel experts.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/meghalaya</link>
+    <title>Meghalaya Tour Packages | PSTourism - Scotland of the East Packages</title>
+    <description>Explore best Meghalaya tour packages with PSTourism. Book Shillong, Cherrapunji, Mawlynnong packages. Experience living root bridges, stunning waterfalls, pristine caves, and lush green landscapes with ISO certified travel company.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/sundarban</link>
+    <title>Sundarban Tour Packages | PSTourism - UNESCO World Heritage Mangrove Forest</title>
+    <description>Explore best Sundarban tour packages with PSTourism. Book Royal Bengal Tiger safari, mangrove forest tours, river cruises. Experience wildlife sanctuary, bird watching, and unique ecosystem with ISO certified travel company.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/lakshadweep</link>
+    <title>Lakshadweep Tour Packages | Coral Island Trips by PSTourism</title>
+    <description>Explore Lakshadweep tour packages with Agatti, Bangaram and Kavaratti stays, coral reef activities, beach time and island hopping, planned by certified experts.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/honeymoon-special</link>
+    <title>Honeymoon Tour Packages in India | PSTourism Official</title>
+    <description>Explore honeymoon tour packages for Kashmir, Manali, Darjeeling, Sikkim, Andaman and Meghalaya. Book couple-friendly itineraries with PSTourism support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/group-tour</link>
+    <title>Group Tour Packages | PSTourism - Best Group Travel Deals</title>
+    <description>Explore best group tour packages with PSTourism. Book group trips to Sikkim, North Bengal, Kashmir, Ladakh, Himachal, Andaman, Meghalaya. Special group discounts, ISO certified travel company.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/offbeat-sikkim</link>
+    <title>Offbeat Sikkim Tour Packages | PSTourism - Hidden Gems of Sikkim</title>
+    <description>Explore offbeat Sikkim tour packages with PSTourism. Discover hidden gems like Zuluk, Aritar, Ravangla, Namchi, Dzongu, Rinchenpong, Yuksom, Pelling offbeat destinations. ISO certified travel company.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-sikkim-tourist-places</link>
+    <title>Top North Sikkim Tourist Places &amp; Travel Guide | PSTourism</title>
+    <description>Explore top North Sikkim tourist places like Gurudongmar Lake and Yumthang Valley with practical travel tips, permits, and easy trip planning with PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/4n-5d-silk-route-package</link>
+    <title>4N 5D Silk Route Package Trip | Old Silk Route Tour | PSTourism</title>
+    <description>Discover the enchanting 4N 5D Silk Route package with PSTourism. Experience Sillerygaon, Zuluk, Nathang Valley, Nathula Pass, and more. ISO 9001:2015 certified travel organization.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/sandakphu</link>
+    <title>Best Sandakphu Trek Packages 2026 Pricing | PSTourism</title>
+    <description>Book Sandakphu trek packages for 2026 with permits, certified guides, meals and homestays included. See Everest and Kanchenjunga views on Singalila Ridge.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/darjeeling-honeymoon</link>
+    <title>Darjeeling Honeymoon 3N/4D Package | PSTourism Official</title>
+    <description>Book the Darjeeling 3N/4D honeymoon package with Tiger Hill sunrise, Mirik Lake and Sittong stay. Includes private cab, quality stays and couple experiences.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/kashmir-honeymoon</link>
+    <title>Kashmir Honeymoon 6N/7D Tour | Srinagar, Gulmarg &amp; Pahalgam</title>
+    <description>Book Kashmir honeymoon 6N/7D package covering Srinagar, Gulmarg, Pahalgam, Sonamarg and Doodhpathri with houseboat stay, Shikara ride, meals and private car.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/manali-honeymoon</link>
+    <title>Manali Honeymoon 4N/5D Tour | Solang &amp; Atal Tunnel Trip</title>
+    <description>Book Manali honeymoon 4N/5D package with Solang Valley, Atal Tunnel, Sissu waterfall and local sightseeing. Includes private car, stays and candlelight dinner.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/best-leh-ladakh-tour-packages</link>
+    <title>Leh Ladakh Tour Packages | Pangong, Nubra &amp; Khardung La</title>
+    <description>Book Leh Ladakh tour packages covering Pangong Lake, Nubra Valley, Khardung La and monasteries with private SUV, cozy stays, permits and complete support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/trip-gallery</link>
+    <title>Travel Photo Gallery | PSTourism Trip Pictures &amp; Destination Images</title>
+    <description>Explore our travel photo gallery showcasing stunning pictures from Sikkim, Darjeeling, Kashmir, Ladakh &amp; Himachal tours. View real trip photos, destination highlights &amp; customer travel memories with PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/client-gallery-pic</link>
+    <title>Client Photo Gallery | PSTourism Customer Travel Memories &amp; Reviews</title>
+    <description>Browse our client photo gallery featuring real customer travel experiences, testimonials &amp; memories from Sikkim, Darjeeling, Kashmir, Ladakh &amp; Himachal tours. See authentic reviews &amp; photos shared by our happy travelers with PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/terms-conditions</link>
+    <title>Terms &amp; Conditions - PSTourism | Travel Booking Policies</title>
+    <description>Read PSTourism&apos;s comprehensive terms and conditions for tour bookings. Understand our payment, cancellation, refund policies and travel guidelines for Sikkim, Kashmir, Ladakh tours.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/rajathan</link>
+    <title>4N/5D Rajasthan Tour Package Itinerary | PSTourism</title>
+    <description>Book a premium 4N/5D Rajasthan trip covering Jaipur sightseeing, Jodhpur forts, Jaisalmer desert camp, and Mount Abu. Curated by ISO certified PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/purulia</link>
+    <title>Purulia Tour Packages | Bengal&apos;s Hidden Gem | PSTourism</title>
+    <description>Explore Purulia—Ajodhya Hills, forests, tribal culture, lakes and offbeat nature. Choose from curated Purulia tour packages by ISO certified PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/puri</link>
+    <title>2N/3D Puri Tour Package Itinerary | PSTourism Official</title>
+    <description>Book 2N/3D Puri package with Jagannath Temple, Konark Sun Temple, Puri Beach and Chilika Lake, including stays, private transfers, sightseeing and support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/kedarnath-badrinath</link>
+    <title>Kedarnath Badrinath Tour Package 5N/6D from Haridwar</title>
+    <description>Book a 5N/6D Kedarnath Badrinath pilgrimage from Haridwar with Guptkashi, Gaurikund, Tungnath, Pipalkoti and Mana Village, including MAP meals and support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/deoghar-package</link>
+    <title>3N/4D Deoghar Rajgir Bodh Gaya Tour Package by PSTourism</title>
+    <description>Book a 3N/4D Deoghar, Rajgir, Nalanda and Bodh Gaya tour with Baba Baidyanath Dham darshan, key heritage sites, guided transfers and comfortable stays.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/ooty-mysore-package</link>
+    <title>5N/6D Ooty Mysore Jungle Safari Tour Package | PSTourism</title>
+    <description>Book 5N/6D Ooty Mysore jungle safari package with Mysore sightseeing, Mudumalai and Bandipur route, Ooty highlights, stay, car, full support and assistance.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/jharkhand</link>
+    <title>Jharkhand Tour Packages | Ranchi Trips by PSTourism</title>
+    <description>Explore Jharkhand tour packages with waterfalls, temples, forests and tribal culture, including a 2N/3D Ranchi itinerary with sightseeing and comfortable stays.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/thailand</link>
+    <title>4N/5D Thailand Tour Package | Bangkok &amp; Pattaya | PSTourism</title>
+    <description>Book 4N/5D Thailand package for Bangkok and Pattaya with Safari World, Coral Island speedboat tour, hotel stays, transfers, sightseeing and dedicated support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/srilanka</link>
+    <title>6N/7D Sri Lanka Tour Package Itinerary | PSTourism</title>
+    <description>Book 6N/7D Sri Lanka package with Sigiriya, Kandy, Nuwara Eliya, Ella, Mirissa, Bentota and Colombo, including stays, transfers, sightseeing and support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/sundarban-trip-gallery</link>
+    <title>Sundarban Trip Gallery | PSTourism Wildlife Photos &amp; Tour Memories</title>
+    <description>Explore stunning photos from PSTourism&apos;s Sundarban trips. View wildlife encounters, Royal Bengal Tigers, boat safaris &amp; mangrove forest adventures. Real customer trip photos from Sundarbans tours.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/sikkim-gallery-2</link>
+    <title>Sikkim Photo Gallery Page 2 | PSTourism Sikkim Trip Pictures</title>
+    <description>Explore our Sikkim travel photo gallery showcasing stunning pictures from Gangtok, Lachung, Pelling, Ravangla tours. View real Sikkim trip photos, destination highlights &amp; customer travel memories with PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-sikkim-4-nights-5-days-trip</link>
+    <title>North Sikkim 4N/5D Tour Package Itinerary | PSTourism</title>
+    <description>Book a 4N/5D North Sikkim tour package with Gangtok, Lachen, Lachung, Gurudongmar Lake, and Yumthang Valley, including stays, permits, meals, and cab.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/3-nights-4-days-east-south-sikkim-new-package</link>
+    <title>East South Sikkim 3N/4D Tour Package | PSTourism</title>
+    <description>Explore East and South Sikkim in 3N/4D with Gangtok, Tsomgo Lake, Baba Mandir, optional Nathula, Ravangla Buddha Park, Temi Tea Garden and transfers.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/5-nights-6-days-east-south-west-sikkim-new-package</link>
+    <title>East South West Sikkim 5N/6D Tour Package | PSTourism</title>
+    <description>Book a 5N/6D East South West Sikkim tour with Gangtok, Ravangla, and Pelling, including Tsomgo Lake, Buddha Park, stays, meals, permits, and private cab.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/3N-4D-4N-5D-east-west-sikkim-gangtok-pelling-packagetrip-new</link>
+    <title>3N/4D Gangtok Tour | Tsomgo Lake &amp; East Sikkim Trail</title>
+    <description>Book 3N/4D Gangtok package with Tsomgo Lake, Baba Mandir, Nathula Pass, Hanuman Tok &amp; local sightseeing. ISO certified PSTourism with quality stay.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/5-nights-6-days-north-sikkim-package-trip-new</link>
+    <title>North Sikkim 5N/6D Tour Package Itinerary | PSTourism</title>
+    <description>Book a 5N/6D North Sikkim tour with Gangtok, Lachen, Lachung, Gurudongmar Lake, and Yumthang Valley, including stays, AP meals, permits, and private cab.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/4-nights-5-days-south-west-sikkim-package-trip-new</link>
+    <title>4N/5D South West Sikkim Package | Pelling, Ravangla &amp; Namchi</title>
+    <description>Discover South &amp; West Sikkim in 4N/5D covering Pelling Skywalk, Khecheopalri Lake, Ravangla Buddha Park, Namchi Chardham &amp; Temi Tea Garden. ISO certified.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/4-night-5-day-special-west-sikkim-offbeat-tour-package-new</link>
+    <title>4N/5D West Sikkim Offbeat Tour | Pelling, Yuksom &amp; Kaluk</title>
+    <description>Book a 4N/5D West Sikkim offbeat tour covering Pelling, Yuksom and Kaluk with Khecheopalri Lake, Skywalk views, village stays and scenic Kanchenjunga panoramas.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/8n-9d-special-north-sikkim-tour-package-new</link>
+    <title>Special North Sikkim 8N/9D Tour Package | PSTourism</title>
+    <description>Book a Special 8N/9D North Sikkim tour with Gangtok, Dzongu, Lachen, Lachung, Gurudongmar Lake, Yumthang Valley, Zero Point, and Katao, with stays support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/4n-5d-silk-route-package-trip-1</link>
+    <title>Silk Route Tour Package 4N/5D | Sillerygaon Zuluk | PSTourism</title>
+    <description>Book the 4N/5D Silk Route tour from NJP/Bagdogra with Sillerygaon, Zuluk, Nathang Valley, Nathula Pass and Tsomgo Lake, plus permits and local stays included.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/4n-5d-5n-6d-north-east-sikkim</link>
+    <title>North East Sikkim Package 4N/5D 5N/6D India | PSTourism</title>
+    <description>Book 4N/5D or 5N/6D North East Sikkim tour from NJP/Bagdogra with Gangtok, Lachen, Lachung, Gurudongmar Lake, Yumthang Valley and optional Zero Point.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/4night-5-days-pelling-yuksam-kaluk</link>
+    <title>4N/5D Pelling, Yuksam &amp; Kaluk Tour Package (West Sikkim) | PSTourism</title>
+    <description>Book a premium 4 Nights 5 Days West Sikkim offbeat tour covering Pelling, Yuksam &amp; Kaluk. Skywalk, monasteries, lakes, waterfalls, village life—ISO certified PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/3-night-4-days-ravangla-gangtok</link>
+    <title>Ravangla Gangtok 3N/4D Tour Package | PSTourism</title>
+    <description>Plan a 3N/4D Ravangla and Gangtok tour with Buddha Park, Temi Tea Garden, Samdruptse, and Tashi View Point stays, meals, NJP/Bagdogra transfers and support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/8-night-9-days-full-sikkim</link>
+    <title>Full Sikkim 10D/11N Tour Itinerary Package | PSTourism</title>
+    <description>Book a 10D/11N Full Sikkim tour covering Pelling, Ravangla, Gangtok, Lachung, Yumthang Valley, Zuluk, and Lava with stays, permits, and cab support by PSTourism</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/7-day-8-nights-darjeeling-sikkim</link>
+    <title>Darjeeling Sikkim 7D/8N Holiday Package | PSTourism</title>
+    <description>Book a 7D/8N Darjeeling and Sikkim tour covering Mirik, Darjeeling, Gangtok, North Sikkim, Yumthang Valley, and East Sikkim with stays, permits, and cab support</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/5N-6D-north-bengal</link>
+    <title>5N/6D North Bengal Tour Package | Sittong, Kurseong, Tukdah, Darjeeling | PSTourism</title>
+    <description>Book a premium 5 Nights 6 Days North Bengal tour covering Sittong, Kurseong, Tukdah &amp; Darjeeling with private cab, quality stays and AP meal plan. Includes key spots like Tiger Hill, Lamahata Eco Park and Mirik Lake—ISO certified PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/4night-5days-offbeat-north-bengal</link>
+    <title>4N/5D Offbeat North Bengal Tour Package | Sittong, Kurseong, Tukdah | PSTourism</title>
+    <description>Book a premium 4 Nights 5 Days Offbeat North Bengal tour covering Sittong, Kurseong &amp; Tukdah. Homestays, meals, private cab, and curated sightseeing—ISO certified PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/4night-5-days-north-bengal-sittong-tukdah-darjeeling-mirik</link>
+    <title>4N/5D Offbeat North Bengal Tour | Sittong Tukdah | PSTourism</title>
+    <description>Book the 4N/5D offbeat North Bengal package covering Sittong, Tukdah and Kurseong with homestays, meals, private cab and curated sightseeing by PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/7-night-8-days-north-bengal</link>
+    <title>7N/8D North Bengal Sikkim Tour Package | PSTourism Official</title>
+    <description>Book the 7N/8D North Bengal and Sikkim tour covering Mirik, Darjeeling, Gangtok, Lachen, Lachung, Gurudongmar and Yumthang with stays, meals and private cab.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/honeymoon-package-noth-bengal</link>
+    <title>North Bengal Honeymoon 5N/6D Package | PSTourism Trips</title>
+    <description>Book the North Bengal 5N/6D honeymoon package with Darjeeling and Mirik. Includes private cab, cozy stays, Tiger Hill sunrise and couple-friendly sightseeing.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/kashmir-5n-6d-special</link>
+    <title>Kashmir 5N/6D Special Tour | Srinagar, Gulmarg &amp; Pahalgam</title>
+    <description>Book Kashmir 5N/6D special tour package covering Srinagar, Sonmarg, Gulmarg and Pahalgam with hotel plus deluxe houseboat stay, MAP meals, transfers included.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/kashmir-7n-8d-special</link>
+    <title>Jammu Vaishno Devi Kashmir 7N/8D Tour Package | PSTourism</title>
+    <description>Book a 7N/8D Jammu Vaishno Devi + Kashmir tour covering Katra, Pahalgam, Srinagar, Sonmarg, Gulmarg and Doodhpathri with houseboat and Dal Lake shikara ride.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/kashmir-honeymoon-special</link>
+    <title>Kashmir Honeymoon 6N/7D Special Package | PSTourism</title>
+    <description>Book the Kashmir 6N/7D honeymoon special package with Srinagar, Gulmarg, Sonmarg and Pahalgam. Includes Shikara ride, candlelight dinner and cozy couple stays.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/kashmir-5n-6d</link>
+    <title>Kashmir 5N/6D Tour Package | Srinagar, Gulmarg &amp; Pahalgam</title>
+    <description>Book Kashmir 5N/6D tour package covering Srinagar, Sonmarg, Gulmarg and Pahalgam with hotel plus deluxe houseboat stay, MAP meals, transfers included.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/ladakh-7n-8d-tour-packge</link>
+    <title>Ladakh 7N/8D Tour Package via Srinagar | PSTourism</title>
+    <description>Book the Ladakh 7N/8D tour package via Srinagar with Kargil, Leh sightseeing, Nubra Valley and Pangong Tso. Includes private cab, MAP meals and quality stays.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/ladakh-6n-7d-tour-packge</link>
+    <title>Leh Ladakh 6N/7D Tour Package | PSTourism Official</title>
+    <description>Book the Leh Ladakh 6N/7D tour package with Leh sightseeing, Nubra Valley, Pangong Lake and Tso Moriri. Includes private cab, MAP meals and quality stays.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/ladakh-6d-7n</link>
+    <title>Ladakh 6N/7D Tour Package | Leh, Nubra, Turtuk &amp; Pangong</title>
+    <description>Book a 6N/7D Ladakh tour with Leh local sightseeing, Nubra Valley, Turtuk, and Pangong Lake via Khardungla and Changla, with hotel stay, MAP meals, and cab.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/ladakh-7d-8n</link>
+    <title>Ladakh 7N/8D Tour Package via Srinagar | PSTourism</title>
+    <description>Book the Ladakh 7N/8D tour package via Srinagar with Kargil, Leh sightseeing, Nubra Valley and Pangong Tso. Includes private cab, MAP meals and quality stays.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/ladakh-7d-8n-1</link>
+    <title>Ladakh 7N/8D Tour Package via Srinagar | PSTourism</title>
+    <description>Book the Ladakh 7N/8D tour package via Srinagar with Kargil, Leh sightseeing, Nubra Valley and Pangong Tso. Includes private cab, MAP meals and quality stays.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/ladakh-9d-10n</link>
+    <title>Ladakh 9N/10D Tour Package via Srinagar | PSTourism</title>
+    <description>Book the Ladakh 9N/10D tour package via Srinagar with Kargil, Leh sightseeing, Nubra Valley and Pangong Tso. Includes private cab, MAP meals and quality stays.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/himachal-6n-7d</link>
+    <title>Himachal 6N/7D Tour | Shimla, Kasol &amp; Manali Package</title>
+    <description>Book Himachal 6N/7D tour package covering Shimla, Kasol/Manikaran and Manali with Chandigarh transfers, hotel stays, local sightseeing and Solang Valley day trip.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/himachal-5n-6d</link>
+    <title>Himachal 5N/6D Tour | Shimla, Kufri &amp; Manali Package</title>
+    <description>Book Himachal 5N/6D tour package with Shimla, Kufri and Manali, including Chandigarh transfers, hotel stays, local sightseeing and Solang Valley excursion.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/himachal-pradesh-4n-5d</link>
+    <title>Himachal 4N/5D Tour | Shimla &amp; Manali Package Deals</title>
+    <description>Book Himachal 4N/5D Shimla Manali package with Kufri, Solang Valley and optional Rohtang, including hotel stays, meals, sightseeing and private cab transfers.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/himachal-honeymoon-packge</link>
+    <title>Best Himachal Honeymoon Package 7N/8D | Starting ₹23280 per head | PSTourism</title>
+    <description>Book the best Himachal honeymoon package (7 Nights / 8 Days) covering Shimla, Kufri, Kasol/Manikaran, Manali, Solang Valley and optional Atal Tunnel/Rohtang (as accessible). Includes honeymoon décor + candlelight dinner. Starting ₹23280 per head (low season) — PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/andaman-5n-6d</link>
+    <title>5N/6D Andaman Package | Port Blair, Havelock | PSTourism</title>
+    <description>Book a 5N/6D Andaman package covering Port Blair, Ross Island, North Bay, Havelock and Neil Island with cruise transfers, hotel stays and guided sightseeing.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/andaman-5d-6n</link>
+    <title>5N/6D Andaman Package | Port Blair, Havelock | PSTourism</title>
+    <description>Book a 5N/6D Andaman package covering Port Blair, Ross Island, North Bay, Havelock and Neil Island with cruise transfers, hotel stays and guided sightseeing.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/andaman-4n-5d</link>
+    <title>4N/5D Andaman Package | Port Blair, Havelock | PSTourism</title>
+    <description>Book a 4N/5D Andaman package covering Port Blair, Havelock and Neil Island with ferry transfers, hotel stay and expert guided sightseeing by PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/bhutan-4n-5d</link>
+    <title>4N/5D Bhutan Tour Package | Thimphu Punakha Paro Trip</title>
+    <description>Book a 4N/5D Bhutan tour covering Thimphu, Punakha and Paro with Dochu-La Pass, Punakha Dzong and Tiger’s Nest trek, including stays and guided support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/bhutan-4n-5d-2</link>
+    <title>4N/5D Bhutan Tour Package | Thimphu Paro Punakha Trip</title>
+    <description>Book a 4N/5D Bhutan tour covering Thimphu, Punakha and Paro with Dochu-La Pass, Tiger&apos;s Nest trek, guided sightseeing, stays and smooth transfers for families.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/meghalaya-honeymoon</link>
+    <title>Meghalaya Honeymoon 5N/6D Package | PSTourism Official</title>
+    <description>Book the Meghalaya 5N/6D honeymoon package with Shillong, Cherrapunji, Mawlynnong and Dawki. Includes private cab, scenic stays and couple-friendly sightseeing.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/2-D-3-N-sundarban</link>
+    <title>Sundarban Tour Package 2-3 Days | Boat Safari | PSTourism</title>
+    <description>Explore Sundarban in 2-3 days with boat safaris, watch towers, Dobanki canopy walk, village life, meals, permits, stays and transfers included from Kolkata.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/purulia1-3d</link>
+    <title>3D/2N Purulia Trail Tour Package | Ayodhya Hills Tour</title>
+    <description>Discover Purulia in 3D/2N with Ayodhya Hills stay, Pakhi Pahar viewpoints, scenic dams, waterfalls, Baranti Lake and Garhpanchakot with private car support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/purulia-3-days</link>
+    <title>3D/2N Purulia Tour Package Itinerary | PSTourism Official</title>
+    <description>Book 3D/2N Purulia package with Ayodhya Hills, Baranti Lake, Garhpanchakot, Joychandi Pahar, dams and waterfalls, including private car, stay and local support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/jharkhand-ranchi</link>
+    <title>2N/3D Ranchi Tour Package | Jharkhand Trip by PSTourism</title>
+    <description>Book a 2N/3D Ranchi tour package covering Dasham Falls, Hundru Falls, Patratu Valley, Jagannath Temple and Jonha Waterfall with hotel stay and MAP meals.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/sundarban-trip-gallery-2</link>
+    <title>Sundarban Trip Gallery Page 2 | PSTourism Wildlife Adventures</title>
+    <description>Continue exploring PSTourism&apos;s Sundarban trip gallery. More stunning wildlife photos, boat safari moments &amp; mangrove forest landscapes from our Sundarbans tours.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/sikkim-photos</link>
+    <title>Sikkim Travel Photo Gallery | PSTourism Sikkim Trip Pictures &amp; Images</title>
+    <description>Explore our Sikkim travel photo gallery showcasing stunning pictures from Gangtok, Lachung, Pelling, Ravangla tours. View real Sikkim trip photos, destination highlights &amp; customer travel memories with PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/sikkim-gallery-3</link>
+    <title>Sikkim Photo Gallery Page 3 | PSTourism Sikkim Trip Pictures</title>
+    <description>Explore our Sikkim travel photo gallery showcasing stunning pictures from Gangtok, Lachung, Pelling, Ravangla tours. View real Sikkim trip photos, destination highlights &amp; customer travel memories with PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/sundarban-trip-gallery-3</link>
+    <title>Sundarban Trip Gallery Page 3 | PSTourism Complete Collection</title>
+    <description>Final collection of PSTourism&apos;s Sundarban trip photos. Explore the complete wildlife adventure gallery featuring Royal Bengal Tigers, boat safaris &amp; mangrove forests.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/sikkim-gallery-4</link>
+    <title>Sikkim Photo Gallery Page 4 | PSTourism Sikkim Trip Pictures</title>
+    <description>Explore our Sikkim travel photo gallery showcasing stunning pictures from Gangtok, Lachung, Pelling, Ravangla tours. View real Sikkim trip photos, destination highlights &amp; customer travel memories with PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/lakshadweep-4d-3n</link>
+    <title>3N/4D Lakshadweep Premium Trip | Agatti Island Tour</title>
+    <description>Experience Lakshadweep in 3N/4D with Agatti stay, Thinnakara day trip, optional water activities and curated island support for a smooth tropical getaway.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/lakshadweep-5d-4n</link>
+    <title>4N/5D Lakshadweep Trip | Agatti Islands Tour Package</title>
+    <description>Discover Lakshadweep in 4N/5D with Agatti, Thinnakara and Kalpitti visits, snorkeling, water sports and curated lagoon experiences with trusted support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/2n-3d-north-bengal</link>
+    <title>North Bengal Offbeat 2N/3D Tour Package | PSTourism</title>
+    <description>Discover Sittong and Kurseong in a 2N/3D offbeat North Bengal tour with tea gardens, viewpoints, cozy stays, private cab, and support. For couples and families.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/3n-4d-gangtok-lachung-north-sikkim</link>
+    <title>4N/5D &amp; 5N/6D North Sikkim Tour | Gangtok, Lachung, Lachen, Gurudongmar | PSTourism</title>
+    <description>Book 4N/5D or 5N/6D North Sikkim package covering Gangtok, Lachung, Lachen, Gurudongmar Lake, Yumthang Valley &amp; Zero Point. ISO certified PSTourism offers unforgettable Himalayan experiences.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/3n-4d-silk-route-trail-gangtok</link>
+    <title>3N/4D Silk Route Trail with Gangtok | Zuluk, Nathang</title>
+    <description>Book 3N/4D Silk Route package via Rishikhola, Zuluk, Nathang Valley, Thambi View Point, Elephant Lake &amp; Gangtok. ISO certified PSTourism for offbeat Sikkim tours.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/3-night-4-days-pelling-ravangla</link>
+    <title>Pelling Ravangla Sikkim 3N/4D Tour Package | PSTourism</title>
+    <description>Experience Pelling and Ravangla in 3N/4D with Skywalk, Khecheopalri Lake, Namchi Chardham, stays, meals, private cab and NJP/Bagdogra transfers included.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/4-days-3-night-sikkim-trip-with-pather-sandhane-tourism</link>
+    <title>4 Days 3 Night Sikkim Trip</title>
+    <description>4 Days 3 Night Sikkim Trip</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/4n-5d-&amp;-5n-6d-north-east-sikkim-personal-trip-packages</link>
+    <title>4N/5D &amp; 5N/6D North East Sikkim Personal Tour | Lachen, Lachung, Gangtok | PSTourism</title>
+    <description>Book a North East Sikkim personal tour (Feb–May) with Lachen, Lachung &amp; Gangtok stays. Visit Seven Sister Waterfalls, Gurudongmar Lake and Yumthang Valley with optional Zero Point/Kalapathhar/Mt. Katao—ISO certified PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/4-nights-5-days-east-south-sikkim-package</link>
+    <title>4N/5D East &amp; South Sikkim Tour Package | Tsomgo, Nathula, Ravangla, Namchi | PSTourism</title>
+    <description>Book 4 Nights 5 Days East &amp; South Sikkim package covering Gangtok, Tsomgo Lake, Baba Mandir, Nathula Pass (optional), Ravangla Buddha Park, Namchi Chardham &amp; Temi Tea Garden. ISO certified PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/4-nights-5-days-silk-route-exploration-new</link>
+    <title>4N/5D Silk Route Exploration | Zuluk &amp; Nathang Valley Package</title>
+    <description>Explore the legendary Silk Route in 4N/5D. Visit Zuluk, Nathang Valley, zigzag road, alpine lakes, Gangtok with homestays &amp; scenic views. ISO certified.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/5n-6d-east-west-south-sikkim-pst</link>
+    <title>5N/6D East-South-West Sikkim Package | Gangtok, Ravangla, Pelling | PSTourism</title>
+    <description>Book a premium 5 Nights 6 Days East-South-West Sikkim tour covering Gangtok, Ravangla &amp; Pelling with curated sightseeing: Namchi Chardham, Temi Tea Garden, Buddha Park, Glass Sky Walk &amp; Pemayangtse Monastery—ISO certified PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/5n-6d-silk-route-west-sikkim</link>
+    <title>5N/6D Silk Route with West Sikkim Tour Package | PSTourism</title>
+    <description>Explore the legendary Old Silk Route of East Sikkim combined with West Sikkim beauty in 5N/6D. Visit Dzuluk, Nathula, Tsomgo Lake, Gangtok, and Pelling. Customizable stays, meals &amp; transfers included.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/5night-6days-east-ravangla-pelling-sikkim</link>
+    <title>5N/6D Gangtok, Nathula, Ravangla &amp; Pelling Package | East-South-West Sikkim | PSTourism</title>
+    <description>Book a premium 5 Nights 6 Days East-South-West Sikkim tour covering Gangtok, Tsomgo Lake, Baba Mandir, Nathula Pass, Ravangla, Namchi Chardham and Pelling. Private cab, quality stays and meals—ISO certified PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/5night-6days-pelling-yuksam-ravangla-gangtok</link>
+    <title>4N/5D Silk Route Zuluk Package | Sillerygaon, Zuluk, Padamchen, Rishikhola | PSTourism</title>
+    <description>Explore East Sikkim&apos;s Silk Route with a 4N/5D Zuluk tour: Sillerygaon, Zuluk/Lungthung, Thambi View Point, Nathang Valley, Elephant Lake (Kupup), Padamchen &amp; Rishikhola. ISO certified PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/kashmir-photos</link>
+    <title>Kashmir Trip Photo Gallery | PSTourism Kashmir Trip Pictures &amp; Images</title>
+    <description>Explore our Kashmir trip photo gallery showcasing stunning pictures from Srinagar, Gulmarg, Pahalgam and Sonamarg tours. View real Kashmir travel photos, destination highlights &amp; customer travel memories with PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-bengal-2n-3d-darjeeling-mirik-kurseyong</link>
+    <title>2N/3D Darjeeling Mirik Kurseong Tour | PSTourism Official</title>
+    <description>Book the 2N/3D Darjeeling, Mirik and Kurseong North Bengal package with Tiger Hill sunrise, private cab, curated stays, sightseeing and support by PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-bengal-2n-3d-offbeat-darjeeling</link>
+    <title>2N/3D Offbeat North Bengal Tour | PSTourism Official</title>
+    <description>Book the 2N/3D offbeat North Bengal package covering Sittong, Tukdah, Tinchule and Lamahata with private cab, stays, sightseeing and support by PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-bengal-2n-3d-offbeat-north-bengal-Rongo</link>
+    <title>2N/3D Offbeat Rongo Village Tour | PSTourism Official</title>
+    <description>Book 2N/3D offbeat Rongo village tour in North Bengal with Jhalong-Bindu sightseeing, Dalgaon viewpoint, homestay stays, private cab and support by PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-bengal-2night-3-days-offbeat-kolakham</link>
+    <title>2N/3D Offbeat Kolakham Tour Package | PSTourism Official</title>
+    <description>Book 2N/3D offbeat Kolakham tour in North Bengal with Lava and Rishop highlights, waterfalls, forest views, private cab, stays and support by PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-bengal-2-night-3-days-sittong-darjeeling</link>
+    <title>2N/3D Sittong Darjeeling Tour Package | PSTourism Official</title>
+    <description>Book the 2N/3D Sittong and Darjeeling North Bengal package with scenic Mirik route stops, private cab, curated stays, sightseeing and support by PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-bengal-3n-4d-sittong-tukdah-tinchule-dawaipani</link>
+    <title>3N/4D Offbeat North Bengal Tour | PSTourism Official</title>
+    <description>Book 3N/4D offbeat North Bengal tour covering Sittong, Dawaipani, Tukdah and Tinchule with private cab, village stays, viewpoints and support by PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-bengal-3-night-4-days-sittong-darjeeling</link>
+    <title>3N/4D Sittong Darjeeling Tour Package | PSTourism Official</title>
+    <description>Book 3N/4D Sittong and Darjeeling North Bengal tour with private cab, curated stays, local sightseeing, Mirik route highlights and support by PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-bengal-4n-5d-sikkim-darjeelig</link>
+    <title>4N/5D Sikkim Darjeeling Best Package Tour | PSTourism</title>
+    <description>Book 4N/5D Sikkim Darjeeling tour covering Darjeeling and Gangtok with hotel stay, private cab, Tiger Hill, Tsomgo Lake, pickup-drop and expert support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-bengal-4-n-5d-sittong-dawaipani-tukdah</link>
+    <title>4N/5D Offbeat North Bengal Tour | PSTourism Official</title>
+    <description>Book 4N/5D offbeat North Bengal tour covering Sittong, Dawaipani, Tukdah and Tinchule with private cab, village stays, viewpoints and support by PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-bengal-4-night-5-days-pure-offbeat</link>
+    <title>4N/5D Pure Offbeat North Bengal Tour Package | PSTourism</title>
+    <description>Book 4N/5D pure offbeat North Bengal tour covering Kolakham, Kafergaon, Lava, Lolegaon, Rishop, Kagey and Ramdhura with stays, meals, cab and support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-bengal-4-night-5-days-sittong-darjeeling</link>
+    <title>4N/5D North Bengal Darjeeling Tour Package | PSTourism</title>
+    <description>Book 4N/5D North Bengal Darjeeling tour covering Sittong, Lamahatta, Darjeeling and Mirik with hotel stay, private cab, sightseeing, pickup-drop and support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-bengal-5-night-6-days</link>
+    <title>4N/5D Kalimpong Darjeeling Tour Package | PSTourism</title>
+    <description>Book 4N/5D Kalimpong Darjeeling tour covering Delo Park, Morgan House, Lamahata, Batasia Loop and Mirik Lake with private car, stays, meals and support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-bengal-5-night-6-days-ngp-to-ngp</link>
+    <title>4N/5D Kalimpong Darjeeling Best Tour Package | PSTourism</title>
+    <description>Book 4N/5D Kalimpong Darjeeling tour with NJP or Bagdogra pickup-drop, Ramdhura, Deolo Hill, Durpin Monastery, Lamahata and Darjeeling stay with support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-bengal-9n-10d-darjeeling</link>
+    <title>9N/10D Darjeeling Sikkim Best Tour Package | PSTourism</title>
+    <description>Book 9N/10D Darjeeling Sikkim tour covering Mirik, Gangtok, Lachen, Lachung, Yumthang, Zero Point and optional Tsomgo, Baba Mandir, Nathula with support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-bengal-honeymoon</link>
+    <title>5N/6D North Bengal Sikkim Honeymoon Tour | PSTourism</title>
+    <description>Book 5N/6D North Bengal Sikkim honeymoon tour covering Gangtok, Darjeeling and Sittong with private cab, stays, meals, Tsomgo Lake, Tiger Hill and support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-bengal-sittong-darjeeling-new</link>
+    <title>3N/4D North Bengal Sittong Darjeeling Tour | PSTourism</title>
+    <description>Book 3N/4D North Bengal tour covering Sittong, Tukdah, Lamahatta, Darjeeling and Mirik with private cab, AP meals, deluxe stays and guided support by PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-east-sikkim-package-new</link>
+    <title>North East Sikkim Tour Package 4N/5D &amp; 5N/6D | PSTourism</title>
+    <description>Book North East Sikkim package for Lachen, Lachung, Gangtok, Yumthang and Gurudongmar with deluxe stays, AP meals, permits and cab support by PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-sikkim-1</link>
+    <title>North Sikkim Tour Package Guide | PSTourism Official</title>
+    <description>Plan your North Sikkim tour with PSTourism for Gurudongmar Lake, Yumthang Valley and Zero Point, including stays, permits, transport and local support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/north-sikkim-4-nights-5-days-trip-bengali</link>
+    <title>North Sikkim 4N/5D &amp; 5N/6D Tour Package | PSTourism</title>
+    <description>Book North Sikkim 4N/5D and 5N/6D tour packages with PSTourism covering Gangtok, Lachen, Lachung, permits, stays, meals, transfers and on-trip support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/ooty-mysore</link>
+    <title>5N/6D Ooty Mysore Tour Package Itinerary | PSTourism</title>
+    <description>Book 5N/6D Ooty Mysore package with Mysore sightseeing, Mudumalai and Bandipur safari route, Ooty highlights, stays, transfers and dedicated travel support.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/other-travel-services</link>
+    <title>Our Services | PSTourism</title>
+    <description>Our Services | PSTourism</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+    <link>https://pstourism.in/silk-route-4n-5d-pstholidayz-pather-sandhane-tourism-pstourism</link>
+    <title>4N/5D Silk Route Sikkim Package (Zuluk, Nathang, Kupup) | From ₹6,750 | PSTourism</title>
+    <description>Book a 4N/5D Silk Route Sikkim package covering Sillerygaon, Zuluk, Nathang Valley, Kupup (Elephant Lake), Thambi View Point, Padamchen and Rishikhola. Pickup NJP/Bagdogra—ISO certified PSTourism.</description>
+    <ror:updatePeriod></ror:updatePeriod>
+    <ror:sortOrder>1</ror:sortOrder>
+    <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
 </channel>
 </rss>
-  
+
