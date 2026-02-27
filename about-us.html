@@ -416,9 +416,9 @@
         }
         
         .founder-card {
-            background: white;
+            background: linear-gradient(145deg, #ffffff, #f8fbff);
             border-radius: var(--radius);
-            padding: 3rem;
+            padding: 2rem;
             box-shadow: var(--shadow-lg);
             position: relative;
             overflow: hidden;
@@ -447,31 +447,109 @@
             color: white;
             box-shadow: var(--shadow);
         }
+
+        .founder-profile {
+            width: 100%;
+            max-width: 320px;
+            aspect-ratio: 4/5;
+            border-radius: 20px;
+            object-fit: cover;
+            box-shadow: var(--shadow-lg);
+            border: 4px solid #fff;
+        }
+
+        .founder-content h3 {
+            color: var(--secondary);
+            margin-bottom: 0.5rem;
+            font-size: 2rem;
+        }
+
+        .founder-role {
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 1.05rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .founder-bio {
+            color: #555;
+            line-height: 1.8;
+            font-size: 1.02rem;
+            margin-bottom: 1rem;
+        }
+
+        .founder-social {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+
+        .founder-social a {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-decoration: none;
+            background: var(--gradient);
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .founder-social a:hover {
+            transform: translateY(-4px) scale(1.06);
+            box-shadow: var(--shadow-lg);
+            color: #fff;
+        }
         
         /* Certificate Section */
         .certificate-card {
-            background: white;
+            background: #fff;
             border-radius: var(--radius);
             overflow: hidden;
             box-shadow: var(--shadow);
             transition: var(--transition);
             height: 100%;
+            border: 1px solid rgba(29, 53, 87, 0.08);
         }
         
         .certificate-card:hover {
-            transform: translateY(-10px) scale(1.02);
+            transform: translateY(-8px);
             box-shadow: var(--shadow-lg);
         }
         
         .certificate-card img {
             width: 100%;
-            height: 100%;
-            object-fit: cover;
+            height: 260px;
+            object-fit: contain;
+            background: #fff;
+            padding: 1.5rem;
             transition: var(--transition);
         }
         
         .certificate-card:hover img {
-            transform: scale(1.05);
+            transform: scale(1.02);
+        }
+
+        .certificate-content {
+            padding: 0 1.5rem 1.5rem;
+        }
+
+        .certificate-title {
+            font-size: 1.05rem;
+            color: var(--secondary);
+            margin-bottom: 0.35rem;
+            font-weight: 700;
+        }
+
+        .certificate-text {
+            margin: 0;
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.6;
         }
         
         /* Footer */
@@ -637,6 +715,14 @@
             .content-card {
                 padding: 2rem;
             }
+
+            .founder-card {
+                padding: 1.5rem;
+            }
+
+            .founder-profile {
+                max-width: 240px;
+            }
         }
         
         /* Animations */
@@ -716,7 +802,7 @@
         <div class="container">
             <h2 class="section-title"><i class="fas fa-star"></i> Why Choose PSTourism?</h2>
             <div class="row">
-                <div class="col-lg-8 mx-auto">
+                <div class="col-12 mx-auto">
                     <div class="content-card fade-in">
                         <p>
                             At <strong>PSTourism (Pather Sandhane Tourism)</strong>, we are dedicated to delivering exceptional travel experiences with a strong focus on quality, affordability, and safety. As an <strong>ISO 9001:2015 certified Travel Company</strong>, we provide a wide range of services including holiday packages, hotel bookings, cab services, and group tours.
@@ -772,26 +858,35 @@
         <div class="container">
             <h2 class="section-title"><i class="fas fa-user-tie"></i> Meet Our Founder</h2>
             <div class="row">
-                <div class="col-lg-10 mx-auto">
+                <div class="col-12 mx-auto">
                     <div class="founder-card fade-in">
-                        <div class="founder-icon">
-                            <i class="fas fa-user-circle"></i>
+                        <div class="row g-4 align-items-center">
+                            <div class="col-lg-4 text-center">
+                                <img src="profiles/sayan-chatterjee-pstourism-founder-gm.jpg"
+                                    alt="Sayan Chatterjee - Founder of PSTourism" class="founder-profile">
+                            </div>
+                            <div class="col-lg-8 founder-content">
+                                <h3>Sayan Chatterjee</h3>
+                                <p class="founder-role">Founder & GM | Travel Enthusiast | Social Worker</p>
+
+                                <p class="founder-bio">
+                                    Sayan Chatterjee, Founder and General Manager of Pather Sandhane Tourism (PSTourism), holds a <strong>B.Sc. in Physics</strong> and an <strong>M.Sc. in Biomedical Instrumentation</strong> from the University of Calcutta. After working as a teacher in various ICSE schools across India, his passion for travel led him to start vlogging on YouTube.
+                                </p>
+                                <p class="founder-bio">
+                                    Driven by the desire to provide <strong>affordable, quality travel services</strong>, he founded PSTourism, which has since served over <strong>500+ clients from India and other countries</strong>. Currently, he also works as an <strong>Assistant Branch Post Master</strong> with India Post.
+                                </p>
+                                <p class="founder-bio mb-0">
+                                    Beyond his professional pursuits, Sayan has been actively involved in social work, especially during the <strong>COVID-19 pandemic</strong> and the aftermath of <strong>Cyclone Yaas in the Sundarbans</strong>, demonstrating his commitment to community service and social welfare.
+                                </p>
+
+                                <div class="founder-social">
+                                    <a href="https://www.facebook.com/profile.php?id=61561337690816&mibextid=ZbWKwL" target="_blank" aria-label="Founder Facebook"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/iqplusvlogs?igsh=MTEyaTA2bG5kZ281dA==" target="_blank" aria-label="Founder Instagram"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://youtube.com/@iqplusvlogs?si=8MYlaqf192CUWpOy" target="_blank" aria-label="Founder YouTube"><i class="fab fa-youtube"></i></a>
+                                    <a href="https://www.threads.net/@iqplusvlogs" target="_blank" aria-label="Founder Threads"><i class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
                         </div>
-                        <h3 style="color: var(--secondary); text-align: center; margin-bottom: 1.5rem; font-size: 2rem;">
-                            Sayan Chatterjee
-                        </h3>
-                        <p style="text-align: center; color: var(--primary); font-weight: 600; font-size: 1.2rem; margin-bottom: 2rem;">
-                            Founder & GM | Travel Enthusiast | Social Worker
-                        </p>
-                        <p style="color: #555; line-height: 1.8; font-size: 1.05rem;">
-                            Sayan Chatterjee, Founder and General Manager of Pather Sandhane Tourism (PSTourism), holds a <strong>B.Sc. in Physics</strong> and an <strong>M.Sc. in Biomedical Instrumentation</strong> from the University of Calcutta. After working as a teacher in various ICSE schools across India, his passion for travel led him to start vlogging on YouTube.
-                        </p>
-                        <p style="color: #555; line-height: 1.8; font-size: 1.05rem;">
-                            Driven by the desire to provide <strong>affordable, quality travel services</strong>, he founded PSTourism, which has since served over <strong>500+ clients from India and other countries</strong>. Currently, he also works as an <strong>Assistant Branch Post Master</strong> with India Post.
-                        </p>
-                        <p style="color: #555; line-height: 1.8; font-size: 1.05rem;">
-                            Beyond his professional pursuits, Sayan has been actively involved in social work, especially during the <strong>COVID-19 pandemic</strong> and the aftermath of <strong>Cyclone Yaas in the Sundarbans</strong>, demonstrating his commitment to community service and social welfare.
-                        </p>
                     </div>
                 </div>
             </div>
@@ -806,16 +901,28 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="certificate-card fade-in">
                         <img src="cretificate1.jpeg" alt="PSTourism ISO Certificate 1" loading="lazy">
+                        <div class="certificate-content">
+                            <h3 class="certificate-title">ISO 9001:2015 – Certification Copy 1</h3>
+                            <p class="certificate-text">Quality management compliance certificate for PSTourism operations.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="certificate-card fade-in">
                         <img src="cretificate2.jpeg" alt="PSTourism ISO Certificate 2" loading="lazy">
+                        <div class="certificate-content">
+                            <h3 class="certificate-title">ISO 9001:2015 – Certification Copy 2</h3>
+                            <p class="certificate-text">Additional accredited document validating service quality standards.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="certificate-card fade-in">
                         <img src="cretificate3.jpeg" alt="PSTourism UDYAM Certificate" loading="lazy">
+                        <div class="certificate-content">
+                            <h3 class="certificate-title">UDYAM Registration Certificate</h3>
+                            <p class="certificate-text">Official MSME registration that verifies business authenticity in India.</p>
+                        </div>
                     </div>
                 </div>
             </div>

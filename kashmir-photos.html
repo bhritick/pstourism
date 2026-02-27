@@ -583,15 +583,8 @@
         }
 
         @keyframes gradientShift {
-
-            0%,
-            100% {
-                background-position: 0% 50%;
-            }
-
-            50% {
-                background-position: 100% 50%;
-            }
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
         }
 
         .footer-column {
@@ -620,6 +613,7 @@
             border-bottom: 2px solid var(--primary);
             text-transform: uppercase;
             letter-spacing: 1px;
+            position: relative;
             display: flex;
             align-items: center;
             gap: 0.5rem;
@@ -661,11 +655,34 @@
             font-size: 0.95rem;
             transition: all 0.3s ease;
             display: inline-block;
+            font-weight: 400;
         }
 
         .footer-list a:hover {
             color: var(--primary);
             padding-left: 5px;
+            text-shadow: 0 0 10px rgba(255, 107, 107, 0.3);
+        }
+
+        .contact-info-box {
+            background: rgba(255, 107, 107, 0.1);
+            border: 1px solid rgba(255, 107, 107, 0.2);
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .contact-info-box p {
+            color: #f0f0f0;
+            font-size: 0.95rem;
+            line-height: 2;
+            margin: 0;
+        }
+
+        .contact-info-box i {
+            color: var(--primary);
+            width: 24px;
+            text-align: center;
         }
 
         .social-icons {
@@ -729,6 +746,10 @@
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
+        .footer-logo {
+            text-align: center;
+        }
+
         .footer-logo img {
             border: 3px solid var(--primary);
             box-shadow: 0 5px 20px rgba(255, 107, 107, 0.3);
@@ -747,6 +768,18 @@
             color: #bbb;
             font-size: 0.9rem;
             margin: 0;
+        }
+
+        .copyright a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .copyright a:hover {
+            color: #fff;
+            text-shadow: 0 0 10px rgba(255, 107, 107, 0.5);
         }
 
         /* Responsive */
@@ -841,7 +874,7 @@
             <h2 class="section-title">PST Kashmir Trip Gallery</h2>
 
             <div class="row g-4">
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="card gallery-card">
                         <div class="card-body">
                             <img src="kashmir-trip-gallery/IMG_4133.jpg" loading="lazy"
@@ -854,7 +887,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="card gallery-card">
                         <div class="card-body">
                             <img src="kashmir-trip-gallery/IMG_4141.jpg" loading="lazy"
@@ -867,7 +900,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="card gallery-card">
                         <div class="card-body">
                             <img src="kashmir-trip-gallery/IMG_4142.jpg" loading="lazy"
@@ -1662,7 +1695,7 @@
             <!-- Footer Links Section -->
             <div class="row g-4 mb-4">
                 <!-- Popular Destinations -->
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="footer-column">
                         <h5 class="footer-heading"><i class="fas fa-map-marked-alt"></i> Popular Destinations</h5>
                         <ul class="footer-list">
@@ -1681,7 +1714,7 @@
                 </div>
 
                 <!-- Package Categories -->
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="footer-column">
                         <h5 class="footer-heading"><i class="fas fa-suitcase-rolling"></i> Package Categories</h5>
                         <ul class="footer-list">
@@ -1700,7 +1733,7 @@
                 </div>
 
                 <!-- Quick Links & Company Info -->
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="footer-column">
                         <h5 class="footer-heading"><i class="fas fa-link"></i> Quick Links</h5>
                         <ul class="footer-list">
