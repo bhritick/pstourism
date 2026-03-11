@@ -21,6 +21,14 @@
 
         gtag('config', 'G-3L1HG1EYFZ');
     </script>
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "vohx16njmv");
+    </script>
     <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="Q66QZcal5q4V6RbsIP-ftP8ul68r_OJeFTyN_4SOPZs" />
 
@@ -857,6 +865,25 @@
             .demo-product-card img {
                 min-height: 320px;
             }
+
+            .scroll-container.scroll-carousel .destination-card-scroll,
+            .scroll-container-reverse.scroll-carousel .category-card-scroll {
+                min-width: calc((100% - 2rem) / 2);
+                max-width: calc((100% - 2rem) / 2);
+            }
+        }
+
+        @media (max-width: 575px) {
+            .scroll-container.scroll-carousel .destination-card-scroll,
+            .scroll-container-reverse.scroll-carousel .category-card-scroll {
+                min-width: calc((100% - 2rem) / 2);
+                max-width: calc((100% - 2rem) / 2);
+            }
+
+            .scroll-nav-btn {
+                width: 36px;
+                height: 36px;
+            }
         }
 
         /* Animation */
@@ -936,6 +963,82 @@
             100% {
                 transform: translateX(-50%);
             }
+        }
+
+        .scroll-container.scroll-carousel::before,
+        .scroll-container.scroll-carousel::after,
+        .scroll-container-reverse.scroll-carousel::before,
+        .scroll-container-reverse.scroll-carousel::after {
+            display: none;
+        }
+
+        .scroll-container.scroll-carousel .scroll-track {
+            width: 100%;
+            animation: none !important;
+            transition: transform 0.45s ease;
+            will-change: transform;
+        }
+
+        .scroll-container.scroll-carousel .destination-card-scroll {
+            min-width: calc((100% - 6rem) / 4);
+            max-width: calc((100% - 6rem) / 4);
+        }
+
+        .scroll-container-reverse.scroll-carousel .scroll-track-reverse {
+            width: 100%;
+            animation: none !important;
+            transition: transform 0.45s ease;
+            will-change: transform;
+        }
+
+        .scroll-container-reverse.scroll-carousel .category-card-scroll {
+            min-width: calc((100% - 6rem) / 4);
+            max-width: calc((100% - 6rem) / 4);
+        }
+
+        /* Keep 2 cards per view on mobile/tablet */
+        @media (max-width: 991.98px) {
+            .scroll-container.scroll-carousel .destination-card-scroll,
+            .scroll-container-reverse.scroll-carousel .category-card-scroll {
+                min-width: calc((100% - 2rem) / 2);
+                max-width: calc((100% - 2rem) / 2);
+            }
+        }
+
+        .scroll-nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 3;
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            border: none;
+            color: #fff;
+            background: rgba(29, 53, 87, 0.88);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .scroll-nav-btn:hover:not(:disabled) {
+            background: var(--primary);
+        }
+
+        .scroll-nav-btn:disabled {
+            opacity: 0.35;
+            cursor: not-allowed;
+        }
+
+        .scroll-nav-prev {
+            left: 8px;
+        }
+
+        .scroll-nav-next {
+            right: 8px;
         }
 
         /* Reverse Scrolling for Package Categories */
@@ -1053,56 +1156,56 @@
             color: #fff;
         }
 
-        .summer-packages-section .destination-card-scroll[href="amazing-andaman-group-tour-with-baratang.html"] {
-            background-image: url('https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=1200');
+        .summer-packages-section .destination-card-scroll[href="amazing-andaman-group-tour-with-baratang"] {
+            background-image: url('https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
-        .summer-packages-section .destination-card-scroll[href="andaman-islands-customised-leisure-escape.html"] {
-            background-image: url('https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&w=1200');
+        .summer-packages-section .destination-card-scroll[href="andaman-islands-customised-leisure-escape"] {
+            background-image: url('https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
-        .summer-packages-section .destination-card-scroll[href="arunachal-pradesh-group-tour-2026.html"] {
-            background-image: url('https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1200');
+        .summer-packages-section .destination-card-scroll[href="arunachal-pradesh-group-tour-2026"] {
+            background-image: url('https://images.pexels.com/photos/5531361/pexels-photo-5531361.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
-        .summer-packages-section .destination-card-scroll[href="chardham-yatra-2026-delhi-package.html"] {
-            background-image: url('https://images.pexels.com/photos/672630/pexels-photo-672630.jpeg?auto=compress&cs=tinysrgb&w=1200');
+        .summer-packages-section .destination-card-scroll[href="chardham-yatra-2026-delhi-package"] {
+            background-image: url('https://images.pexels.com/photos/19271393/pexels-photo-19271393.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
-        .summer-packages-section .destination-card-scroll[href="gangtok-2n-3d-trail-package-2026.html"] {
-            background-image: url('https://images.pexels.com/photos/210243/pexels-photo-210243.jpeg?auto=compress&cs=tinysrgb&w=1200');
+        .summer-packages-section .destination-card-scroll[href="gangtok-2n-3d-trail-package-2026"] {
+            background-image: url('https://images.pexels.com/photos/33312425/pexels-photo-33312425.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
-        .summer-packages-section .destination-card-scroll[href="north-sikkim-4n-5d-5n-6d-package-2026.html"] {
-            background-image: url('https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&w=1200');
+        .summer-packages-section .destination-card-scroll[href="north-sikkim-4n-5d-5n-6d-package-2026"] {
+            background-image: url('https://images.pexels.com/photos/30035178/pexels-photo-30035178.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
-        .summer-packages-section .destination-card-scroll[href="offbeat-darjeeling-2n-3d-package-2026.html"] {
-            background-image: url('https://images.pexels.com/photos/1493080/pexels-photo-1493080.jpeg?auto=compress&cs=tinysrgb&w=1200');
+        .summer-packages-section .destination-card-scroll[href="offbeat-darjeeling-2n-3d-package-2026"] {
+            background-image: url('https://images.pexels.com/photos/30121290/pexels-photo-30121290.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
-        .summer-packages-section .destination-card-scroll[href="offbeat-darjeeling-3n-4d-package-2026.html"] {
-            background-image: url('https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=1200');
+        .summer-packages-section .destination-card-scroll[href="offbeat-darjeeling-3n-4d-package-2026"] {
+            background-image: url('https://images.pexels.com/photos/21011516/pexels-photo-21011516.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
-        .summer-packages-section .destination-card-scroll[href="offbeat-kalimpong-4n-5d-package-2026.html"] {
-            background-image: url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=1200');
+        .summer-packages-section .destination-card-scroll[href="offbeat-kalimpong-4n-5d-package-2026"] {
+            background-image: url('https://images.pexels.com/photos/3761529/pexels-photo-3761529.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
-        .summer-packages-section .destination-card-scroll[href="spring-darjeeling-group-tour-2026.html"] {
-            background-image: url('https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg?auto=compress&cs=tinysrgb&w=1200');
+        .summer-packages-section .destination-card-scroll[href="spring-darjeeling-group-tour-2026"] {
+            background-image: url('https://images.pexels.com/photos/2835599/pexels-photo-2835599.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
-        .summer-packages-section .destination-card-scroll[href="thailand-adventure-bangkok-pattaya-group-tour.html"] {
-            background-image: url('https://images.pexels.com/photos/3538245/pexels-photo-3538245.jpeg?auto=compress&cs=tinysrgb&w=1200');
+        .summer-packages-section .destination-card-scroll[href="thailand-adventure-bangkok-pattaya-group-tour"] {
+            background-image: url('https://images.pexels.com/photos/2617548/pexels-photo-2617548.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
-        .summer-packages-section .destination-card-scroll[href="unforgettable-ladakh-tour-package-2026.html"] {
-            background-image: url('https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&w=1200');
+        .summer-packages-section .destination-card-scroll[href="unforgettable-ladakh-tour-package-2026"] {
+            background-image: url('https://images.pexels.com/photos/32793599/pexels-photo-32793599.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
-        .summer-packages-section .destination-card-scroll[href="vietnam-premium-tour-package.html"] {
-            background-image: url('https://images.pexels.com/photos/2901211/pexels-photo-2901211.jpeg?auto=compress&cs=tinysrgb&w=1200');
+        .summer-packages-section .destination-card-scroll[href="vietnam-premium-tour-package"] {
+            background-image: url('https://images.pexels.com/photos/2166695/pexels-photo-2166695.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .summer-packages-section .destination-card-scroll::before {
@@ -1189,83 +1292,83 @@
         }
 
         .package-categories-section .category-card-scroll[href="honeymoon-special"] {
-            background-image: url('https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .package-categories-section .category-card-scroll[href="group-tour"] {
-            background-image: url('https://images.pexels.com/photos/618613/pexels-photo-618613.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/3171820/pexels-photo-3171820.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .package-categories-section .category-card-scroll[href="offbeat-sikkim"] {
-            background-image: url('https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .package-categories-section .category-card-scroll[href="north-sikkim-tourist-places"] {
-            background-image: url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .package-categories-section .category-card-scroll[href="4n-5d-silk-route-package"] {
-            background-image: url('https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .package-categories-section .category-card-scroll[href="sandakphu"] {
-            background-image: url('https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .package-categories-section .category-card-scroll[href="darjeeling-honeymoon"] {
-            background-image: url('https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/2835599/pexels-photo-2835599.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .package-categories-section .category-card-scroll[href="kashmir-honeymoon"] {
-            background-image: url('https://images.pexels.com/photos/2901218/pexels-photo-2901218.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/25786578/pexels-photo-25786578.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .package-categories-section .category-card-scroll[href="manali-honeymoon"] {
-            background-image: url('https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/35077792/pexels-photo-35077792.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .package-categories-section .category-card-scroll[href="best-leh-ladakh-tour-packages"] {
-            background-image: url('https://images.pexels.com/photos/5220/road-mountains-sky-clouds.jpg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/32793599/pexels-photo-32793599.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .popular-destinations-section .destination-card-scroll[href="sikkim"] {
-            background-image: url('https://images.pexels.com/photos/1162251/pexels-photo-1162251.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .popular-destinations-section .destination-card-scroll[href="north-bengal"] {
-            background-image: url('https://images.pexels.com/photos/158607/cairn-fog-mystical-background-158607.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/974406/pexels-photo-974406.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .popular-destinations-section .destination-card-scroll[href="kashmir"] {
-            background-image: url('https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .popular-destinations-section .destination-card-scroll[href="ladakh"] {
-            background-image: url('https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/32793599/pexels-photo-32793599.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .popular-destinations-section .destination-card-scroll[href="himachal-package"] {
-            background-image: url('https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .popular-destinations-section .destination-card-scroll[href="andaman"] {
-            background-image: url('https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .popular-destinations-section .destination-card-scroll[href="bhutan"] {
-            background-image: url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .popular-destinations-section .destination-card-scroll[href="meghalaya"] {
-            background-image: url('https://images.pexels.com/photos/417142/pexels-photo-417142.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/3037435/pexels-photo-3037435.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .popular-destinations-section .destination-card-scroll[href="sundarban"] {
-            background-image: url('https://images.pexels.com/photos/247376/pexels-photo-247376.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/572861/pexels-photo-572861.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         .popular-destinations-section .destination-card-scroll[href="lakshadweep"] {
-            background-image: url('https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&w=400');
         }
 
         /* Destination & Category Cards */
@@ -1455,91 +1558,91 @@
 
             <div class="scroll-container">
                 <div class="scroll-track">
-                    <a href="amazing-andaman-group-tour-with-baratang.html" class="destination-card-scroll">
+                    <a href="amazing-andaman-group-tour-with-baratang" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-umbrella-beach"></i>
                         </div>
                         <h5>Andaman Group Tour</h5>
                     </a>
 
-                    <a href="andaman-islands-customised-leisure-escape.html" class="destination-card-scroll">
+                    <a href="andaman-islands-customised-leisure-escape" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-water"></i>
                         </div>
                         <h5>Andaman Leisure Escape</h5>
                     </a>
 
-                    <a href="arunachal-pradesh-group-tour-2026.html" class="destination-card-scroll">
+                    <a href="arunachal-pradesh-group-tour-2026" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-mountain"></i>
                         </div>
                         <h5>Arunachal Group Tour 2026</h5>
                     </a>
 
-                    <a href="chardham-yatra-2026-delhi-package.html" class="destination-card-scroll">
+                    <a href="chardham-yatra-2026-delhi-package" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-place-of-worship"></i>
                         </div>
                         <h5>Chardham Yatra 2026</h5>
                     </a>
 
-                    <a href="gangtok-2n-3d-trail-package-2026.html" class="destination-card-scroll">
+                    <a href="gangtok-2n-3d-trail-package-2026" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-route"></i>
                         </div>
                         <h5>Gangtok Trail 2N/3D</h5>
                     </a>
 
-                    <a href="north-sikkim-4n-5d-5n-6d-package-2026.html" class="destination-card-scroll">
+                    <a href="north-sikkim-4n-5d-5n-6d-package-2026" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-snowflake"></i>
                         </div>
                         <h5>North Sikkim 2026</h5>
                     </a>
 
-                    <a href="offbeat-darjeeling-2n-3d-package-2026.html" class="destination-card-scroll">
+                    <a href="offbeat-darjeeling-2n-3d-package-2026" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-train"></i>
                         </div>
                         <h5>Offbeat Darjeeling 2N/3D</h5>
                     </a>
 
-                    <a href="offbeat-darjeeling-3n-4d-package-2026.html" class="destination-card-scroll">
+                    <a href="offbeat-darjeeling-3n-4d-package-2026" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-tree"></i>
                         </div>
                         <h5>Offbeat Darjeeling 3N/4D</h5>
                     </a>
 
-                    <a href="offbeat-kalimpong-4n-5d-package-2026.html" class="destination-card-scroll">
+                    <a href="offbeat-kalimpong-4n-5d-package-2026" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-leaf"></i>
                         </div>
                         <h5>Offbeat Kalimpong 4N/5D</h5>
                     </a>
 
-                    <a href="spring-darjeeling-group-tour-2026.html" class="destination-card-scroll">
+                    <a href="spring-darjeeling-group-tour-2026" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-seedling"></i>
                         </div>
                         <h5>Spring Darjeeling 2026</h5>
                     </a>
 
-                    <a href="thailand-adventure-bangkok-pattaya-group-tour.html" class="destination-card-scroll">
+                    <a href="thailand-adventure-bangkok-pattaya-group-tour" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-plane-departure"></i>
                         </div>
                         <h5>Thailand Adventure Tour</h5>
                     </a>
 
-                    <a href="unforgettable-ladakh-tour-package-2026.html" class="destination-card-scroll">
+                    <a href="unforgettable-ladakh-tour-package-2026" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-hiking"></i>
                         </div>
                         <h5>Ladakh Tour 2026</h5>
                     </a>
 
-                    <a href="vietnam-premium-tour-package.html" class="destination-card-scroll">
+                    <a href="vietnam-premium-tour-package" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-globe-asia"></i>
                         </div>
@@ -1547,91 +1650,91 @@
                     </a>
 
                     <!-- Duplicate cards for infinite scroll -->
-                    <a href="amazing-andaman-group-tour-with-baratang.html" class="destination-card-scroll">
+                    <a href="amazing-andaman-group-tour-with-baratang" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-umbrella-beach"></i>
                         </div>
                         <h5>Andaman Group Tour</h5>
                     </a>
 
-                    <a href="andaman-islands-customised-leisure-escape.html" class="destination-card-scroll">
+                    <a href="andaman-islands-customised-leisure-escape" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-water"></i>
                         </div>
                         <h5>Andaman Leisure Escape</h5>
                     </a>
 
-                    <a href="arunachal-pradesh-group-tour-2026.html" class="destination-card-scroll">
+                    <a href="arunachal-pradesh-group-tour-2026" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-mountain"></i>
                         </div>
                         <h5>Arunachal Group Tour 2026</h5>
                     </a>
 
-                    <a href="chardham-yatra-2026-delhi-package.html" class="destination-card-scroll">
+                    <a href="chardham-yatra-2026-delhi-package" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-place-of-worship"></i>
                         </div>
                         <h5>Chardham Yatra 2026</h5>
                     </a>
 
-                    <a href="gangtok-2n-3d-trail-package-2026.html" class="destination-card-scroll">
+                    <a href="gangtok-2n-3d-trail-package-2026" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-route"></i>
                         </div>
                         <h5>Gangtok Trail 2N/3D</h5>
                     </a>
 
-                    <a href="north-sikkim-4n-5d-5n-6d-package-2026.html" class="destination-card-scroll">
+                    <a href="north-sikkim-4n-5d-5n-6d-package-2026" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-snowflake"></i>
                         </div>
                         <h5>North Sikkim 2026</h5>
                     </a>
 
-                    <a href="offbeat-darjeeling-2n-3d-package-2026.html" class="destination-card-scroll">
+                    <a href="offbeat-darjeeling-2n-3d-package-2026" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-train"></i>
                         </div>
                         <h5>Offbeat Darjeeling 2N/3D</h5>
                     </a>
 
-                    <a href="offbeat-darjeeling-3n-4d-package-2026.html" class="destination-card-scroll">
+                    <a href="offbeat-darjeeling-3n-4d-package-2026" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-tree"></i>
                         </div>
                         <h5>Offbeat Darjeeling 3N/4D</h5>
                     </a>
 
-                    <a href="offbeat-kalimpong-4n-5d-package-2026.html" class="destination-card-scroll">
+                    <a href="offbeat-kalimpong-4n-5d-package-2026" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-leaf"></i>
                         </div>
                         <h5>Offbeat Kalimpong 4N/5D</h5>
                     </a>
 
-                    <a href="spring-darjeeling-group-tour-2026.html" class="destination-card-scroll">
+                    <a href="spring-darjeeling-group-tour-2026" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-seedling"></i>
                         </div>
                         <h5>Spring Darjeeling 2026</h5>
                     </a>
 
-                    <a href="thailand-adventure-bangkok-pattaya-group-tour.html" class="destination-card-scroll">
+                    <a href="thailand-adventure-bangkok-pattaya-group-tour" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-plane-departure"></i>
                         </div>
                         <h5>Thailand Adventure Tour</h5>
                     </a>
 
-                    <a href="unforgettable-ladakh-tour-package-2026.html" class="destination-card-scroll">
+                    <a href="unforgettable-ladakh-tour-package-2026" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-hiking"></i>
                         </div>
                         <h5>Ladakh Tour 2026</h5>
                     </a>
 
-                    <a href="vietnam-premium-tour-package.html" class="destination-card-scroll">
+                    <a href="vietnam-premium-tour-package" class="destination-card-scroll">
                         <div class="destination-icon">
                             <i class="fas fa-globe-asia"></i>
                         </div>
@@ -1826,9 +1929,9 @@
             <div class="text-center mb-5">
                 <h2 class="section-title">
                     <i class="fas fa-map-marked-alt me-2"></i>
-                    Popular Destinations
+                    Most Popular customise Tour  Packages
                 </h2>
-                <p class="text-muted">Explore our most sought-after travel destinations across India and beyond</p>
+                <p class="text-muted">Hassle Free | Headaches Free | Reliable Travel Services- Unlocking Your Premium Travel Experience</p>
             </div>
 
             <div class="scroll-container">
@@ -2246,8 +2349,8 @@
                                 aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                             <a href="https://www.threads.net/@iqplusvlogs" target="_blank" aria-label="Threads"><i
                                     class="fab fa-twitter"></i></a>
-                            <a href="https://wa.me/8240002684" target="_blank" aria-label="WhatsApp"><i
-                                    class="fab fa-whatsapp"></i></a>
+                            <a href="https://whatsapp.com/channel/0029Va5YOqt5kg73WOMWNV0P" target="_blank" aria-label="WhatsApp"><i
+                                class="fab fa-whatsapp"></i></a>
                         </div>
                     </div>
 
@@ -2299,6 +2402,91 @@
                             behavior: 'smooth'
                         });
                     }
+                });
+            });
+
+            // Convert both scrolling strips into carousel-like sliders with navigation.
+            const sliderConfigs = [
+                {
+                    containerSelector: '.scroll-container',
+                    trackSelector: '.scroll-track',
+                    cardSelector: '.destination-card-scroll'
+                },
+                {
+                    containerSelector: '.scroll-container-reverse',
+                    trackSelector: '.scroll-track-reverse',
+                    cardSelector: '.category-card-scroll'
+                }
+            ];
+
+            let sliderCounter = 0;
+
+            sliderConfigs.forEach(config => {
+                document.querySelectorAll(config.containerSelector).forEach(container => {
+                    const track = container.querySelector(config.trackSelector);
+                    if (!track) return;
+
+                    const cards = Array.from(track.querySelectorAll(config.cardSelector));
+                    if (!cards.length) return;
+
+                    sliderCounter += 1;
+                    container.classList.add('scroll-carousel');
+                    track.style.animation = 'none';
+
+                    const prevBtn = document.createElement('button');
+                    prevBtn.type = 'button';
+                    prevBtn.className = 'scroll-nav-btn scroll-nav-prev';
+                    prevBtn.setAttribute('aria-label', `Previous slide ${sliderCounter}`);
+                    prevBtn.innerHTML = '<i class="fas fa-chevron-left"></i>';
+
+                    const nextBtn = document.createElement('button');
+                    nextBtn.type = 'button';
+                    nextBtn.className = 'scroll-nav-btn scroll-nav-next';
+                    nextBtn.setAttribute('aria-label', `Next slide ${sliderCounter}`);
+                    nextBtn.innerHTML = '<i class="fas fa-chevron-right"></i>';
+
+                    container.appendChild(prevBtn);
+                    container.appendChild(nextBtn);
+
+                    let currentIndex = 0;
+
+                    const visibleCount = () => {
+                        if (window.innerWidth < 992) return 2;
+                        return 4;
+                    };
+
+                    const updateSlider = () => {
+                        const maxIndex = Math.max(cards.length - visibleCount(), 0);
+                        currentIndex = Math.min(currentIndex, maxIndex);
+
+                        const firstCard = cards[0];
+                        const cardWidth = firstCard.getBoundingClientRect().width;
+                        const styles = window.getComputedStyle(track);
+                        const gap = parseFloat(styles.columnGap || styles.gap || '0');
+                        const translateX = (cardWidth + gap) * currentIndex;
+                        track.style.transform = `translateX(-${translateX}px)`;
+
+                        prevBtn.disabled = currentIndex === 0;
+                        nextBtn.disabled = currentIndex >= maxIndex;
+                    };
+
+                    prevBtn.addEventListener('click', () => {
+                        if (currentIndex > 0) {
+                            currentIndex -= 1;
+                            updateSlider();
+                        }
+                    });
+
+                    nextBtn.addEventListener('click', () => {
+                        const maxIndex = Math.max(cards.length - visibleCount(), 0);
+                        if (currentIndex < maxIndex) {
+                            currentIndex += 1;
+                            updateSlider();
+                        }
+                    });
+
+                    window.addEventListener('resize', updateSlider);
+                    updateSlider();
                 });
             });
         });
