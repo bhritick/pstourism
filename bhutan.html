@@ -85,46 +85,46 @@
       }
     }
     </script>
-        <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "Which places are covered in Bhutan tour packages?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Popular Bhutan packages cover Thimphu, Paro and Punakha, with options for monasteries, dzongs, valleys and cultural sightseeing."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Is Tiger's Nest included in Bhutan itineraries?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Many itineraries include Tiger's Nest Monastery in Paro, though trek timing depends on weather, fitness and day schedule."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Can I get a customized Bhutan package from PSTourism?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes, PSTourism can customize your Bhutan itinerary based on travel dates, group size, hotel preference and sightseeing interests."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How can I book a Bhutan tour package?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "You can book through WhatsApp or phone by sharing your travel plan to get availability and a detailed quotation."
-                    }
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Which places are covered in Bhutan tour packages?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Popular Bhutan packages cover Thimphu, Paro and Punakha, with options for monasteries, dzongs, valleys and cultural sightseeing."
                 }
-            ]
-        }
-        </script>
+            },
+            {
+                "@type": "Question",
+                "name": "Is Tiger's Nest included in Bhutan itineraries?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Many itineraries include Tiger's Nest Monastery in Paro, though trek timing depends on weather, fitness and day schedule."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I get a customized Bhutan package from PSTourism?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, PSTourism can customize your Bhutan itinerary based on travel dates, group size, hotel preference and sightseeing interests."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How can I book a Bhutan tour package?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can book through WhatsApp or phone by sharing your travel plan to get availability and a detailed quotation."
+                }
+            }
+        ]
+    }
+    </script>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -331,6 +331,237 @@
             left: 50%;
             transform: translateX(-50%);
             border-radius: 2px;
+        }
+
+        /* Horizontal Scrolling Carousel */
+        .scroll-container {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            padding: 2rem 0;
+        }
+
+        .scroll-container::before,
+        .scroll-container::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 100px;
+            height: 100%;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        .scroll-container::before {
+            left: 0;
+            background: linear-gradient(to right, #f8f9fa, transparent);
+        }
+
+        .scroll-container::after {
+            right: 0;
+            background: linear-gradient(to left, #f8f9fa, transparent);
+        }
+
+        .scroll-track {
+            display: flex;
+            gap: 2rem;
+            animation: scroll 40s linear infinite;
+            width: fit-content;
+        }
+
+        .scroll-track:hover {
+            animation-play-state: paused;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        .scroll-container.scroll-carousel::before,
+        .scroll-container.scroll-carousel::after {
+            display: none;
+        }
+
+        .scroll-container.scroll-carousel .scroll-track {
+            width: 100%;
+            animation: none !important;
+            transition: transform 0.45s ease;
+            will-change: transform;
+        }
+
+        .scroll-container.scroll-carousel .destination-card-scroll {
+            min-width: calc((100% - 6rem) / 4);
+            max-width: calc((100% - 6rem) / 4);
+        }
+
+        @media (max-width: 991.98px) {
+            .scroll-container.scroll-carousel .destination-card-scroll {
+                min-width: calc((100% - 2rem) / 2);
+                max-width: calc((100% - 2rem) / 2);
+            }
+        }
+
+        .scroll-nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 3;
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            border: none;
+            color: #fff;
+            background: rgba(29, 53, 87, 0.88);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .scroll-nav-btn:hover:not(:disabled) {
+            background: var(--primary);
+        }
+
+        .scroll-nav-btn:disabled {
+            opacity: 0.35;
+            cursor: not-allowed;
+        }
+
+        .scroll-nav-prev {
+            left: 8px;
+        }
+
+        .scroll-nav-next {
+            right: 8px;
+        }
+
+        .destination-card-scroll {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            padding: 2rem 1.5rem;
+            border-radius: 15px;
+            text-align: center;
+            text-decoration: none;
+            color: var(--dark);
+            transition: all 0.4s ease;
+            border: 2px solid transparent;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            min-width: 280px;
+            max-width: 280px;
+            flex-shrink: 0;
+        }
+
+        .destination-card-scroll:hover {
+            transform: translateY(-10px) scale(1.05);
+            border-color: var(--primary);
+            box-shadow: 0 15px 35px rgba(255, 107, 107, 0.3);
+            color: var(--dark);
+        }
+
+        .summer-packages-section .destination-card-scroll {
+            position: relative;
+            overflow: hidden;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            align-items: flex-start;
+            justify-content: flex-end;
+            min-height: 320px;
+            padding: 1.25rem;
+            color: #fff;
+        }
+
+        .summer-packages-section .destination-card-scroll[href="amazing-andaman-group-tour-with-baratang"] {
+            background-image: url('https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="andaman-islands-customised-leisure-escape"] {
+            background-image: url('https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="arunachal-pradesh-group-tour-2026"] {
+            background-image: url('https://images.pexels.com/photos/5531361/pexels-photo-5531361.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="chardham-yatra-2026-delhi-package"] {
+            background-image: url('https://images.pexels.com/photos/19271393/pexels-photo-19271393.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="gangtok-2n-3d-trail-package-2026"] {
+            background-image: url('https://images.pexels.com/photos/33312425/pexels-photo-33312425.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="north-sikkim-4n-5d-5n-6d-package-2026"] {
+            background-image: url('https://images.pexels.com/photos/30035178/pexels-photo-30035178.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="offbeat-darjeeling-2n-3d-package-2026"] {
+            background-image: url('https://images.pexels.com/photos/30121290/pexels-photo-30121290.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="offbeat-darjeeling-3n-4d-package-2026"] {
+            background-image: url('https://images.pexels.com/photos/21011516/pexels-photo-21011516.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="offbeat-kalimpong-4n-5d-package-2026"] {
+            background-image: url('https://images.pexels.com/photos/3761529/pexels-photo-3761529.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="spring-darjeeling-group-tour-2026"] {
+            background-image: url('https://images.pexels.com/photos/2835599/pexels-photo-2835599.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="thailand-adventure-bangkok-pattaya-group-tour"] {
+            background-image: url('https://images.pexels.com/photos/2617548/pexels-photo-2617548.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="unforgettable-ladakh-tour-package-2026"] {
+            background-image: url('https://images.pexels.com/photos/32793599/pexels-photo-32793599.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="vietnam-premium-tour-package"] {
+            background-image: url('https://images.pexels.com/photos/2166695/pexels-photo-2166695.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.82) 0%, rgba(0, 0, 0, 0.5) 45%, rgba(0, 0, 0, 0.2) 100%);
+            z-index: 0;
+        }
+
+        .summer-packages-section .destination-card-scroll > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .summer-packages-section .destination-card-scroll h5,
+        .summer-packages-section .destination-card-scroll:hover {
+            color: #fff;
+        }
+
+        .summer-packages-section .destination-card-scroll h5 {
+            margin: 0;
+            font-size: 1rem;
+            line-height: 1.35;
+            text-align: left;
+            max-width: 100%;
+        }
+
+        .summer-packages-section .destination-card-scroll .destination-icon {
+            display: none;
         }
         
         /* Package Card */
@@ -661,6 +892,13 @@
                 margin: 2px 0;
             }
         }
+
+        @media (max-width: 575px) {
+            .scroll-nav-btn {
+                width: 36px;
+                height: 36px;
+            }
+        }
         
         /* Animation */
         @keyframes fadeInUp {
@@ -678,7 +916,7 @@
             animation: fadeInUp 0.8s ease forwards;
         }
     </style>
-<link rel="stylesheet" href="res/pst-template.css">
+    <link rel="stylesheet" href="res/pst-template.css">
 </head>
 
 <body>
@@ -779,8 +1017,21 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6">
+                    <div class="package-card">
+                        <img src="res/Bhutan-package.png" alt="Bhutan Group Tour Package" loading="lazy">
+                        <div class="card-body">
+                            <h3>Bhutan Group Tour Package - Customized Itinerary for Groups</h3>
+                            <hr>
+                            <a class="btn btn-primary" href="group-tour">
+                                <i class="fas fa-calendar-check me-2"></i> Book Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class="col-lg-4 col-md-6">
                     <div class="package-card">
                         <img src="res/Bhutan-package.png" alt="Bhutan 5N6D Extended Package" loading="lazy">
                         <div class="card-body">
@@ -791,13 +1042,161 @@
                             </a>
                         </div>
                     </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Most Popular Summer Packages Section -->
+    <section class="py-5 bg-light summer-packages-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">
+                    <i class="fas fa-map-marked-alt me-2"></i>
+                    Upcoming Summer Tour Packages
+                </h2>
+                <p class="text-muted mt-4">Handpicked summer-ready packages for your next holiday</p>
+            </div>
+
+            <div class="scroll-container">
+                <div class="scroll-track">
+                    <a href="amazing-andaman-group-tour-with-baratang" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Amazing Andaman Group Tour with Baratang</h5>
+                    </a>
+
+                    <a href="andaman-islands-customised-leisure-escape" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Andaman Islands Customised Leisure Escape</h5>
+                    </a>
+
+                    <a href="arunachal-pradesh-group-tour-2026" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Arunachal Pradesh Group Tour 2026</h5>
+                    </a>
+
+                    <a href="chardham-yatra-2026-delhi-package" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Chardham Yatra 2026 Delhi Package</h5>
+                    </a>
+
+                    <a href="gangtok-2n-3d-trail-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Gangtok 2N 3D Trail Package 2026</h5>
+                    </a>
+
+                    <a href="north-sikkim-4n-5d-5n-6d-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>North Sikkim 4N 5D / 5N 6D Package 2026</h5>
+                    </a>
+
+                    <a href="offbeat-darjeeling-2n-3d-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Offbeat Darjeeling 2N 3D Package 2026</h5>
+                    </a>
+
+                    <a href="offbeat-darjeeling-3n-4d-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Offbeat Darjeeling 3N 4D Package 2026</h5>
+                    </a>
+
+                    <a href="offbeat-kalimpong-4n-5d-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Offbeat Kalimpong 4N 5D Package 2026</h5>
+                    </a>
+
+                    <a href="spring-darjeeling-group-tour-2026" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Spring Darjeeling Group Tour 2026</h5>
+                    </a>
+
+                    <a href="thailand-adventure-bangkok-pattaya-group-tour" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Thailand Adventure Bangkok Pattaya Group Tour</h5>
+                    </a>
+
+                    <a href="unforgettable-ladakh-tour-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Unforgettable Ladakh Tour Package 2026</h5>
+                    </a>
+
+                    <a href="vietnam-premium-tour-package" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Vietnam Premium Tour Package</h5>
+                    </a>
+
+                    <!-- Duplicate cards for infinite scroll -->
+                    <a href="amazing-andaman-group-tour-with-baratang" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Amazing Andaman Group Tour with Baratang</h5>
+                    </a>
+
+                    <a href="andaman-islands-customised-leisure-escape" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Andaman Islands Customised Leisure Escape</h5>
+                    </a>
+
+                    <a href="arunachal-pradesh-group-tour-2026" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Arunachal Pradesh Group Tour 2026</h5>
+                    </a>
+
+                    <a href="chardham-yatra-2026-delhi-package" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Chardham Yatra 2026 Delhi Package</h5>
+                    </a>
+
+                    <a href="gangtok-2n-3d-trail-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Gangtok 2N 3D Trail Package 2026</h5>
+                    </a>
+
+                    <a href="north-sikkim-4n-5d-5n-6d-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>North Sikkim 4N 5D / 5N 6D Package 2026</h5>
+                    </a>
+
+                    <a href="offbeat-darjeeling-2n-3d-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Offbeat Darjeeling 2N 3D Package 2026</h5>
+                    </a>
+
+                    <a href="offbeat-darjeeling-3n-4d-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Offbeat Darjeeling 3N 4D Package 2026</h5>
+                    </a>
+
+                    <a href="offbeat-kalimpong-4n-5d-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Offbeat Kalimpong 4N 5D Package 2026</h5>
+                    </a>
+
+                    <a href="spring-darjeeling-group-tour-2026" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Spring Darjeeling Group Tour 2026</h5>
+                    </a>
+
+                    <a href="thailand-adventure-bangkok-pattaya-group-tour" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Thailand Adventure Bangkok Pattaya Group Tour</h5>
+                    </a>
+
+                    <a href="unforgettable-ladakh-tour-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Unforgettable Ladakh Tour Package 2026</h5>
+                    </a>
+
+                    <a href="vietnam-premium-tour-package" class="destination-card-scroll">
+                        <div class="destination-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h5>Vietnam Premium Tour Package</h5>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
     
     <!-- Thimphu & Paro Packages -->
-    <section class="py-5 bg-light">
+    <!-- <section class="py-5 bg-light">
         <div class="container">
             <h2 class="section-title">Thimphu & Paro Special Tours</h2>
             
@@ -842,10 +1241,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     
     <!-- Punakha & Spiritual Packages -->
-    <section class="py-5 my-5">
+    <!-- <section class="py-5 my-5">
         <div class="container">
             <h2 class="section-title">Punakha & Spiritual Journey Packages</h2>
             
@@ -890,10 +1289,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     
     <!-- Festival & Cultural Packages -->
-    <section class="py-5 bg-light">
+    <!-- <section class="py-5 bg-light">
         <div class="container">
             <h2 class="section-title">Festival & Cultural Experience Packages</h2>
             
@@ -938,10 +1337,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     
     <!-- Trekking & Adventure Packages -->
-    <section class="py-5 my-5">
+    <!-- <section class="py-5 my-5">
         <div class="container">
             <h2 class="section-title">Trekking & Adventure Packages</h2>
             
@@ -986,10 +1385,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     
     <!-- Honeymoon & Luxury Packages -->
-    <section class="py-5 bg-light">
+    <!-- <section class="py-5 bg-light">
         <div class="container">
             <h2 class="section-title">Honeymoon & Luxury Packages</h2>
             
@@ -1034,10 +1433,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     
     <!-- Group & Customized Tours -->
-    <section class="py-5 my-5">
+    <!-- <section class="py-5 my-5">
         <div class="container">
             <h2 class="section-title">Group Tours & Customized Packages</h2>
             
@@ -1082,13 +1481,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     
     <section class="py-5 faq-section" aria-label="Frequently Asked Questions">
         <div class="container">
             <h2 class="section-title">Frequently Asked Questions</h2>
             <div class="row justify-content-center">
-                <div class="col-lg-10">
+                <div class="col-12">
                     <div class="accordion" id="faqAccordion">
                         <div class="accordion-item">
                             <h3 class="accordion-header" id="faqOneHeading">
@@ -1243,6 +1642,85 @@
             }, { threshold: 0.1 });
             
             fadeElements.forEach(el => observer.observe(el));
+
+            const sliderConfigs = [
+                {
+                    containerSelector: '.scroll-container',
+                    trackSelector: '.scroll-track',
+                    cardSelector: '.destination-card-scroll'
+                }
+            ];
+
+            let sliderCounter = 0;
+
+            sliderConfigs.forEach(config => {
+                document.querySelectorAll(config.containerSelector).forEach(container => {
+                    const track = container.querySelector(config.trackSelector);
+                    if (!track) return;
+
+                    const cards = Array.from(track.querySelectorAll(config.cardSelector));
+                    if (!cards.length) return;
+
+                    sliderCounter += 1;
+                    container.classList.add('scroll-carousel');
+                    track.style.animation = 'none';
+
+                    const prevBtn = document.createElement('button');
+                    prevBtn.type = 'button';
+                    prevBtn.className = 'scroll-nav-btn scroll-nav-prev';
+                    prevBtn.setAttribute('aria-label', `Previous slide ${sliderCounter}`);
+                    prevBtn.innerHTML = '<i class="fas fa-chevron-left"></i>';
+
+                    const nextBtn = document.createElement('button');
+                    nextBtn.type = 'button';
+                    nextBtn.className = 'scroll-nav-btn scroll-nav-next';
+                    nextBtn.setAttribute('aria-label', `Next slide ${sliderCounter}`);
+                    nextBtn.innerHTML = '<i class="fas fa-chevron-right"></i>';
+
+                    container.appendChild(prevBtn);
+                    container.appendChild(nextBtn);
+
+                    let currentIndex = 0;
+
+                    const visibleCount = () => {
+                        if (window.innerWidth < 992) return 2;
+                        return 4;
+                    };
+
+                    const updateSlider = () => {
+                        const maxIndex = Math.max(cards.length - visibleCount(), 0);
+                        currentIndex = Math.min(currentIndex, maxIndex);
+
+                        const firstCard = cards[0];
+                        const cardWidth = firstCard.getBoundingClientRect().width;
+                        const styles = window.getComputedStyle(track);
+                        const gap = parseFloat(styles.columnGap || styles.gap || '0');
+                        const translateX = (cardWidth + gap) * currentIndex;
+                        track.style.transform = `translateX(-${translateX}px)`;
+
+                        prevBtn.disabled = currentIndex === 0;
+                        nextBtn.disabled = currentIndex >= maxIndex;
+                    };
+
+                    prevBtn.addEventListener('click', () => {
+                        if (currentIndex > 0) {
+                            currentIndex -= 1;
+                            updateSlider();
+                        }
+                    });
+
+                    nextBtn.addEventListener('click', () => {
+                        const maxIndex = Math.max(cards.length - visibleCount(), 0);
+                        if (currentIndex < maxIndex) {
+                            currentIndex += 1;
+                            updateSlider();
+                        }
+                    });
+
+                    window.addEventListener('resize', updateSlider);
+                    updateSlider();
+                });
+            });
         });
     </script>
 </body>

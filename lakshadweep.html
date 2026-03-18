@@ -85,46 +85,46 @@
       }
     }
     </script>
-        <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "Which islands are covered in Lakshadweep packages?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Popular packages usually cover Agatti, Bangaram and Kavaratti, with options for multi-island tours based on trip duration."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What is the best duration for a Lakshadweep trip?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "A 4 to 6 day itinerary is ideal for experiencing beaches, water activities and island sightseeing at a comfortable pace."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Are water sports included in Lakshadweep tours?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Many plans include snorkeling, glass-bottom rides or activity assistance, while specific adventure activities may be chargeable as per operator rules."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How can I book a Lakshadweep package with PSTourism?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "You can book via WhatsApp or phone by sharing your travel date, group size and preferences to receive the best available package quote."
-                    }
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Which islands are covered in Lakshadweep packages?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Popular packages usually cover Agatti, Bangaram and Kavaratti, with options for multi-island tours based on trip duration."
                 }
-            ]
-        }
-        </script>
+            },
+            {
+                "@type": "Question",
+                "name": "What is the best duration for a Lakshadweep trip?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A 4 to 6 day itinerary is ideal for experiencing beaches, water activities and island sightseeing at a comfortable pace."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are water sports included in Lakshadweep tours?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Many plans include snorkeling, glass-bottom rides or activity assistance, while specific adventure activities may be chargeable as per operator rules."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How can I book a Lakshadweep package with PSTourism?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can book via WhatsApp or phone by sharing your travel date, group size and preferences to receive the best available package quote."
+                }
+            }
+        ]
+    }
+    </script>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -331,6 +331,237 @@
             left: 50%;
             transform: translateX(-50%);
             border-radius: 2px;
+        }
+
+        /* Horizontal Scrolling Carousel */
+        .scroll-container {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            padding: 2rem 0;
+        }
+
+        .scroll-container::before,
+        .scroll-container::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 100px;
+            height: 100%;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        .scroll-container::before {
+            left: 0;
+            background: linear-gradient(to right, #f8f9fa, transparent);
+        }
+
+        .scroll-container::after {
+            right: 0;
+            background: linear-gradient(to left, #f8f9fa, transparent);
+        }
+
+        .scroll-track {
+            display: flex;
+            gap: 2rem;
+            animation: scroll 40s linear infinite;
+            width: fit-content;
+        }
+
+        .scroll-track:hover {
+            animation-play-state: paused;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        .scroll-container.scroll-carousel::before,
+        .scroll-container.scroll-carousel::after {
+            display: none;
+        }
+
+        .scroll-container.scroll-carousel .scroll-track {
+            width: 100%;
+            animation: none !important;
+            transition: transform 0.45s ease;
+            will-change: transform;
+        }
+
+        .scroll-container.scroll-carousel .destination-card-scroll {
+            min-width: calc((100% - 6rem) / 4);
+            max-width: calc((100% - 6rem) / 4);
+        }
+
+        @media (max-width: 991.98px) {
+            .scroll-container.scroll-carousel .destination-card-scroll {
+                min-width: calc((100% - 2rem) / 2);
+                max-width: calc((100% - 2rem) / 2);
+            }
+        }
+
+        .scroll-nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 3;
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            border: none;
+            color: #fff;
+            background: rgba(29, 53, 87, 0.88);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .scroll-nav-btn:hover:not(:disabled) {
+            background: var(--primary);
+        }
+
+        .scroll-nav-btn:disabled {
+            opacity: 0.35;
+            cursor: not-allowed;
+        }
+
+        .scroll-nav-prev {
+            left: 8px;
+        }
+
+        .scroll-nav-next {
+            right: 8px;
+        }
+
+        .destination-card-scroll {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            padding: 2rem 1.5rem;
+            border-radius: 15px;
+            text-align: center;
+            text-decoration: none;
+            color: var(--dark);
+            transition: all 0.4s ease;
+            border: 2px solid transparent;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            min-width: 280px;
+            max-width: 280px;
+            flex-shrink: 0;
+        }
+
+        .destination-card-scroll:hover {
+            transform: translateY(-10px) scale(1.05);
+            border-color: var(--primary);
+            box-shadow: 0 15px 35px rgba(255, 107, 107, 0.3);
+            color: var(--dark);
+        }
+
+        .summer-packages-section .destination-card-scroll {
+            position: relative;
+            overflow: hidden;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            align-items: flex-start;
+            justify-content: flex-end;
+            min-height: 320px;
+            padding: 1.25rem;
+            color: #fff;
+        }
+
+        .summer-packages-section .destination-card-scroll[href="amazing-andaman-group-tour-with-baratang"] {
+            background-image: url('https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="andaman-islands-customised-leisure-escape"] {
+            background-image: url('https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="arunachal-pradesh-group-tour-2026"] {
+            background-image: url('https://images.pexels.com/photos/5531361/pexels-photo-5531361.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="chardham-yatra-2026-delhi-package"] {
+            background-image: url('https://images.pexels.com/photos/19271393/pexels-photo-19271393.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="gangtok-2n-3d-trail-package-2026"] {
+            background-image: url('https://images.pexels.com/photos/33312425/pexels-photo-33312425.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="north-sikkim-4n-5d-5n-6d-package-2026"] {
+            background-image: url('https://images.pexels.com/photos/30035178/pexels-photo-30035178.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="offbeat-darjeeling-2n-3d-package-2026"] {
+            background-image: url('https://images.pexels.com/photos/30121290/pexels-photo-30121290.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="offbeat-darjeeling-3n-4d-package-2026"] {
+            background-image: url('https://images.pexels.com/photos/21011516/pexels-photo-21011516.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="offbeat-kalimpong-4n-5d-package-2026"] {
+            background-image: url('https://images.pexels.com/photos/3761529/pexels-photo-3761529.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="spring-darjeeling-group-tour-2026"] {
+            background-image: url('https://images.pexels.com/photos/2835599/pexels-photo-2835599.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="thailand-adventure-bangkok-pattaya-group-tour"] {
+            background-image: url('https://images.pexels.com/photos/2617548/pexels-photo-2617548.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="unforgettable-ladakh-tour-package-2026"] {
+            background-image: url('https://images.pexels.com/photos/32793599/pexels-photo-32793599.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll[href="vietnam-premium-tour-package"] {
+            background-image: url('https://images.pexels.com/photos/2166695/pexels-photo-2166695.jpeg?auto=compress&cs=tinysrgb&w=400');
+        }
+
+        .summer-packages-section .destination-card-scroll::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.82) 0%, rgba(0, 0, 0, 0.5) 45%, rgba(0, 0, 0, 0.2) 100%);
+            z-index: 0;
+        }
+
+        .summer-packages-section .destination-card-scroll > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .summer-packages-section .destination-card-scroll h5,
+        .summer-packages-section .destination-card-scroll:hover {
+            color: #fff;
+        }
+
+        .summer-packages-section .destination-card-scroll h5 {
+            margin: 0;
+            font-size: 1rem;
+            line-height: 1.35;
+            text-align: left;
+            max-width: 100%;
+        }
+
+        .summer-packages-section .destination-card-scroll .destination-icon {
+            display: none;
         }
         
         /* Package Card */
@@ -661,6 +892,13 @@
                 margin: 2px 0;
             }
         }
+
+        @media (max-width: 575px) {
+            .scroll-nav-btn {
+                width: 36px;
+                height: 36px;
+            }
+        }
         
         /* Animation */
         @keyframes fadeInUp {
@@ -734,7 +972,7 @@
             </a>
         </div>
     </section>
-    
+
     <!-- Breadcrumb -->
     <section class="py-3 bg-light">
         <div class="container">
@@ -758,9 +996,9 @@
                     <div class="package-card">
                         <img src="res/lakshadweep-tour-package.png" alt="Lakshadweep 5N6D Tour Package" loading="lazy">
                         <div class="card-body">
-                            <h3>Lakshadweep 5 Nights 6 Days Complete Tour - Agatti Kavaratti Bangaram</h3>
+                            <h3>Lakshadweep 5 Days 4 Nights Island Tour Package</h3>
                             <hr>
-                            <a class="btn btn-primary" href="https://wa.me/8240002684?text=Hi%2C%20I%27m%20interested%20in%20the%20Lakshadweep%205%20Nights%206%20Days%20Complete%20Tour%20package.%20Please%20share%20details%20and%20pricing." target="_blank">
+                            <a class="btn btn-primary" href="lakshadweep-5d-4n">
                                 <i class="fas fa-calendar-check me-2"></i> Book Now
                             </a>
                         </div>
@@ -771,22 +1009,9 @@
                     <div class="package-card">
                         <img src="res/lakshadweep-tour-package.png" alt="Lakshadweep 4N5D Package" loading="lazy">
                         <div class="card-body">
-                            <h3>Lakshadweep 4 Nights 5 Days Island Hopping - Coral Paradise Experience</h3>
+                            <h3>Lakshadweep 4 Days 3 Nights Beach Escape Package</h3>
                             <hr>
-                            <a class="btn btn-primary" href="https://wa.me/8240002684?text=Hi%2C%20I%27m%20interested%20in%20the%20Lakshadweep%204%20Nights%205%20Days%20Island%20Hopping%20package.%20Please%20share%20details%20and%20pricing." target="_blank">
-                                <i class="fas fa-calendar-check me-2"></i> Book Now
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="package-card">
-                        <img src="res/lakshadweep-tour-package.png" alt="Lakshadweep 3N4D Quick Getaway" loading="lazy">
-                        <div class="card-body">
-                            <h3>Lakshadweep 3 Nights 4 Days Quick Getaway - Beach & Lagoon Special</h3>
-                            <hr>
-                            <a class="btn btn-primary" href="https://wa.me/8240002684?text=Hi%2C%20I%27m%20interested%20in%20the%20Lakshadweep%203%20Nights%204%20Days%20Quick%20Getaway%20package.%20Please%20share%20details%20and%20pricing." target="_blank">
+                            <a class="btn btn-primary" href="lakshadweep-4d-3n">
                                 <i class="fas fa-calendar-check me-2"></i> Book Now
                             </a>
                         </div>
@@ -796,241 +1021,201 @@
         </div>
     </section>
     
-    <!-- Agatti & Bangaram Island Packages -->
-    <section class="py-5 bg-light">
+    <!-- Most Popular Summer Packages Section -->
+    <section class="py-5 bg-light summer-packages-section">
         <div class="container">
-            <h2 class="section-title">Agatti & Bangaram Island Special Tours</h2>
-            
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="package-card">
-                        <img src="res/lakshadweep-tour-package.png" alt="Agatti Island Tour Package" loading="lazy">
-                        <div class="card-body">
-                            <h3>Agatti Island Tour 4N 5D - Gateway to Lakshadweep Paradise</h3>
-                            <hr>
-                            <a class="btn btn-primary" href="https://wa.me/8240002684?text=Hi%2C%20I%27m%20interested%20in%20the%20Agatti%20Island%20Tour%204N%205D%20package.%20Please%20share%20details%20and%20pricing." target="_blank">
-                                <i class="fas fa-calendar-check me-2"></i> Book Now
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="package-card">
-                        <img src="res/lakshadweep-tour-package.png" alt="Bangaram Island Package" loading="lazy">
-                        <div class="card-body">
-                            <h3>Bangaram Island Package 5N 6D - Uninhabited Island Resort Experience</h3>
-                            <hr>
-                            <a class="btn btn-primary" href="https://wa.me/8240002684?text=Hi%2C%20I%27m%20interested%20in%20the%20Bangaram%20Island%20Package%205N%206D.%20Please%20share%20details%20and%20pricing." target="_blank">
-                                <i class="fas fa-calendar-check me-2"></i> Book Now
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="package-card">
-                        <img src="res/lakshadweep-tour-package.png" alt="Agatti Bangaram Combo" loading="lazy">
-                        <div class="card-body">
-                            <h3>Agatti Bangaram Combo 6N 7D - Twin Island Adventure Package</h3>
-                            <hr>
-                            <a class="btn btn-primary" href="https://wa.me/8240002684?text=Hi%2C%20I%27m%20interested%20in%20the%20Agatti%20Bangaram%20Combo%206N%207D%20package.%20Please%20share%20details%20and%20pricing." target="_blank">
-                                <i class="fas fa-calendar-check me-2"></i> Book Now
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <div class="text-center mb-5">
+                <h2 class="section-title">
+                    <i class="fas fa-map-marked-alt me-2"></i>
+                    Upcoming Summer Tour Packages
+                </h2>
+                <p class="text-muted mt-4">Handpicked summer-ready packages for your next holiday</p>
             </div>
-        </div>
-    </section>
-    
-    <!-- Scuba Diving & Water Sports Packages -->
-    <section class="py-5 my-5">
-        <div class="container">
-            <h2 class="section-title">Scuba Diving & Water Sports Special Packages</h2>
-            
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="package-card">
-                        <img src="res/lakshadweep-tour-package.png" alt="Scuba Diving Package" loading="lazy">
-                        <div class="card-body">
-                            <h3>Scuba Diving Package 5N 6D - Explore Coral Reefs & Marine Life</h3>
-                            <hr>
-                            <a class="btn btn-primary" href="https://wa.me/8240002684?text=Hi%2C%20I%27m%20interested%20in%20the%20Scuba%20Diving%20Package%205N%206D%20in%20Lakshadweep.%20Please%20share%20details%20and%20pricing." target="_blank">
-                                <i class="fas fa-calendar-check me-2"></i> Book Now
-                            </a>
+
+            <div class="scroll-container">
+                <div class="scroll-track">
+                    <a href="amazing-andaman-group-tour-with-baratang" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-umbrella-beach"></i>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="package-card">
-                        <img src="res/lakshadweep-tour-package.png" alt="Water Sports Adventure" loading="lazy">
-                        <div class="card-body">
-                            <h3>Water Sports Adventure 4N 5D - Snorkeling Kayaking Glass Boat</h3>
-                            <hr>
-                            <a class="btn btn-primary" href="https://wa.me/8240002684?text=Hi%2C%20I%27m%20interested%20in%20the%20Water%20Sports%20Adventure%204N%205D%20package.%20Please%20share%20details%20and%20pricing." target="_blank">
-                                <i class="fas fa-calendar-check me-2"></i> Book Now
-                            </a>
+                        <h5>Andaman Group Tour</h5>
+                    </a>
+
+                    <a href="andaman-islands-customised-leisure-escape" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-water"></i>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="package-card">
-                        <img src="res/lakshadweep-tour-package.png" alt="Snorkeling Special Tour" loading="lazy">
-                        <div class="card-body">
-                            <h3>Snorkeling Special Tour 3N 4D - Underwater Paradise Exploration</h3>
-                            <hr>
-                            <a class="btn btn-primary" href="https://wa.me/8240002684?text=Hi%2C%20I%27m%20interested%20in%20the%20Snorkeling%20Special%20Tour%203N%204D%20package.%20Please%20share%20details%20and%20pricing." target="_blank">
-                                <i class="fas fa-calendar-check me-2"></i> Book Now
-                            </a>
+                        <h5>Andaman Leisure Escape</h5>
+                    </a>
+
+                    <a href="arunachal-pradesh-group-tour-2026" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-mountain"></i>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Kavaratti & Kalpeni Island Tours -->
-    <section class="py-5 bg-light">
-        <div class="container">
-            <h2 class="section-title">Kavaratti & Kalpeni Island Exploration Packages</h2>
-            
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="package-card">
-                        <img src="res/lakshadweep-tour-package.png" alt="Kavaratti Island Tour" loading="lazy">
-                        <div class="card-body">
-                            <h3>Kavaratti Island Tour 5N 6D - Capital Island & Marine Aquarium</h3>
-                            <hr>
-                            <a class="btn btn-primary" href="https://wa.me/8240002684?text=Hi%2C%20I%27m%20interested%20in%20the%20Kavaratti%20Island%20Tour%205N%206D%20package.%20Please%20share%20details%20and%20pricing." target="_blank">
-                                <i class="fas fa-calendar-check me-2"></i> Book Now
-                            </a>
+                        <h5>Arunachal Group Tour 2026</h5>
+                    </a>
+
+                    <a href="chardham-yatra-2026-delhi-package" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-place-of-worship"></i>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="package-card">
-                        <img src="res/lakshadweep-tour-package.png" alt="Kalpeni Island Package" loading="lazy">
-                        <div class="card-body">
-                            <h3>Kalpeni Island Package 4N 5D - Scenic Lagoons & Beaches Tour</h3>
-                            <hr>
-                            <a class="btn btn-primary" href="https://wa.me/8240002684?text=Hi%2C%20I%27m%20interested%20in%20the%20Kalpeni%20Island%20Package%204N%205D.%20Please%20share%20details%20and%20pricing." target="_blank">
-                                <i class="fas fa-calendar-check me-2"></i> Book Now
-                            </a>
+                        <h5>Chardham Yatra 2026</h5>
+                    </a>
+
+                    <a href="gangtok-2n-3d-trail-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-route"></i>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="package-card">
-                        <img src="res/lakshadweep-tour-package.png" alt="Island Hopping Special" loading="lazy">
-                        <div class="card-body">
-                            <h3>Island Hopping Special 6N 7D - Multi Island Adventure Experience</h3>
-                            <hr>
-                            <a class="btn btn-primary" href="https://wa.me/8240002684?text=Hi%2C%20I%27m%20interested%20in%20the%20Island%20Hopping%20Special%206N%207D%20package.%20Please%20share%20details%20and%20pricing." target="_blank">
-                                <i class="fas fa-calendar-check me-2"></i> Book Now
-                            </a>
+                        <h5>Gangtok Trail 2N/3D</h5>
+                    </a>
+
+                    <a href="north-sikkim-4n-5d-5n-6d-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-snowflake"></i>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Beach Resort & Luxury Packages -->
-    <section class="py-5 my-5">
-        <div class="container">
-            <h2 class="section-title">Beach Resort & Luxury Experience Packages</h2>
-            
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="package-card">
-                        <img src="res/lakshadweep-tour-package.png" alt="Luxury Beach Resort Package" loading="lazy">
-                        <div class="card-body">
-                            <h3>Luxury Beach Resort 5N 6D - Premium Island Stay & Spa Experience</h3>
-                            <hr>
-                            <a class="btn btn-primary" href="https://wa.me/8240002684?text=Hi%2C%20I%27m%20interested%20in%20the%20Luxury%20Beach%20Resort%205N%206D%20package.%20Please%20share%20details%20and%20pricing." target="_blank">
-                                <i class="fas fa-calendar-check me-2"></i> Book Now
-                            </a>
+                        <h5>North Sikkim 2026</h5>
+                    </a>
+
+                    <a href="offbeat-darjeeling-2n-3d-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-train"></i>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="package-card">
-                        <img src="res/lakshadweep-tour-package.png" alt="Beachside Cottage Package" loading="lazy">
-                        <div class="card-body">
-                            <h3>Beachside Cottage Package 4N 5D - Private Beach & Sunset Views</h3>
-                            <hr>
-                            <a class="btn btn-primary" href="https://wa.me/8240002684?text=Hi%2C%20I%27m%20interested%20in%20the%20Beachside%20Cottage%20Package%204N%205D.%20Please%20share%20details%20and%20pricing." target="_blank">
-                                <i class="fas fa-calendar-check me-2"></i> Book Now
-                            </a>
+                        <h5>Offbeat Darjeeling 2N/3D</h5>
+                    </a>
+
+                    <a href="offbeat-darjeeling-3n-4d-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-tree"></i>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="package-card">
-                        <img src="res/lakshadweep-tour-package.png" alt="Wellness & Spa Package" loading="lazy">
-                        <div class="card-body">
-                            <h3>Wellness & Spa Package 6N 7D - Rejuvenation in Island Paradise</h3>
-                            <hr>
-                            <a class="btn btn-primary" href="https://wa.me/8240002684?text=Hi%2C%20I%27m%20interested%20in%20the%20Wellness%20%26%20Spa%20Package%206N%207D.%20Please%20share%20details%20and%20pricing." target="_blank">
-                                <i class="fas fa-calendar-check me-2"></i> Book Now
-                            </a>
+                        <h5>Offbeat Darjeeling 3N/4D</h5>
+                    </a>
+
+                    <a href="offbeat-kalimpong-4n-5d-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-leaf"></i>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Honeymoon & Family Tours -->
-    <section class="py-5 bg-light">
-        <div class="container">
-            <h2 class="section-title">Honeymoon & Family Tour Packages</h2>
-            
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="package-card">
-                        <img src="res/lakshadweep-tour-package.png" alt="Honeymoon Package Lakshadweep" loading="lazy">
-                        <div class="card-body">
-                            <h3>Honeymoon Package 5N 6D - Romantic Island Escape with Beach Dinners</h3>
-                            <hr>
-                            <a class="btn btn-primary" href="https://wa.me/8240002684?text=Hi%2C%20I%27m%20interested%20in%20the%20Lakshadweep%20Honeymoon%20Package%205N%206D.%20Please%20share%20details%20and%20pricing." target="_blank">
-                                <i class="fas fa-calendar-check me-2"></i> Book Now
-                            </a>
+                        <h5>Offbeat Kalimpong 4N/5D</h5>
+                    </a>
+
+                    <a href="spring-darjeeling-group-tour-2026" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-seedling"></i>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="package-card">
-                        <img src="res/lakshadweep-tour-package.png" alt="Family Package Lakshadweep" loading="lazy">
-                        <div class="card-body">
-                            <h3>Family Package 4N 5D - Fun Beach Activities & Island Exploration</h3>
-                            <hr>
-                            <a class="btn btn-primary" href="https://wa.me/8240002684?text=Hi%2C%20I%27m%20interested%20in%20the%20Lakshadweep%20Family%20Package%204N%205D.%20Please%20share%20details%20and%20pricing." target="_blank">
-                                <i class="fas fa-calendar-check me-2"></i> Book Now
-                            </a>
+                        <h5>Spring Darjeeling 2026</h5>
+                    </a>
+
+                    <a href="thailand-adventure-bangkok-pattaya-group-tour" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-plane-departure"></i>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="package-card">
-                        <img src="res/lakshadweep-tour-package.png" alt="Complete Lakshadweep Tour" loading="lazy">
-                        <div class="card-body">
-                            <h3>Complete Lakshadweep Tour 7N 8D - All Major Islands Combo Package</h3>
-                            <hr>
-                            <a class="btn btn-primary" href="https://wa.me/8240002684?text=Hi%2C%20I%27m%20interested%20in%20the%20Complete%20Lakshadweep%20Tour%207N%208D.%20Please%20share%20details%20and%20pricing." target="_blank">
-                                <i class="fas fa-calendar-check me-2"></i> Book Now
-                            </a>
+                        <h5>Thailand Adventure Tour</h5>
+                    </a>
+
+                    <a href="unforgettable-ladakh-tour-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-hiking"></i>
                         </div>
-                    </div>
+                        <h5>Ladakh Tour 2026</h5>
+                    </a>
+
+                    <a href="vietnam-premium-tour-package" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-globe-asia"></i>
+                        </div>
+                        <h5>Vietnam Premium Tour</h5>
+                    </a>
+
+                    <!-- Duplicate cards for infinite scroll -->
+                    <a href="amazing-andaman-group-tour-with-baratang" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-umbrella-beach"></i>
+                        </div>
+                        <h5>Andaman Group Tour</h5>
+                    </a>
+
+                    <a href="andaman-islands-customised-leisure-escape" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-water"></i>
+                        </div>
+                        <h5>Andaman Leisure Escape</h5>
+                    </a>
+
+                    <a href="arunachal-pradesh-group-tour-2026" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                        <h5>Arunachal Group Tour 2026</h5>
+                    </a>
+
+                    <a href="chardham-yatra-2026-delhi-package" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-place-of-worship"></i>
+                        </div>
+                        <h5>Chardham Yatra 2026</h5>
+                    </a>
+
+                    <a href="gangtok-2n-3d-trail-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-route"></i>
+                        </div>
+                        <h5>Gangtok Trail 2N/3D</h5>
+                    </a>
+
+                    <a href="north-sikkim-4n-5d-5n-6d-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-snowflake"></i>
+                        </div>
+                        <h5>North Sikkim 2026</h5>
+                    </a>
+
+                    <a href="offbeat-darjeeling-2n-3d-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-train"></i>
+                        </div>
+                        <h5>Offbeat Darjeeling 2N/3D</h5>
+                    </a>
+
+                    <a href="offbeat-darjeeling-3n-4d-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-tree"></i>
+                        </div>
+                        <h5>Offbeat Darjeeling 3N/4D</h5>
+                    </a>
+
+                    <a href="offbeat-kalimpong-4n-5d-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h5>Offbeat Kalimpong 4N/5D</h5>
+                    </a>
+
+                    <a href="spring-darjeeling-group-tour-2026" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h5>Spring Darjeeling 2026</h5>
+                    </a>
+
+                    <a href="thailand-adventure-bangkok-pattaya-group-tour" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-plane-departure"></i>
+                        </div>
+                        <h5>Thailand Adventure Tour</h5>
+                    </a>
+
+                    <a href="unforgettable-ladakh-tour-package-2026" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-hiking"></i>
+                        </div>
+                        <h5>Ladakh Tour 2026</h5>
+                    </a>
+
+                    <a href="vietnam-premium-tour-package" class="destination-card-scroll">
+                        <div class="destination-icon">
+                            <i class="fas fa-globe-asia"></i>
+                        </div>
+                        <h5>Vietnam Premium Tour</h5>
+                    </a>
                 </div>
             </div>
         </div>
@@ -1040,7 +1225,7 @@
         <div class="container">
             <h2 class="section-title">Frequently Asked Questions</h2>
             <div class="row justify-content-center">
-                <div class="col-lg-10">
+                <div class="col-12">
                     <div class="accordion" id="faqAccordion">
                         <div class="accordion-item">
                             <h3 class="accordion-header" id="faqOneHeading">
@@ -1195,6 +1380,85 @@
             }, { threshold: 0.1 });
             
             fadeElements.forEach(el => observer.observe(el));
+
+            const sliderConfigs = [
+                {
+                    containerSelector: '.scroll-container',
+                    trackSelector: '.scroll-track',
+                    cardSelector: '.destination-card-scroll'
+                }
+            ];
+
+            let sliderCounter = 0;
+
+            sliderConfigs.forEach(config => {
+                document.querySelectorAll(config.containerSelector).forEach(container => {
+                    const track = container.querySelector(config.trackSelector);
+                    if (!track) return;
+
+                    const cards = Array.from(track.querySelectorAll(config.cardSelector));
+                    if (!cards.length) return;
+
+                    sliderCounter += 1;
+                    container.classList.add('scroll-carousel');
+                    track.style.animation = 'none';
+
+                    const prevBtn = document.createElement('button');
+                    prevBtn.type = 'button';
+                    prevBtn.className = 'scroll-nav-btn scroll-nav-prev';
+                    prevBtn.setAttribute('aria-label', `Previous slide ${sliderCounter}`);
+                    prevBtn.innerHTML = '<i class="fas fa-chevron-left"></i>';
+
+                    const nextBtn = document.createElement('button');
+                    nextBtn.type = 'button';
+                    nextBtn.className = 'scroll-nav-btn scroll-nav-next';
+                    nextBtn.setAttribute('aria-label', `Next slide ${sliderCounter}`);
+                    nextBtn.innerHTML = '<i class="fas fa-chevron-right"></i>';
+
+                    container.appendChild(prevBtn);
+                    container.appendChild(nextBtn);
+
+                    let currentIndex = 0;
+
+                    const visibleCount = () => {
+                        if (window.innerWidth < 992) return 2;
+                        return 4;
+                    };
+
+                    const updateSlider = () => {
+                        const maxIndex = Math.max(cards.length - visibleCount(), 0);
+                        currentIndex = Math.min(currentIndex, maxIndex);
+
+                        const firstCard = cards[0];
+                        const cardWidth = firstCard.getBoundingClientRect().width;
+                        const styles = window.getComputedStyle(track);
+                        const gap = parseFloat(styles.columnGap || styles.gap || '0');
+                        const translateX = (cardWidth + gap) * currentIndex;
+                        track.style.transform = `translateX(-${translateX}px)`;
+
+                        prevBtn.disabled = currentIndex === 0;
+                        nextBtn.disabled = currentIndex >= maxIndex;
+                    };
+
+                    prevBtn.addEventListener('click', () => {
+                        if (currentIndex > 0) {
+                            currentIndex -= 1;
+                            updateSlider();
+                        }
+                    });
+
+                    nextBtn.addEventListener('click', () => {
+                        const maxIndex = Math.max(cards.length - visibleCount(), 0);
+                        if (currentIndex < maxIndex) {
+                            currentIndex += 1;
+                            updateSlider();
+                        }
+                    });
+
+                    window.addEventListener('resize', updateSlider);
+                    updateSlider();
+                });
+            });
         });
     </script>
 </body>
